@@ -2993,8 +2993,8 @@ fieldset:disabled .btn {
 .btn-primary:disabled,
 .btn-primary.disabled {
     color: #fff;
-    background-color: #f4623a;
-    border-color: #f4623a;
+    background-color: #03bb85;
+    border-color: #03bb85;
 }
 
 .btn-secondary {
@@ -8004,6 +8004,16 @@ fieldset:disabled .btn {
     background-size: cover;
 }
 
+.bg-test {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    background-image: url("/assets/img/portfolio/fullsize/6.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
 .bg-secondary {
     background-color: #6c757d !important;
 }
@@ -10696,7 +10706,7 @@ hr.divider {
     height: 0.2rem;
     max-width: 3.25rem;
     margin: 1.5rem auto;
-    background-color: #f4623a;
+    background-color: #03bb85;
     opacity: 1;
 }
 
