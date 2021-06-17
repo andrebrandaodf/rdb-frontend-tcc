@@ -3,7 +3,7 @@
     "version": 1,
     "newProjectRoot": "projects",
     "projects": {
-        "testando": {
+        "hipolabor": {
             "projectType": "application",
             "schematics": {
                 "@schematics/angular:application": {
@@ -17,7 +17,7 @@
                 "build": {
                     "builder": "@angular-devkit/build-angular:browser",
                     "options": {
-                        "outputPath": "dist/testando",
+                        "outputPath": "dist/hipolabor",
                         "index": "src/index.html",
                         "main": "src/main.ts",
                         "polyfills": "src/polyfills.ts",
@@ -71,10 +71,10 @@
                     "builder": "@angular-devkit/build-angular:dev-server",
                     "configurations": {
                         "production": {
-                            "browserTarget": "testando:build:production"
+                            "browserTarget": "hipolabor:build:production"
                         },
                         "development": {
-                            "browserTarget": "testando:build:development"
+                            "browserTarget": "hipolabor:build:development"
                         }
                     },
                     "defaultConfiguration": "development"
@@ -82,7 +82,7 @@
                 "extract-i18n": {
                     "builder": "@angular-devkit/build-angular:extract-i18n",
                     "options": {
-                        "browserTarget": "testando:build"
+                        "browserTarget": "hipolabor:build"
                     }
                 },
                 "test": {
@@ -106,5 +106,5 @@
             }
         }
     },
-    "defaultProject": "testando"
+    "defaultProject": "hipolabor"
 }
