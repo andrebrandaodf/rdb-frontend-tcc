@@ -8013,10 +8013,10 @@ fieldset:disabled .btn {
     background-size: cover;
 }
 
-.bg-hipolaborAbout {
+.bg-fabricaHipolabor {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 4.5rem);
-    background-image: url("/assets/img/about.png");
+    background-image: url("/assets/img/fabricaHipolabor.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -10940,4 +10940,14 @@ header.masthead .h1 {
     margin: 0 0 16px;
     font-weight: revert;
     color: #03bb85;
+}
+
+.aboutUs {
+    padding-top: 50rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    background: url("/assets/img/fabricaHipolabor.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
 }
