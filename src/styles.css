@@ -4636,9 +4636,8 @@ fieldset:disabled .btn {
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    background-color: #fff;
     background-clip: border-box;
-    border: 1px solid rgba(0, 0, 0, 0.125);
+    border: 1px solid #03bb85;
     border-radius: 0.25rem;
 }
 
@@ -8004,10 +8003,30 @@ fieldset:disabled .btn {
     background-size: cover;
 }
 
-.bg-test {
+.bg-hipolaborNaMidia {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 4.5rem);
-    background-image: url("/assets/img/portfolio/fullsize/6.jpg");
+    background-image: url("/assets/img/hipolaborNaMidia.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.bg-hipolaborAbout {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    background-image: url("/assets/img/about.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.bg-blogHipolabor {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    background-image: url("/assets/img/blogHipolabor.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -10706,6 +10725,14 @@ hr.divider {
     height: 0.2rem;
     max-width: 3.25rem;
     margin: 1.5rem auto;
+    background-color: #fff;
+    opacity: 1;
+}
+
+hr.dividerBlog {
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
     background-color: #03bb85;
     opacity: 1;
 }
@@ -10889,4 +10916,28 @@ header.masthead .h1 {
 #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption,
 #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
     opacity: 1;
+}
+
+
+/* Ajustes para os vídeos */
+
+.embed {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+}
+
+.embed iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.text-blog {
+    font: 500 20px/32px Roboto, "Helvetica Neue", sans-serif;
+    letter-spacing: normal;
+    margin: 0 0 16px;
+    font-weight: revert;
+    color: #03bb85;
 }
