@@ -1,14 +1,9 @@
 <!-- Contact-->
 <section class="page-section bg-blogHipolabor" id="blog">
     <div class="container px-4 px-lg-5">
-        <div class="row gx-4 gx-lg-5 justify-content-center">
-            <div class="col-lg-8 col-xl-6 text-center">
-                <h1 class="text-blog"> <strong> Busca de Medicamento </strong></h1>
-                <hr class="divider" />
-            </div>
-        </div>
-        <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
-            <div class="col-lg-6">
+        <div class="row">
+            <h1 class="text-blog"> <strong> Busca de Medicamento </strong></h1>
+            <div class="col-lg-6 col-sm-8">
                 <form id="contactForm" data-sb-form-api-token="API_TOKEN">
                     <!-- Name input-->
                     <div class="form-floating mb-3">
@@ -30,10 +25,12 @@
                         <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
                     </div>
                     <!-- Phone number input-->
-                    <div class="form-floating mb-3">
-                        <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                        <label for="phone">Inserir Radio button</label>
-                        <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                    <div class="form-check mb3"><label for="exampleCheckbox" class=""></label>
+
+                        <input type="radio" id="customRadio" name="customRadio" class="form-check-input"><label class="form-check-label" for="radioHipolabor"><h2> Hipolabor </h2></label>
+                        <div>
+                            <input type="radio" id="customRadio" name="customRadio" class="form-check-input"><label class="form-check-label" for="radioSanval"><h2>  Sanval </h2> </label>
+                        </div>
                     </div>
 
                     <!-- Phone number input-->
@@ -70,9 +67,40 @@
                         <div class="text-center text-danger mb-3">Error sending message!</div>
                     </div>
                     <!-- Submit Button-->
-                    <div class="d-grid"><button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Submit</button></div>
+                    <!-- <div class="d-grid"><button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Enviar</button></div> -->
                 </form>
             </div>
+
+            <!-- Downloads -->
+            <div class="col-lg-6 col-sm-8">
+
+
+                <div class="card">
+                    <div class="card-body">
+                        <p>Clique e faça o download do catálogo completo.
+                            <i class="bi bi-download"></i>
+                        </p>
+                    </div>
+                    <p>INJETÁVEIS
+                        <input type="file">
+                    </p>
+                    <p>LÍQUIDOS
+                        <input type="file">
+                    </p>
+                    <p>SÓLIDOS
+                        <input type="file">
+                    </p>
+                    <p>SEMISÓLIDOS
+                        <input type="file">
+                    </p>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="col">
+            <h1 class="text-blog text-center">MELHORES PRODUTOS, MAIS QUALIDADE DE VIDA</h1>
         </div>
     </div>
+
 </section>

@@ -2054,9 +2054,9 @@ progress {
 .form-control:focus {
     color: #212529;
     background-color: #fff;
-    border-color: #fab19d;
+    border-color: #03bb85;
     outline: 0;
-    box-shadow: 0 0 0 0.25rem rgba(244, 98, 58, 0.25);
+    box-shadow: 0 0 0 0.25rem rgba(58, 244, 188, 0.25);
 }
 
 .form-control::-webkit-date-and-time-value {
@@ -2251,9 +2251,9 @@ textarea.form-control-lg {
 }
 
 .form-select:focus {
-    border-color: #fab19d;
+    border-color: #03bb85;
     outline: 0;
-    box-shadow: 0 0 0 0.25rem rgba(244, 98, 58, 0.25);
+    box-shadow: 0 0 0 0.25rem rgba(58, 244, 188, 0.25);
 }
 
 .form-select[multiple],
@@ -2327,14 +2327,14 @@ textarea.form-control-lg {
 }
 
 .form-check-input:focus {
-    border-color: #fab19d;
+    border-color: #03bb85;
     outline: 0;
-    box-shadow: 0 0 0 0.25rem rgba(244, 98, 58, 0.25);
+    box-shadow: 0 0 0 0.25rem rgba(58, 244, 188, 0.25);
 }
 
 .form-check-input:checked {
-    background-color: #f4623a;
-    border-color: #f4623a;
+    background-color: #03bb85;
+    border-color: #03bb85;
 }
 
 .form-check-input:checked[type=checkbox] {
@@ -10983,4 +10983,17 @@ ul.social-icons li a:hover {
     color: #fff !important;
     font-size: 1.5rem;
     font-weight: bold;
+}
+
+.denuncias {
+    color: #000;
+    background-color: #fff;
+    border-color: #fff;
+    text-align: center;
+}
+
+.denuncias:hover {
+    color: #fff;
+    background-color: #03bb85;
+    border-color: #fff;
 }
