@@ -36,7 +36,7 @@
     --bs-danger: #dc3545;
     --bs-light: #f8f9fa;
     --bs-dark: #212529;
-    --bs-font-sans-serif: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-sans-serif: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
 }
@@ -91,7 +91,7 @@ h1,
 .h1 {
     margin-top: 0;
     margin-bottom: 0.5rem;
-    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-weight: 500;
     line-height: 1.2;
 }
@@ -151,7 +151,7 @@ h5,
 
 h6,
 .h6 {
-    font-size: 1rem;
+    font-size: 0.75rem;
 }
 
 p {
@@ -2909,7 +2909,7 @@ textarea.form-control.is-invalid {
 
 .btn {
     display: inline-block;
-    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-weight: 400;
     line-height: 1.5;
     color: #212529;
@@ -4637,7 +4637,7 @@ fieldset:disabled .btn {
     min-width: 0;
     word-wrap: break-word;
     background-clip: border-box;
-    border: 1px solid #03bb85;
+    /* border: 1px solid #03bb85; */
     border-radius: 0.25rem;
 }
 
@@ -7971,6 +7971,7 @@ fieldset:disabled .btn {
 
 .text-white {
     color: #fff !important;
+    font-size: larger;
 }
 
 .text-body {
@@ -7996,7 +7997,7 @@ fieldset:disabled .btn {
 .bg-primary {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 4.5rem);
-    background: url("/assets/img/portfolio/fullsize/1.jpg");
+    background: url("/assets/img/imgHipolabor/LinhaDoTempo.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -10748,14 +10749,14 @@ hr.divider-light {
 }
 
 #mainNav .navbar-brand {
-    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-weight: 700;
     color: #212529;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
     color: #6c757d;
-    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-weight: 700;
     font-size: 0.9rem;
     padding: 0.75rem 0;
@@ -10812,7 +10813,7 @@ hr.divider-light {
 header.masthead {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 4.5rem);
-    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("/assets/img/bg-masthead.jpg");
+    background: url("/assets/img/photopea/home.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -10894,7 +10895,7 @@ header.masthead .h1 {
 #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-category,
 #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-category,
 #portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-category {
-    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 0.85rem;
     font-weight: 600;
     text-transform: uppercase;
@@ -10942,15 +10943,15 @@ header.masthead .h1 {
     color: #03bb85;
 }
 
-.bg-aboutUs {
+/* .bg-aboutUs {
     padding-top: 50rem;
     padding-bottom: calc(10rem - 4.5rem);
-    background: url("/assets/img/portfolio/fullsize/6.jpg");
+    background: url("src/assets/img/imgHipolabor/aboutUs.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
-}
+} */
 
 ul.social-icons li {
     display: inline-block;
@@ -10979,6 +10980,9 @@ ul.social-icons li a:hover {
     color: #fff;
 }
 
+/* Criando css */
+
+
 .sac {
     color: #fff !important;
     font-size: 1.5rem;
@@ -10996,4 +11000,65 @@ ul.social-icons li a:hover {
     color: #fff;
     background-color: #03bb85;
     border-color: #fff;
+}
+
+header.home {
+    padding-top: 15rem;
+    padding-bottom: calc(15rem - 0.5rem);
+    background: url("src/assets/img/photopea/home.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.bg-sobre {
+    padding-top: 15rem;
+    padding-bottom: calc(15rem - 0.5rem);
+    background: url("src/assets/img/imgHipolabor/sobre.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.bg-fundoCinza {
+    padding-top: 15rem;
+    padding-bottom: calc(15rem - 0.5rem);
+    background: url("src/assets/img/imgHipolabor/fundoCinza.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.bg-linhaDoTempo{
+    padding: 15rem 0;
+    padding-top: 15rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    background:  url("src/assets/img/imgHipolabor/LinhaDoTempo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.titleCard{
+   font-size: 2.0rem;
+   font-weight: bolder; 
+   letter-spacing: 1px; 
+   text-shadow: -1px 0 #25aa76, 0 1px #25aa76, 1px 0 #25aa76, 0 -1px #25aa76;
+}
+
+.borderCard{
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.titleAbout{
+    color: #25aa76;
+}
+
+.test{
+    color: #6c757d;
 }
