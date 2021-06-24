@@ -26,6 +26,9 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatIconModule} from '@angular/material/icon';
 import { MatSidenavModule } from '@angular/material/sidenav';
+import { LgpdComponent } from './components/lgpd/lgpd.component';
+import { QualityControlComponent } from './components/quality-control/quality-control.component';
+import { InfoVigiComponent } from './components/info-vigi/info-vigi.component';
 
 
 
@@ -43,6 +46,9 @@ import { MatSidenavModule } from '@angular/material/sidenav';
     ContactComponent,
     BlogComponent,
     FooterComponent,
+    LgpdComponent,
+    QualityControlComponent,
+    InfoVigiComponent,
   ],
   imports: [
     BrowserModule,

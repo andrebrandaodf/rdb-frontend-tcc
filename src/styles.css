@@ -7994,7 +7994,7 @@ fieldset:disabled .btn {
     color: inherit !important;
 }
 
-.bg-primary {
+.bg-ano {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 4.5rem);
     background: url("/assets/img/imgHipolabor/LinhaDoTempo.png");
@@ -11043,6 +11043,81 @@ header.home {
     background-size: cover;
 }
 
+.bg-product{
+    
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    background-image: url("/assets/img/photopea/fundoMedicamentos.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+
+}
+
+.bg-midia{
+    
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    background-image: url("/assets/img/photopea/fundoMidia.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+
+}
+
+.bg-lgpd {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    background: url("/assets/img/photopea/lgpd.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.bg-controleQualidade {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    background: url("/assets/img/photopea/controleQualidade.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+
+.bg-infoVigi{
+    
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    background-image: url("/assets/img/photopea/infoVigi.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+
+}
+
+.pages {
+    padding: 20rem 0;
+}
+
+
+
+
+.bg-contact{
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    background-image: url("/assets/img/photopea/fundoContato.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+
+}
+
 .titleCard{
    font-size: 2.0rem;
    font-weight: bolder; 
@@ -11059,6 +11134,30 @@ header.home {
     color: #25aa76;
 }
 
+.titleBlog{
+    color: #25aa76;
+    font-weight: bold;
+}
+
 .test{
     color: #6c757d;
 }
+
+.textLayout {
+    color: #fff !important;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.testando {
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    color: #25aa76;
+}
+
+h1.teste{
+    font-size: 3rem;
+    color: #fff;
+} 
