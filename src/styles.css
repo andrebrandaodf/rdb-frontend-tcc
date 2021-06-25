@@ -41,6 +41,13 @@
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
 }
 
+@font-face{
+    font-family: 'Montserrat';
+    src: local('Montserrat-Regular'), url('assets/fonts/Montserrat/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 *,
 *::before,
 *::after {
@@ -55,7 +62,7 @@
 
 body {
     margin: 0;
-    font-family: "Merriweather", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -239,12 +246,12 @@ sup {
 }
 
 a {
-    color: #f4623a;
+    color: #000;
     text-decoration: underline;
 }
 
 a:hover {
-    color: #c34e2e;
+    color: #25aa76;
 }
 
 a:not([href]):not([class]),
@@ -6012,7 +6019,7 @@ fieldset:disabled .btn {
     z-index: 1080;
     display: block;
     margin: 0;
-    font-family: "Merriweather", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
@@ -11133,10 +11140,14 @@ header.home {
 .titleAbout{
     color: #25aa76;
 }
+.titleMidia{
+    color: #fff;
+}
 
 .titleBlog{
     color: #25aa76;
-    font-weight: bold;
+    font-size: 2.0rem;
+    font-weight: bolder; 
 }
 
 .test{
@@ -11163,8 +11174,9 @@ header.home {
 }
 
 h1.teste{
-    font-size: 3rem;
+    font-size: 4rem;
     color: #fff;
+    text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
 } 
 
 .borderContact{
@@ -11181,9 +11193,40 @@ h1.teste{
     border-end-start-radius: 40px;
     background-color: #25aa76;
 }
+.titleInfoVigi{
+    font-size: 2.5rem;
+    color: #fff;
+    text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+}
 
 .sac{
     color: #fff !important;
     font-size: 1.5rem;
     margin-top: 10rem;
 }
+
+.blogTeste{
+    background-color: #25aa76;
+    
+}
+.borderBlog{
+    
+    border: 2px solid #25aa76 !important;    
+    /* border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border-end-end-radius: 40px;
+    border-end-start-radius: 40px; */
+    }
+
+    .btnContact{
+        background-color: #fff;
+    }
+
+    .borderMed{
+        color: #923b23;
+        background-color: #fde0d8;
+        border-color: #fcd0c4;
+        border-top-left-radius: 40px;
+
+        border-end-start-radius: 40px;
+    }

@@ -53,7 +53,7 @@
                     <label for="message">Mensagem</label>
                     <!-- <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div> -->
                 </div>
-                <!-- <div class="d-none" id="submitSuccessMessage">
+                 <div class="d-none" id="submitSuccessMessage">
                     <div class="text-center mb-3">
                         <div class="fw-bolder">Form submission successful!</div>
                         To activate this form, sign up at
@@ -65,34 +65,38 @@
                 <div class="d-none" id="submitErrorMessage">
                     <div class="text-center text-danger mb-3">Error sending message!</div>
                 </div>
-                <!-- Submit Button
-                <div class="d-grid"><button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Submit</button></div> -->
-            </form>
+                <!-- Submit Button -->
+                <div class="d-flex flex-row-reverse"><button mat-raised-button (click)="createClient()" type="button" class="btnContact borderContact btn btn-outline-success">Enviar</button></div>             </form>
         </div>
         
   
         
         <div class="col-4">
             <div class="container overflow-hidden">
-                <div class="row gx-5 d-flex flex-row-reverse">
-                  <div class="col mb-3 borderContact p-3 border bg-light">
-                    <a href="https://ouvidordigital.com.br/?utm_source=google&utm_medium=cpc&utm_campaign=13328776478&utm_content=120335616422&utm_term=canal%20de%20denuncia&gclid=CjwKCAjwiLGGBhAqEiwAgq3q_g78_dGXO6ehbb6Ax8QpP-KU6V5hN6Q06Zj1J1_yOueto5gtTSM3jRoCw4oQAvD_BwE" class="social-icons"><i class="bi bi-check-circle-fill"></i></a>
-                    <div class="borderContact p-3">Canal de denúncias</div>
-                  </div>
+                <div class="row gx-5 ">
+                    <a href="https://ouvidordigital.com.br/?utm_source=google&utm_medium=cpc&utm_campaign=13328776478&utm_content=120335616422&utm_term=canal%20de%20denuncia&gclid=CjwKCAjwiLGGBhAqEiwAgq3q_g78_dGXO6ehbb6Ax8QpP-KU6V5hN6Q06Zj1J1_yOueto5gtTSM3jRoCw4oQAvD_BwE" class="social-icons">
+                        <div class="col d-flex flex-row align-items-center mb-3 borderContact px-3">
+                            <i class="bi bi-check-circle-fill " style="font-size: 3rem; color: #fff"></i>
+                            <div class="borderContact p-2 bg-light text-black">CANAL DE DENÚNCIAS</div>
+                        </div>
+                    </a>
                 </div>
                 <div class="row gx-5 d-flex flex-row-reverse">
                     <div class="col mb-3">
                         
-                        <div class="row gx-4 gx-lg-5 justify-content-center">
+                        <div class="row gx-4 gx-lg-5 justify-content-center p-2">
                         <img src="/assets/img/photopea/protegon.png">
                     </div>
                     </div>
                   </div>
-                  <div class="row gx-5 d-flex flex-row-reverse">
-                    <div class="col mb-3">
-                      <div class="borderContact p-3 border bg-light">Requisição de titular</div>
-                    </div>
-                  </div>
+                  <div class="row gx-5 ">
+                    <a href="https://getprivacy.com.br/artigo-operacionalizacao-da-resposta-a-requisicao-do-titular-de-dados-na-lgpd/" class="social-icons">
+                        <div class="col d-flex flex-row align-items-center mb-3 borderContact px-3">
+                            <i class="bi bi-check-circle-fill " style="font-size: 3rem; color: #fff;"></i>
+                            <div class="borderContact p-2 bg-light text-black">REQUISIÇÃO DE TITULAR</div>
+                        </div>
+                    </a>
+                </div>
               </div>
               <div class="col-xl-12 text-center">
                 <h1 class="sac"> <i class="bi bi-telephone-fill fs-2 mb-3" style="color: black;"></i>  SAC: <strong>0800 031 1133</strong></h1>
