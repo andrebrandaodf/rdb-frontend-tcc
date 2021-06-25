@@ -11147,6 +11147,11 @@ header.home {
     color: #fff !important;
     font-size: 1.5rem;
     font-weight: bold;
+    text-align: end;
+}
+.titleContact{
+    color: #fff;
+    font-weight: bold;
 }
 
 .testando {
@@ -11161,3 +11166,24 @@ h1.teste{
     font-size: 3rem;
     color: #fff;
 } 
+
+.borderContact{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-end-end-radius: 10px;
+    border-end-start-radius: 10px;
+}
+
+.borderInfoVigi {
+    /* border-top-right-radius: 10px; */
+    border-top-left-radius: 40px;
+    /* border-end-end-radius: 10px; */
+    border-end-start-radius: 40px;
+    background-color: #25aa76;
+}
+
+.sac{
+    color: #fff !important;
+    font-size: 1.5rem;
+    margin-top: 10rem;
+}

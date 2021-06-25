@@ -1,112 +1,111 @@
-<section class="page-section bg-contact" id="contact">
-    <div class="container px-4 px-lg-5">
-        <div class="row gx-4 gx-lg-5 justify-content-center">
-            <div class="col-lg-12 col-xl-12 text-left">
-                <h2 class="mt-0"><strong>Contato</strong></h2>
-                <!-- <hr class="divider" /> -->
-            </div>
+<div class="pages bg-contact">
+<div class="container">
+    <div class="row gx-4 gx-lg-5 justify-content-left">
+        <div class="col-lg-8 col-xl-6 text-left">
+            <h1 class="titleContact"><strong>CONTATO</strong></h1>
         </div>
-        <div class="row">
-            <div class="col-lg-6 col-sm-8">
-                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                    <div class="form-floating mb-3">
-                        <select class="form-select" [(ngModel)]="clients.talkTo" name="talkTo">
-                                <option selected>Deseja falar com</option>
-                                <option value="sac@hipolabor.com.br">Elogios</option>
-                                <option value="sac@hipolabor.com.br">Sugestões e Críticas</option>
-                                <option value="sac@hipolabor.com.br">Dúvidas produtos Hipolabor</option>
-                                <option value="sac@hipolabor.com.br">Reclamações técnicas produtos Hipolabor</option>
-                                <option value="sac@hipolabor.com.br">Reclamações comerciais</option>
-                                <option value="rh@hipolabor.com.br">Oportunidades de emprego Hipolabor</option>
-                                <option value="marketing@hipolabor.com.br">Senha profissional de saúde</option>
-                                <option value="sac@hipolabor.com.br">Evento adverso</option> 
-                            </select>
-                        <!-- </div> -->
-                    </div>
-                    <!-- Name input-->
-                    <div class="form-floating mb-3">
-                        <input class="form-control" id="name" type="text" placeholder="Nome ..." [(ngModel)]="clients.name" data-sb-validations="required" />
-                        <label for="name">Nome</label>
-                        <div class="invalid-feedback" data-sb-feedback="name:required">Nome</div>
-                    </div>
-                    <!-- Email address input-->
-                    <div class="form-floating mb-3">
-                        <input class="form-control" id="email" type="email" placeholder="name@email.com" [(ngModel)]="clients.email" data-sb-validations="required,email" />
-                        <label for="email">Email</label>
-                        <div class="invalid-feedback" data-sb-feedback="email:required">Necessário inserir e-mail!</div>
-                        <div class="invalid-feedback" data-sb-feedback="email:email">Email inválido!</div>
-                    </div>
-                    <!-- Phone number input-->
-                    <div class="form-floating mb-3">
-                        <input class="form-control" id="phone" type="tel" placeholder="(11)9 1234-5678" [(ngModel)]="clients.phone" data-sb-validations="required" />
-                        <label for="phone">Telefone</label>
-                        <div class="invalid-feedback" data-sb-feedback="phone:required">Necessário inserir telefone!</div>
-                    </div>
-                    <!-- Subject Matter input-->
-                    <div class="form-floating mb-3">
-                        <input class="form-control" id="subjectMatter" type="text" placeholder="Assunto ..." [(ngModel)]="clients.subjectMatter" data-sb-validations="required" />
-                        <label for="subjectMatter">Telefone</label>
-
-                    </div>
-                    <!-- Message input-->
-                    <div class="form-floating mb-3">
-                        <textarea class="form-control" id="message" type="text" placeholder="Insira sua mensagem aqui ..." style="height: 10rem" [(ngModel)]="clients.message" data-sb-validations="required"></textarea>
-                        <label for="message">Mensagem</label>
-                        <!-- <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div> -->
-                    </div>
-                    <!-- <div class="d-none" id="submitSuccessMessage">
-                        <div class="text-center mb-3">
-                            <div class="fw-bolder">Form submission successful!</div>
-                            To activate this form, sign up at
-                            <br />
-                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                        </div>
-                    </div>
-
-                    <div class="d-none" id="submitErrorMessage">
-                        <div class="text-center text-danger mb-3">Error sending message!</div>
-                    </div>
-                    <!-- Submit Button
-                    <div class="d-grid"><button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Submit</button></div> -->
-                </form>
-            </div>
-
-            <!-- SAC -->
-            <div class="col-lg-6 col-sm-8">
-                <ul class="social-icons" aria-posinset="center-content">
-                    <li>
-                        <a href="https://ouvidordigital.com.br/?utm_source=google&utm_medium=cpc&utm_campaign=13328776478&utm_content=120335616422&utm_term=canal%20de%20denuncia&gclid=CjwKCAjwiLGGBhAqEiwAgq3q_g78_dGXO6ehbb6Ax8QpP-KU6V5hN6Q06Zj1J1_yOueto5gtTSM3jRoCw4oQAvD_BwE"><i class="bi bi-check-circle-fill"></i></a>
-                        <p class="d-grid denuncias">CANAL DE DENÚNCIAS</p>
-                    </li>
-
-                </ul>
-                <h1 class="mt-0">
-                    Sistema de gestão LGPD
-                </h1>
-                <ul class="social-icons" aria-posinset="center-content">
-                    <li>
-                        <a href="https://ouvidordigital.com.br/?utm_source=google&utm_medium=cpc&utm_campaign=13328776478&utm_content=120335616422&utm_term=canal%20de%20denuncia&gclid=CjwKCAjwiLGGBhAqEiwAgq3q_g78_dGXO6ehbb6Ax8QpP-KU6V5hN6Q06Zj1J1_yOueto5gtTSM3jRoCw4oQAvD_BwE"><i class="bi bi-check-circle-fill"></i></a>
-                        <p class="d-grid denuncias">REQUISIÇÃO DE TITULAR</p>
-                    </li>
-
-                </ul>
-                <div class="row gx-6 gx-lg-5 justify-content-left">
-                    <div class="col-lg-6 mb-5 mb-lg-0">
-                        <i class="bi bi-telephone-fill fs-2 mb-3"> <a class="sac"> SAC: 0800 031 1133</a></i>
-
-                    </div>
-                    <!-- Redes Sociais -->
-                    <ul class="social-icons" aria-posinset="center-content">
-                        <li><a href="https://m.facebook.com/profile.php?id=190360461123125"><i class="bi bi-facebook"></i></a></li>
-                        <li><a href="https://www.linkedin.com/company/hipolabor-farmaceutica-ltda/"><i class="bi bi-whatsapp"></i></a></li>
-                        <li><a href="#"><i class="bi bi-twitter"></i></a></li>
-                        <li><a href="https://www.instagram.com/explore/locations/613148707/hipolabor-farmaceutica/"><i class="bi bi-instagram"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-
-        </div>
-
     </div>
+    <div class="row">
+        <div class="col-8">
+            <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                <div class="form-floating mb-3 ">
+                    <select class="form-select borderContact" [(ngModel)]="clients.talkTo" name="talkTo">
+                        <option selected disabled value="" >Deseja falar com</option>
+                            <option value="sac@hipolabor.com.br">Elogios</option>
+                            <option value="sac@hipolabor.com.br">Sugestões e Críticas</option>
+                            <option value="sac@hipolabor.com.br">Dúvidas produtos Hipolabor</option>
+                            <option value="sac@hipolabor.com.br">Reclamações técnicas produtos Hipolabor</option>
+                            <option value="sac@hipolabor.com.br">Reclamações comerciais</option>
+                            <option value="rh@hipolabor.com.br">Oportunidades de emprego Hipolabor</option>
+                            <option value="marketing@hipolabor.com.br">Senha profissional de saúde</option>
+                            <option value="sac@hipolabor.com.br">Evento adverso</option> 
+                        </select>
+                    <!-- </div> -->
+                </div>
+                <!-- Name input-->
+                <div class="form-floating mb-3">
+                    <input class="form-control borderContact" id="name" type="text" placeholder="Nome ..." [(ngModel)]="clients.name" data-sb-validations="required" />
+                    <label for="name">Nome</label>
+                    <div class="invalid-feedback" data-sb-feedback="name:required">Nome</div>
+                </div>
+                <!-- Email address input-->
+                <div class="form-floating mb-3">
+                    <input class="form-control borderContact" id="email" type="email" placeholder="name@email.com" [(ngModel)]="clients.email" data-sb-validations="required,email" />
+                    <label for="email">Email</label>
+                    <div class="invalid-feedback" data-sb-feedback="email:required">Necessário inserir e-mail!</div>
+                    <div class="invalid-feedback" data-sb-feedback="email:email">Email inválido!</div>
+                </div>
+                <!-- Phone number input-->
+                <div class="form-floating mb-3">
+                    <input class="form-control borderContact" id="phone" type="tel" placeholder="(11)9 1234-5678" [(ngModel)]="clients.phone" data-sb-validations="required" />
+                    <label for="phone">Telefone</label>
+                    <div class="invalid-feedback" data-sb-feedback="phone:required">Necessário inserir telefone!</div>
+                </div>
+                <!-- Subject Matter input-->
+                <div class="form-floating mb-3">
+                    <input class="form-control borderContact" id="subjectMatter" type="text" placeholder="Assunto ..." [(ngModel)]="clients.subjectMatter" data-sb-validations="required" />
+                    <label for="subjectMatter">Telefone</label>
 
-</section>
+                </div>
+                <!-- Message input-->
+                <div class="form-floating mb-3">
+                    <textarea class="form-control borderContact" id="message" type="text" placeholder="Insira sua mensagem aqui ..." style="height: 10rem" [(ngModel)]="clients.message" data-sb-validations="required"></textarea>
+                    <label for="message">Mensagem</label>
+                    <!-- <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div> -->
+                </div>
+                <!-- <div class="d-none" id="submitSuccessMessage">
+                    <div class="text-center mb-3">
+                        <div class="fw-bolder">Form submission successful!</div>
+                        To activate this form, sign up at
+                        <br />
+                        <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                    </div>
+                </div>
+
+                <div class="d-none" id="submitErrorMessage">
+                    <div class="text-center text-danger mb-3">Error sending message!</div>
+                </div>
+                <!-- Submit Button
+                <div class="d-grid"><button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Submit</button></div> -->
+            </form>
+        </div>
+        
+  
+        
+        <div class="col-4">
+            <div class="container overflow-hidden">
+                <div class="row gx-5 d-flex flex-row-reverse">
+                  <div class="col mb-3 borderContact p-3 border bg-light">
+                    <a href="https://ouvidordigital.com.br/?utm_source=google&utm_medium=cpc&utm_campaign=13328776478&utm_content=120335616422&utm_term=canal%20de%20denuncia&gclid=CjwKCAjwiLGGBhAqEiwAgq3q_g78_dGXO6ehbb6Ax8QpP-KU6V5hN6Q06Zj1J1_yOueto5gtTSM3jRoCw4oQAvD_BwE" class="social-icons"><i class="bi bi-check-circle-fill"></i></a>
+                    <div class="borderContact p-3">Canal de denúncias</div>
+                  </div>
+                </div>
+                <div class="row gx-5 d-flex flex-row-reverse">
+                    <div class="col mb-3">
+                        
+                        <div class="row gx-4 gx-lg-5 justify-content-center">
+                        <img src="/assets/img/photopea/protegon.png">
+                    </div>
+                    </div>
+                  </div>
+                  <div class="row gx-5 d-flex flex-row-reverse">
+                    <div class="col mb-3">
+                      <div class="borderContact p-3 border bg-light">Requisição de titular</div>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-xl-12 text-center">
+                <h1 class="sac"> <i class="bi bi-telephone-fill fs-2 mb-3" style="color: black;"></i>  SAC: <strong>0800 031 1133</strong></h1>
+                
+            </div>
+            <ul class="social-icons text-left" aria-posinset="center-content">
+                <li><a href="https://m.facebook.com/profile.php?id=190360461123125"><i class="bi bi-facebook"></i></a></li>
+                <li><a href="https://www.linkedin.com/company/hipolabor-farmaceutica-ltda/"><i class="bi bi-whatsapp"></i></a></li>
+                <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                <li><a href="https://www.instagram.com/explore/locations/613148707/hipolabor-farmaceutica/"><i class="bi bi-instagram"></i></a></li>
+            </ul>
+
+        </div>
+    </div>
+</div>
+</div>
