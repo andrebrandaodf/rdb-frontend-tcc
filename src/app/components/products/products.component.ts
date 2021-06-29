@@ -11,11 +11,13 @@ import { HttpClient } from '@angular/common/http';
 })
 export class ProductsComponent implements OnInit {
 
-  product = new Product(); 
+  product: Product[] = [];
 
   constructor(private productService:ProductService, private http: HttpClient) { }
 
-  ngOnInit(): void {
+  ngOnInit(
+    
+  ): void {
     
   }
 
