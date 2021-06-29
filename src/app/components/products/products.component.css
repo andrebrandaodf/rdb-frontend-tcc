@@ -31,9 +31,18 @@
 }
 
 .titleProduct{
+    font-family: 'Montserrat-ExtraBold';
     color: #25aa76;
     font-size: 3.0rem;
     font-weight: bolder; 
     border: #25aa76;
-    transform: translateY(-50px);
+    /* transform: translateY(-50px); */
+}
+
+.page-product {
+    height: 100vh;
+}
+
+.teste {
+    height: 100vh;
 }
