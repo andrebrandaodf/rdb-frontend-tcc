@@ -1,0 +1,39 @@
+.injectable{
+    background-color: #25aa76;
+    color: #fff;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.liquidos{
+    background-color: #2d55a5;
+    color: #fff;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.solidos{
+    background-color: #8e3d97;
+    color: #fff;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.semisolidos{
+    background-color: #ce2027;
+    color: #fff;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.texto{
+    color: #25aa76;
+    font-size: 30px;
+    font-weight: bolder;
+    transform: translateY(50px);
+}
+
+.titleProduct{
+    color: #25aa76;
+    font-size: 3.0rem;
+    font-weight: bolder; 
+    border: #25aa76;
+    transform: translateY(-50px);
+}

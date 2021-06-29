@@ -21,16 +21,16 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { FormsModule } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
-import {MatExpansionModule} from '@angular/material/expansion';
-import {MatToolbarModule} from '@angular/material/toolbar';
-import {MatMenuModule} from '@angular/material/menu';
-import {MatIconModule} from '@angular/material/icon';
+import { MatExpansionModule } from '@angular/material/expansion';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatMenuModule } from '@angular/material/menu';
+import { MatIconModule } from '@angular/material/icon';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { LgpdComponent } from './components/lgpd/lgpd.component';
 import { QualityControlComponent } from './components/quality-control/quality-control.component';
 import { InfoVigiComponent } from './components/info-vigi/info-vigi.component';
-
-
+import { HighlightDirective } from './directives/highlight.directive'; // ->  imported directive
+import { FilterPipe } from './pipes/filter.pipe';
 
 @NgModule({
   declarations: [
@@ -49,6 +49,8 @@ import { InfoVigiComponent } from './components/info-vigi/info-vigi.component';
     LgpdComponent,
     QualityControlComponent,
     InfoVigiComponent,
+    HighlightDirective,
+    FilterPipe,
   ],
   imports: [
     BrowserModule,
