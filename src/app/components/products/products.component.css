@@ -27,13 +27,27 @@
     color: #25aa76;
     font-size: 30px;
     font-weight: bolder;
-    transform: translateY(50px);
 }
 
 .titleProduct{
+    font-family: 'Montserrat-ExtraBold';
     color: #25aa76;
     font-size: 3.0rem;
     font-weight: bolder; 
     border: #25aa76;
-    transform: translateY(-50px);
+    /* transform: translateY(-50px); */
+}
+
+.page-product {
+    height: 100vh;
+}
+
+.manufacturer {
+    width: 150px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 8px;
+    background: #25aa76; 
+    border-radius: 40px; 
+    color: #fff;
 }
