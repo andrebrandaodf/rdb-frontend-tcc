@@ -11070,31 +11070,6 @@ header.home {
 
 }
 
-
-
-.bg-controleQualidade {
-    /* padding-top: 10rem;
-    padding-bottom: calc(10rem - 4.5rem); */
-    background: url("/assets/img/photopea/controleQualidade.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-}
-
-
-.bg-infoVigi{
-    
-    /* padding-top: 10rem;
-    padding-bottom: calc(10rem - 4.5rem); */
-    background-image: url("/assets/img/photopea/infoVigi.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-
-}
-
 /* .pages {
     padding: 10rem 0;
 } */
@@ -11174,18 +11149,7 @@ h1.teste{
     border-end-start-radius: 10px;
 }
 
-.borderInfoVigi {
-    /* border-top-right-radius: 10px; */
-    border-top-left-radius: 40px;
-    /* border-end-end-radius: 10px; */
-    border-end-start-radius: 40px;
-    background-color: #25aa76;
-}
-.titleInfoVigi{
-    font-size: 2.5rem;
-    color: #fff;
-    text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
-}
+
 
 .sac{
     color: #fff !important;
