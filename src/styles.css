@@ -11024,15 +11024,6 @@ header.home {
     background-size: cover;
 }
 
-.bg-sobre {
-    /* padding-top: 15rem;
-    padding-bottom: calc(15rem - 0.5rem); */
-    background: url("src/assets/img/imgHipolabor/sobre.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-}
 
 .bg-fundoCinza {
     /* padding-top: 15rem;
@@ -11079,15 +11070,7 @@ header.home {
 
 }
 
-.bg-lgpd {
-    /* padding-top: 10rem;
-    padding-bottom: calc(10rem - 4.5rem); */
-    background: url("/assets/img/photopea/lgpd.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-}
+
 
 .bg-controleQualidade {
     /* padding-top: 10rem;
