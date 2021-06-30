@@ -1,25 +1,28 @@
-<div class="pages bg-product" id="product">
+<div id="product" class="page-product pages bg-product">
   <div class="container">
-    <div class="row gx-4 gx-lg-5 justify-content-left">
-      <div class="col-lg-8 col-xl-6 text-left">
-        <h1 class="titleProduct">BUSCA DE MEDICAMENTO</h1>
-      </div>
-    </div>
     <div class="row">
-      <div class="col-6">
-        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
 
-          <div _ngcontent-rkc-c76="" class="form-floating mb-3"><input _ngcontent-rkc-c76="" id="title" type="text"
-              placeholder="" data-sb-validations="required" class="form-control borderContact"><label
-              _ngcontent-rkc-c76="" for="title">Título/Nome Produto</label>
+      <div class="col-5 d-flex flex-column align-items-start justify-content-center teste">
+
+        <h1 class="titleProduct">BUSCA DE MEDICAMENTO</h1>
+
+        <form id="contactForm" data-sb-form-api-token="API_TOKEN" class="w-100">
+
+          <div class="form-floating mb-3 input-group">
+            <input id="title" type="text" placeholder="" data-sb-validations="required"
+              class="form-control borderContact">
+            <div class="input-group-append h-100">
+              <span class="input-group-text" id="basic-addon2"><i class="bis bi-search"></i></span>
+            </div>
+
+            <label for="title">Título/Nome Produto</label>
           </div>
-
 
           <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Apresentação" aria-label="Recipient's username"
-              aria-describedby="basic-addon2">
+            <input type="text" class="form-control" placeholder="Apresentação">
             <button><i class="bis bi-search"></i></button>
           </div>
+
           <div class="form-check form-check-inline">
             <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
             <label class="form-check-label" for="inlineRadio1">Hipolabor</label>
@@ -28,38 +31,43 @@
             <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
             <label class="form-check-label" for="inlineRadio2">Sanval</label>
           </div>
-          <!-- <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" disabled>
-                            <label class="form-check-label" for="inlineRadio3">3 (disabled)</label>
-                          </div> -->
         </form>
-        <div class="justify-content-center">
-          <div class="col">
-            <h1 class="texto">MELHORES PRODUTOS MAIS QUALIDADE DE VIDA</h1>
-          </div>
-        </div>
-      </div>
-      <div class="col-2">
+
+        <h1 class="texto">MELHORES PRODUTOS, MAIS QUALIDADE DE VIDA</h1>
+
       </div>
 
 
-      <div class="col-4">
+      <div class="col-7 d-flex align-items-center justify-content-end">
 
-        <!-- <div class="row gx-4 gx-lg-5 d-flex flex-row-reverse" style="transform: translateY(-150px);"> -->
-        <div class="justify-content-center ">
-          <div class="alert injectable borderMed text-center">
-            INJETÁVEIS <i class="bi bi-file-earmark-arrow-down"></i>
+        <div class="col-8">
+          <a style="text-decoration: none;" download href="/assets/pdf/Catalogo-Completo.pdf">
+            <div class="d-flex align-items-center justify-content-center m-3 text-end">
+              <h1 style="font-family: Montserrat-ExtraBold;font-size: medium; color: #24aa76;font-weight: 900;">Clique e
+                faça o download do catálogo completo.</h1>
+              <img class="m-2" src="/assets/img/photopea/download-icon.jpeg" alt="download">
+            </div>
+          </a>
+
+
+          <div>
+            <div class="alert injectable borderMed text-center">
+              INJETÁVEIS <i class="bi bi-file-earmark-arrow-down"></i>
+            </div>
+            <div class="alert liquidos borderMed text-center">
+              LÍQUIDOS <i class="bi bi-file-earmark-arrow-down"></i>
+            </div>
+            <div class="alert solidos borderMed text-center">
+              SÓLIDOS <i class="bi bi-file-earmark-arrow-down"></i>
+            </div>
+            <div class="alert semisolidos borderMed text-center">
+              SEMISÓLIDOS <i class="bi bi-file-earmark-arrow-down"></i>
+            </div>
           </div>
-          <div class="alert liquidos borderMed text-center">
-            LÍQUIDOS <i class="bi bi-file-earmark-arrow-down"></i>
-          </div>
-          <div class="alert solidos borderMed text-center">
-            SÓLIDOS <i class="bi bi-file-earmark-arrow-down"></i>
-          </div>
-          <div class="alert semisolidos borderMed text-center">
-            SEMISÓLIDOS <i class="bi bi-file-earmark-arrow-down"></i>
-          </div>
+
         </div>
+
+
 
         <!-- <div class="borderInfoVigi p-3 text-center " > -->
         <!-- <h1 class="titleInfoVigi font-weight-bold"><strong>INFO-VIGI</strong></h1></div>
@@ -69,3 +77,5 @@
       </div>
 
     </div>
+  </div>
+</div>
