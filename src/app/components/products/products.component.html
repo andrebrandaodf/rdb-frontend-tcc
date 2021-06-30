@@ -1,42 +1,46 @@
 <div id="product" class="page-product pages bg-product">
-  <div class="container">
-    <div class="row">
+  <div class="container h-100">
+    
+    <div class="row d-flex align-items-center justify-content-center h-100">
 
-      <div class="col-5 d-flex flex-column align-items-start justify-content-center teste">
+      <div class="col-5 d-flex flex-column align-items-center justify-content-start">
 
-        <h1 class="titleProduct">BUSCA DE MEDICAMENTO</h1>
+        <h1 class="titleProduct m-0">BUSCA DE MEDICAMENTO</h1>
 
-        <form id="contactForm" data-sb-form-api-token="API_TOKEN" class="w-100">
+        <form id="contactForm" data-sb-form-api-token="API_TOKEN" class="w-100 my-5">
 
-          <div class="form-floating mb-3 input-group">
-            <input id="title" type="text" placeholder="" data-sb-validations="required"
-              class="form-control borderContact">
-            <div class="input-group-append h-100">
-              <span class="input-group-text" id="basic-addon2"><i class="bis bi-search"></i></span>
+          <!-- Title input-->
+          <div class="form-floating input-group mb-3">
+            <input id="title" type="text" class="form-control borderContact" style="border-radius: 10px 0 0 10px;"
+              placeholder="" required />
+            <label for="name">Título/Nome Produto</label>
+            <div class="invalid-feedback" data-sb-feedback="name:required">Nome</div>
+
+            <div class="input-group-append">
+              <span id="basic-addon2" class="input-group-text h-100"
+                style="background-color: #25aa76;border-radius: 0 10px 10px 0;border: 1px solid #25aa76">
+                <i style="color: #fff" class="bis bi-search"></i>
+              </span>
             </div>
-
-            <label for="title">Título/Nome Produto</label>
           </div>
 
-          <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Apresentação">
-            <button><i class="bis bi-search"></i></button>
+          <!-- Fabricante input-->
+          <div class="d-flex align-items-center justify-content-between">
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+              <label class="form-check-label manufacturer font-weight-bold" for="inlineRadio1">HIPOLABOR</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+              <label class="form-check-label manufacturer font-weight-bold" for="inlineRadio2">SANVAL</label>
+            </div>
           </div>
 
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-            <label class="form-check-label" for="inlineRadio1">Hipolabor</label>
-          </div>
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-            <label class="form-check-label" for="inlineRadio2">Sanval</label>
-          </div>
         </form>
 
-        <h1 class="texto">MELHORES PRODUTOS, MAIS QUALIDADE DE VIDA</h1>
+        <h1 class="texto m-0">MELHORES PRODUTOS, MAIS QUALIDADE DE VIDA</h1>
 
       </div>
-
 
       <div class="col-7 d-flex align-items-center justify-content-end">
 
@@ -66,14 +70,6 @@
           </div>
 
         </div>
-
-
-
-        <!-- <div class="borderInfoVigi p-3 text-center " > -->
-        <!-- <h1 class="titleInfoVigi font-weight-bold"><strong>INFO-VIGI</strong></h1></div>
-                        <h2 class="textLayout">Conheça nossos canais de farmacovigilância.</h2> -->
-        <!--                      
-                </div> -->
       </div>
 
     </div>

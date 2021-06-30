@@ -11015,8 +11015,8 @@ ul.social-icons li a:hover {
 }
 
 header.home {
-    padding-top: 15rem;
-    padding-bottom: calc(15rem - 0.5rem);
+    /* padding-top: 15rem;
+    padding-bottom: calc(15rem - 0.5rem); */
     background: url("src/assets/img/photopea/home.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -11025,8 +11025,8 @@ header.home {
 }
 
 .bg-sobre {
-    padding-top: 15rem;
-    padding-bottom: calc(15rem - 0.5rem);
+    /* padding-top: 15rem;
+    padding-bottom: calc(15rem - 0.5rem); */
     background: url("src/assets/img/imgHipolabor/sobre.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -11035,8 +11035,8 @@ header.home {
 }
 
 .bg-fundoCinza {
-    padding-top: 15rem;
-    padding-bottom: calc(15rem - 0.5rem);
+    /* padding-top: 15rem;
+    padding-bottom: calc(15rem - 0.5rem); */
     background: url("src/assets/img/imgHipolabor/fundoCinza.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -11045,9 +11045,9 @@ header.home {
 }
 
 .bg-linhaDoTempo{
-    padding: 15rem 0;
+    /* padding: 15rem 0;
     padding-top: 15rem;
-    padding-bottom: calc(10rem - 4.5rem);
+    padding-bottom: calc(10rem - 4.5rem); */
     background:  url("src/assets/img/imgHipolabor/LinhaDoTempo.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -11069,8 +11069,8 @@ header.home {
 
 .bg-midia{
     
-    padding-top: 10rem;
-    padding-bottom: calc(10rem - 4.5rem);
+    /* padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem); */
     background-image: url("/assets/img/photopea/fundoMidia.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -11080,8 +11080,8 @@ header.home {
 }
 
 .bg-lgpd {
-    padding-top: 10rem;
-    padding-bottom: calc(10rem - 4.5rem);
+    /* padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem); */
     background: url("/assets/img/photopea/lgpd.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -11090,8 +11090,8 @@ header.home {
 }
 
 .bg-controleQualidade {
-    padding-top: 10rem;
-    padding-bottom: calc(10rem - 4.5rem);
+    /* padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem); */
     background: url("/assets/img/photopea/controleQualidade.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -11102,8 +11102,8 @@ header.home {
 
 .bg-infoVigi{
     
-    padding-top: 10rem;
-    padding-bottom: calc(10rem - 4.5rem);
+    /* padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem); */
     background-image: url("/assets/img/photopea/infoVigi.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -11120,8 +11120,8 @@ header.home {
 
 
 .bg-contact{
-    padding-top: 10rem;
-    padding-bottom: calc(10rem - 4.5rem);
+    /* padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem); */
     background-image: url("/assets/img/photopea/fundoContato.png");
     background-position: center;
     background-repeat: no-repeat;
