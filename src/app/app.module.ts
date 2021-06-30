@@ -31,6 +31,8 @@ import { QualityControlComponent } from './components/quality-control/quality-co
 import { InfoVigiComponent } from './components/info-vigi/info-vigi.component';
 import { HighlightDirective } from './directives/highlight.directive'; // ->  imported directive
 import { FilterPipe } from './pipes/filter.pipe';
+import { BlogViewComponent } from './components/views/blog-view/blog-view.component';
+import { MatTableModule } from '@angular/material/table';
 
 @NgModule({
   declarations: [
@@ -51,6 +53,7 @@ import { FilterPipe } from './pipes/filter.pipe';
     InfoVigiComponent,
     HighlightDirective,
     FilterPipe,
+    BlogViewComponent,
   ],
   imports: [
     BrowserModule,
@@ -67,6 +70,7 @@ import { FilterPipe } from './pipes/filter.pipe';
     MatMenuModule,
     MatIconModule,
     MatSidenavModule,
+    MatTableModule,
 
   ],
   providers: [],
