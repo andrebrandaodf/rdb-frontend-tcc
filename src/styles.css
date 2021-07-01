@@ -10786,7 +10786,7 @@ hr.divider-light {
 @media (min-width: 992px) {
     #mainNav {
         box-shadow: none;
-        background-color: transparent;
+        background-color: #25aa76;
     }
     #mainNav .navbar-brand {
         color: rgba(255, 255, 255, 0.7);
@@ -11056,7 +11056,7 @@ header.home {
 }
 
 .bg-product{
-    
+
     /* padding-top: 10rem;
     padding-bottom: calc(10rem - 4.5rem); */
     background-image: url("/assets/img/photopea/fundoMedicamentos.png");
@@ -11068,7 +11068,7 @@ header.home {
 }
 
 .bg-midia{
-    
+
     /* padding-top: 10rem;
     padding-bottom: calc(10rem - 4.5rem); */
     background-image: url("/assets/img/photopea/fundoMidia.png");
@@ -11101,7 +11101,7 @@ header.home {
 
 
 .bg-infoVigi{
-    
+
     /* padding-top: 10rem;
     padding-bottom: calc(10rem - 4.5rem); */
     background-image: url("/assets/img/photopea/infoVigi.png");
@@ -11132,8 +11132,8 @@ header.home {
 
 .titleCard{
    font-size: 2.0rem;
-   font-weight: bolder; 
-   letter-spacing: 1px; 
+   font-weight: bolder;
+   letter-spacing: 1px;
    text-shadow: -1px 0 #25aa76, 0 1px #25aa76, 1px 0 #25aa76, 0 -1px #25aa76;
 }
 
@@ -11152,7 +11152,7 @@ header.home {
 .titleBlog{
     color: #25aa76;
     font-size: 2.0rem;
-    font-weight: bolder; 
+    font-weight: bolder;
 }
 
 .test{
@@ -11182,7 +11182,7 @@ h1.teste{
     font-size: 4rem;
     color: #fff;
     text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
-} 
+}
 
 .borderContact{
     border-top-right-radius: 10px;
@@ -11212,11 +11212,11 @@ h1.teste{
 
 .blogTeste{
     background-color: #25aa76;
-    
+
 }
 .borderBlog{
-    
-    border: 2px solid #25aa76 !important;    
+
+    border: 2px solid #25aa76 !important;
     /* border-top-right-radius: 40px;
     border-top-left-radius: 40px;
     border-end-end-radius: 40px;
