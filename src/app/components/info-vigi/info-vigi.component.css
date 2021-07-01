@@ -8,6 +8,18 @@ a{
     /* border-end-end-radius: 10px; */
     border-end-start-radius: 40px;
     background-color: #25aa76;
+    width: 100%;
+}
+
+.textLayout {
+    font-size: 1.4rem;
+    margin: 10px;
+    font-weight: bold;
+    width: 55%;
+    text-align: end;
+    letter-spacing: 0.5px;
+    text-align: end;
+    font-family: Montserrat;
 }
 
 .bg-infoVigi{
@@ -27,7 +39,11 @@ a{
 }
 
 .titleInfoVigi{
-    font-size: 2.5rem;
+    font-size: 2.8rem;
+    text-align: center;
+    padding: 0;
+    margin: 10px;
+    letter-spacing: 1px;
     color: #fff;
     text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
 }

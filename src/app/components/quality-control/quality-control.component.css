@@ -11,6 +11,29 @@ a{
     background-size: cover;
 }
 
+h1 {
+    color: #03b17d;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h3 {
+    text-align: center;
+    text-align: center;
+    color: #03b17d;
+    font-size: 22px;
+    font-weight: bold;
+}
+
 .page-controleQualidade {
-    height: 100vh;
+    width: 100vw;
+    height: 100%;
+}
+
+.img-bg {
+    width: 100%;
+}
+
+.description {
+    position: absolute;
 }
