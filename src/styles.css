@@ -8036,15 +8036,7 @@ fieldset:disabled .btn {
     background-size: cover;
 }
 
-.bg-blogHipolabor {
-    padding-top: 10rem;
-    padding-bottom: calc(10rem - 4.5rem);
-    background-image: url("/assets/img/blogHipolabor.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-}
+
 
 .bg-secondary {
     background-color: #6c757d !important;
@@ -11014,67 +11006,6 @@ ul.social-icons li a:hover {
     border-color: #fff;
 }
 
-header.home {
-    /* padding-top: 15rem;
-    padding-bottom: calc(15rem - 0.5rem); */
-    background: url("src/assets/img/photopea/home.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-}
-
-
-.bg-fundoCinza {
-    /* padding-top: 15rem;
-    padding-bottom: calc(15rem - 0.5rem); */
-    background: url("src/assets/img/imgHipolabor/fundoCinza.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-}
-
-.bg-linhaDoTempo{
-    /* padding: 15rem 0;
-    padding-top: 15rem;
-    padding-bottom: calc(10rem - 4.5rem); */
-    background:  url("src/assets/img/imgHipolabor/LinhaDoTempo.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-}
-
-.bg-product{
-    
-    /* padding-top: 10rem;
-    padding-bottom: calc(10rem - 4.5rem); */
-    background-image: url("/assets/img/photopea/fundoMedicamentos.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-
-}
-
-.bg-midia{
-    
-    /* padding-top: 10rem;
-    padding-bottom: calc(10rem - 4.5rem); */
-    background-image: url("/assets/img/photopea/fundoMidia.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-
-}
-
-/* .pages {
-    padding: 10rem 0;
-} */
-
-
 
 
 .bg-contact{
@@ -11100,9 +11031,6 @@ header.home {
     border-top-left-radius: 15px;
 }
 
-.titleAbout{
-    color: #25aa76;
-}
 .titleMidia{
     color: #fff;
 }
@@ -11157,10 +11085,6 @@ h1.teste{
     margin-top: 10rem;
 }
 
-.blogTeste{
-    background-color: #25aa76;
-    
-}
 .borderBlog{
     
     border: 2px solid #25aa76 !important;    

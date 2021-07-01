@@ -1,10 +1,19 @@
 .page-news {
     height: 100vh;
 }
+.bg-news{
+    background-image: url("/assets/img/photopea/fundoMidia.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
 
+}
 .titleNews{
     font-family: 'Montserrat-ExtraBold';
     color: #fff;
     font-size: 3.0rem;
+    font-weight: bolder; 
     border: #fff;
 }
+
