@@ -10778,7 +10778,7 @@ hr.divider-light {
 @media (min-width: 992px) {
     #mainNav {
         box-shadow: none;
-        background-color: transparent;
+        background-color: #25aa76;
     }
     #mainNav .navbar-brand {
         color: rgba(255, 255, 255, 0.7);
@@ -10980,7 +10980,7 @@ ul.social-icons li a {
 }
 
 ul.social-icons li a:hover {
-    background-color: #03bb85;
+    background-color: transparent;
     color: #fff;
 }
 
@@ -11006,6 +11006,109 @@ ul.social-icons li a:hover {
     border-color: #fff;
 }
 
+header.home {
+    /* padding-top: 15rem;
+    padding-bottom: calc(15rem - 0.5rem); */
+    background: url("src/assets/img/photopea/home.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.bg-sobre {
+    /* padding-top: 15rem;
+    padding-bottom: calc(15rem - 0.5rem); */
+    background: url("src/assets/img/imgHipolabor/sobre.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.bg-fundoCinza {
+    /* padding-top: 15rem;
+    padding-bottom: calc(15rem - 0.5rem); */
+    background: url("src/assets/img/imgHipolabor/fundoCinza.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.bg-linhaDoTempo{
+    /* padding: 15rem 0;
+    padding-top: 15rem;
+    padding-bottom: calc(10rem - 4.5rem); */
+    background:  url("src/assets/img/imgHipolabor/LinhaDoTempo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.bg-product{
+
+    /* padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem); */
+    background-image: url("/assets/img/photopea/fundoMedicamentos.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+
+}
+
+.bg-midia{
+
+    /* padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem); */
+    background-image: url("/assets/img/photopea/fundoMidia.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+
+}
+
+.bg-lgpd {
+    /* padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem); */
+    background: url("/assets/img/photopea/lgpd.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.bg-controleQualidade {
+    /* padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem); */
+    background: url("/assets/img/photopea/controleQualidade.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+
+.bg-infoVigi{
+
+    /* padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem); */
+    background-image: url("/assets/img/photopea/infoVigi.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+
+}
+
+/* .pages {
+    padding: 10rem 0;
+} */
+
+
 
 
 .bg-contact{
@@ -11021,8 +11124,8 @@ ul.social-icons li a:hover {
 
 .titleCard{
    font-size: 2.0rem;
-   font-weight: bolder; 
-   letter-spacing: 1px; 
+   font-weight: bolder;
+   letter-spacing: 1px;
    text-shadow: -1px 0 #25aa76, 0 1px #25aa76, 1px 0 #25aa76, 0 -1px #25aa76;
 }
 
@@ -11038,7 +11141,7 @@ ul.social-icons li a:hover {
 .titleBlog{
     color: #25aa76;
     font-size: 2.0rem;
-    font-weight: bolder; 
+    font-weight: bolder;
 }
 
 .test{
@@ -11068,7 +11171,7 @@ h1.teste{
     font-size: 4rem;
     color: #fff;
     text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
-} 
+}
 
 .borderContact{
     border-top-right-radius: 10px;
@@ -11085,9 +11188,14 @@ h1.teste{
     margin-top: 10rem;
 }
 
+.blogTeste{
+    background-color: #25aa76;
+
+}
+
 .borderBlog{
-    
-    border: 2px solid #25aa76 !important;    
+
+    border: 2px solid #25aa76 !important;
     /* border-top-right-radius: 40px;
     border-top-left-radius: 40px;
     border-end-end-radius: 40px;
@@ -11106,3 +11214,6 @@ h1.teste{
 
         border-end-start-radius: 40px;
     }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

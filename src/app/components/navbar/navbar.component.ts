@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-navbar',
@@ -7,14 +7,41 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-  constructor() { }
+  innerWidth: number = 0;
+  scrollY: number = 0;
+  aux: number = 0;
+  show: boolean = true;
 
-  ngOnInit(): void {
+  @HostListener('window:resize', ['$event'])
+  onResize() {
+    this.innerWidth = window.innerWidth;
   }
 
-  scrollTo(el: string) {
-    const element: HTMLElement = document.getElementById(el)!;
+  @HostListener('window:scroll') onWindowScroll() {
+    this.aux = this.scrollY;
+    this.scrollY = window.scrollY;
+    this.show = this.scrollY - this.aux <= 0 ? true : false;
+  }
+
+  constructor() {
+    this.innerWidth = window.innerWidth;
+  }
+
+  ngOnInit(): void {
+    // this.scrollInit();
+  }
+
+  scrollTo(id: string) {
+    const element: HTMLElement = document.getElementById(id)!;
     element.scrollIntoView({ behavior:"smooth" });
+  }
+
+  scrollInit() {
+    const element: HTMLElement = document.getElementById('home')!;
+    setTimeout(() => {
+      element.scrollIntoView();
+
+    }, 2000);
   }
 
 }
