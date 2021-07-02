@@ -1,49 +1,32 @@
+.page-infoVigi {
+    height: 80vh;
+}
+
 a{
     text-decoration: none;
 }
 
-.borderInfoVigi {
-    /* border-top-right-radius: 10px; */
-    border-top-left-radius: 40px;
-    /* border-end-end-radius: 10px; */
-    border-end-start-radius: 40px;
-    background-color: #25aa76;
-    width: 100%;
+.card-title {
+    position: relative;
+    background: #25aa76;
+    padding: 2rem 4rem;
+    border-radius: 40px 0 0 40px;
 }
 
-.textLayout {
-    font-size: 1.4rem;
-    margin: 10px;
-    font-weight: bold;
-    width: 55%;
-    text-align: end;
-    letter-spacing: 0.5px;
-    text-align: end;
-    font-family: Montserrat;
-}
-
-.bg-infoVigi{
-    
-    /* padding-top: 10rem;
-    padding-bottom: calc(10rem - 4.5rem); */
-    background-image: url("/assets/img/photopea/infoVigi.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-
-}
-
-.page-infoVigi {
-    height: 100vh;
-}
-
-.titleInfoVigi{
-    font-size: 2.8rem;
-    text-align: center;
-    padding: 0;
-    margin: 10px;
-    letter-spacing: 1px;
+.title{
+    font-family: 'Montserrat-ExtraBold';
+    font-weight: bolder;
+    font-size: 3rem;
     color: #fff;
-    text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+    margin: 0;
 }
+
+.subtitle {
+    line-height: 2rem;
+    font-family: 'Montserrat-ExtraBold';
+    font-weight: bolder;
+    font-size: 2rem;
+    color: #fff;
+    margin: 0;
+}
+

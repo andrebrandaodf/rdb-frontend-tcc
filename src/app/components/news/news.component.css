@@ -10,10 +10,9 @@
 
 }
 .titleNews{
-    font-family: 'Montserrat-ExtraBold';
     color: #fff;
     font-size: 3.0rem;
-    font-weight: bolder; 
+    margin: 40px 0;
     border: #fff;
 }
 

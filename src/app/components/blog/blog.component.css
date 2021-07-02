@@ -12,15 +12,23 @@
     height: 100vh;
 }
 
+.borderBlog {
+    border-radius: 10px !important;
+}
+
 .titleBlog{
-    font-family: 'Montserrat-ExtraBold';
     color: #25aa76;
-    font-size: 3.0rem;
-    font-weight: bolder; 
+    font-size: 3.0rem; 
     border: #25aa76;
+    font-weight: initial !important;
 }
 
 .blogTeste{
     background-color: #25aa76;
     
+}
+
+.title-card {
+    color: #25aa76;
+    font-weight: bold;
 }
