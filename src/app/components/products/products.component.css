@@ -30,12 +30,12 @@
 }
 
 .titleProduct{
+    line-height: 3rem;
     font-family: 'Montserrat-ExtraBold';
     color: #25aa76;
     font-size: 3.0rem;
     font-weight: bolder; 
     border: #25aa76;
-    /* transform: translateY(-50px); */
 }
 
 .page-product {
@@ -51,3 +51,17 @@
     border-radius: 40px; 
     color: #fff;
 }
+
+.bg-product{
+    
+    /* padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem); */
+    background-image: url("/assets/img/photopea/fundoMedicamentos.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+
+}
+
+

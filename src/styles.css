@@ -1,19 +1,5 @@
 @charset "UTF-8";
 
-/*!
-* Start Bootstrap - Creative v7.0.2 (https://startbootstrap.com/theme/creative)
-* Copyright 2013-2021 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-creative/blob/master/LICENSE)
-*/
-
-
-/*!
- * Bootstrap v5.0.1 (https://getbootstrap.com/)
- * Copyright 2011-2021 The Bootstrap Authors
- * Copyright 2011-2021 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
-
 :root {
     --bs-blue: #0d6efd;
     --bs-indigo: #6610f2;
@@ -8036,15 +8022,7 @@ fieldset:disabled .btn {
     background-size: cover;
 }
 
-.bg-blogHipolabor {
-    padding-top: 10rem;
-    padding-bottom: calc(10rem - 4.5rem);
-    background-image: url("/assets/img/blogHipolabor.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-}
+
 
 .bg-secondary {
     background-color: #6c757d !important;
@@ -10965,41 +10943,9 @@ header.masthead .h1 {
     background-size: cover;
 } */
 
-ul.social-icons li {
-    display: inline-block;
-    margin-right: 3px;
-}
 
-ul.social-icons li:last-child {
-    margin-right: 0px;
-}
-
-ul.social-icons li a {
-    width: 40px;
-    height: 40px;
-    display: inline-block;
-    line-height: 40px;
-    background-color: #eee;
-    color: #03bb85;
-    font-size: 25px;
-    text-align: center;
-    transition: all .3s;
-    border-radius: 10rem;
-}
-
-ul.social-icons li a:hover {
-    background-color: #03bb85;
-    color: #fff;
-}
 
 /* Criando css */
-
-
-.sac {
-    color: #fff !important;
-    font-size: 1.5rem;
-    font-weight: bold;
-}
 
 .denuncias {
     color: #000;
@@ -11015,8 +10961,6 @@ ul.social-icons li a:hover {
 }
 
 header.home {
-    /* padding-top: 15rem;
-    padding-bottom: calc(15rem - 0.5rem); */
     background: url("src/assets/img/photopea/home.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -11025,8 +10969,6 @@ header.home {
 }
 
 .bg-sobre {
-    /* padding-top: 15rem;
-    padding-bottom: calc(15rem - 0.5rem); */
     background: url("src/assets/img/imgHipolabor/sobre.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -11035,8 +10977,6 @@ header.home {
 }
 
 .bg-fundoCinza {
-    /* padding-top: 15rem;
-    padding-bottom: calc(15rem - 0.5rem); */
     background: url("src/assets/img/imgHipolabor/fundoCinza.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -11045,9 +10985,6 @@ header.home {
 }
 
 .bg-linhaDoTempo{
-    /* padding: 15rem 0;
-    padding-top: 15rem;
-    padding-bottom: calc(10rem - 4.5rem); */
     background:  url("src/assets/img/imgHipolabor/LinhaDoTempo.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -11056,32 +10993,22 @@ header.home {
 }
 
 .bg-product{
-
-    /* padding-top: 10rem;
-    padding-bottom: calc(10rem - 4.5rem); */
     background-image: url("/assets/img/photopea/fundoMedicamentos.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
-
 }
 
 .bg-midia{
-
-    /* padding-top: 10rem;
-    padding-bottom: calc(10rem - 4.5rem); */
     background-image: url("/assets/img/photopea/fundoMidia.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
-
 }
 
 .bg-lgpd {
-    /* padding-top: 10rem;
-    padding-bottom: calc(10rem - 4.5rem); */
     background: url("/assets/img/photopea/lgpd.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -11090,8 +11017,6 @@ header.home {
 }
 
 .bg-controleQualidade {
-    /* padding-top: 10rem;
-    padding-bottom: calc(10rem - 4.5rem); */
     background: url("/assets/img/photopea/controleQualidade.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -11101,33 +11026,20 @@ header.home {
 
 
 .bg-infoVigi{
-
-    /* padding-top: 10rem;
-    padding-bottom: calc(10rem - 4.5rem); */
     background-image: url("/assets/img/photopea/infoVigi.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
-
 }
-
-/* .pages {
-    padding: 10rem 0;
-} */
-
-
 
 
 .bg-contact{
-    /* padding-top: 10rem;
-    padding-bottom: calc(10rem - 4.5rem); */
     background-image: url("/assets/img/photopea/fundoContato.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
-
 }
 
 .titleCard{
@@ -11142,9 +11054,6 @@ header.home {
     border-top-left-radius: 15px;
 }
 
-.titleAbout{
-    color: #25aa76;
-}
 .titleMidia{
     color: #fff;
 }
@@ -11164,10 +11073,6 @@ header.home {
     font-size: 1.5rem;
     font-weight: bold;
     text-align: end;
-}
-.titleContact{
-    color: #fff;
-    font-weight: bold;
 }
 
 .testando {
@@ -11191,18 +11096,7 @@ h1.teste{
     border-end-start-radius: 10px;
 }
 
-.borderInfoVigi {
-    /* border-top-right-radius: 10px; */
-    border-top-left-radius: 40px;
-    /* border-end-end-radius: 10px; */
-    border-end-start-radius: 40px;
-    background-color: #25aa76;
-}
-.titleInfoVigi{
-    font-size: 2.5rem;
-    color: #fff;
-    text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
-}
+
 
 .sac{
     color: #fff !important;
@@ -11214,6 +11108,7 @@ h1.teste{
     background-color: #25aa76;
 
 }
+
 .borderBlog{
 
     border: 2px solid #25aa76 !important;
@@ -11235,3 +11130,6 @@ h1.teste{
 
         border-end-start-radius: 40px;
     }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

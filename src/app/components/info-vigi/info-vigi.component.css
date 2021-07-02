@@ -1,0 +1,32 @@
+.page-infoVigi {
+    height: 80vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+.card-title {
+    position: relative;
+    background: #25aa76;
+    padding: 2rem 4rem;
+    border-radius: 40px 0 0 40px;
+}
+
+.title{
+    font-family: 'Montserrat-ExtraBold';
+    font-weight: bolder;
+    font-size: 3rem;
+    color: #fff;
+    margin: 0;
+}
+
+.subtitle {
+    line-height: 2rem;
+    font-family: 'Montserrat-ExtraBold';
+    font-weight: bolder;
+    font-size: 2rem;
+    color: #fff;
+    margin: 0;
+}
+

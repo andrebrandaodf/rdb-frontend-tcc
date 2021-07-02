@@ -1,3 +1,24 @@
 a{
     text-decoration: none;
 }
+.page-lgpd {
+    height: 100vh;
+}
+
+.bg-lgpd{
+    /* padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem); */
+    background: url("/assets/img/photopea/lgpd.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+.titleLgpd{
+    font-family: 'Montserrat-ExtraBold';
+    color: #fff;
+    font-size: 3.0rem;
+    font-weight: bolder; 
+    border: #fff;
+    /* transform: translateY(-50px); */
+}
