@@ -10960,8 +10960,16 @@ header.masthead .h1 {
     border-color: #fff;
 }
 
-header.home {
+/* header.home {
     background: url("src/assets/img/photopea/home.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+} */
+
+.bg-home {
+    background: url("/assets/img/photopea/home.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;

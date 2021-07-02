@@ -1,34 +1,9 @@
 a{
     text-decoration: none;
 }
-.bg-sobre {
-
-    background: url("src/assets/img/imgHipolabor/sobre.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-}
-
-.bg-fundoCinza {
-
-    background: url("src/assets/img/imgHipolabor/fundoCinza.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-}
-.bg-linhaDoTempo{
-
-    background:  url("src/assets/img/imgHipolabor/LinhaDoTempo.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-}
 
 .page-about{
-    height: 100vh;
+    height: 80vh;
 }
 
 .titleAbout{
