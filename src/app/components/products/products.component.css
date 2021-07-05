@@ -1,26 +1,38 @@
 .injectable{
     background-color: #25aa76;
     color: #fff;
-    font-size: x-large;
+    font-size: 2rem;
+    font-family: 'Montserrat-ExtraBold';
     font-weight: bolder;
+    padding: 24px 48px;
+    border-radius: 50px 0 0 50px;
 }
 .liquidos{
     background-color: #2d55a5;
     color: #fff;
-    font-size: x-large;
+    font-size: 2rem;
+    font-family: 'Montserrat-ExtraBold';
     font-weight: bolder;
+    padding: 24px 48px;
+    border-radius: 50px 0 0 50px;
 }
 .solidos{
     background-color: #8e3d97;
     color: #fff;
-    font-size: x-large;
+    font-size: 2rem;
+    font-family: 'Montserrat-ExtraBold';
     font-weight: bolder;
+    padding: 24px 48px;
+    border-radius: 50px 0 0 50px;
 }
 .semisolidos{
     background-color: #ce2027;
     color: #fff;
-    font-size: x-large;
+    font-size: 2rem;
+    font-family: 'Montserrat-ExtraBold';
     font-weight: bolder;
+    padding: 24px 48px;
+    border-radius: 50px 0 0 50px;
 }
 
 .texto{
@@ -34,12 +46,8 @@
     font-family: 'Montserrat-ExtraBold';
     color: #25aa76;
     font-size: 3.0rem;
-    font-weight: bolder; 
+    font-weight: bolder;
     border: #25aa76;
-}
-
-.page-product {
-    height: 100vh;
 }
 
 .manufacturer {
@@ -47,13 +55,13 @@
     font-weight: bolder;
     text-align: center;
     padding: 8px;
-    background: #25aa76; 
-    border-radius: 40px; 
+    background: #25aa76;
+    border-radius: 40px;
     color: #fff;
 }
 
 .bg-product{
-    
+
     /* padding-top: 10rem;
     padding-bottom: calc(10rem - 4.5rem); */
     background-image: url("/assets/img/photopea/fundoMedicamentos.png");

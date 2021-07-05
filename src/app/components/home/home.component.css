@@ -1,25 +1,22 @@
 a{
     text-decoration: none;
 }
-.bg-home {
-    /* padding-top: 15rem;
-    padding-bottom: calc(15rem - 0.5rem); */
-    background: url("/assets/img/photopea/home.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-}
 
-.page-home{
-    height: 100vh;
-}
-
-.titleHome{
+.title {
+    line-height: 4rem;
     font-family: 'Montserrat-ExtraBold';
+    font-weight: bolder;
+    font-size: 4rem;
     color: #fff;
-    font-size: 2.0rem;
-    font-weight: bolder; 
-    border: #fff;
-    /* transform: translateY(-50px); */
+    margin: 0;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.subtitle {
+    line-height: 4rem;
+    font-family: 'Montserrat';
+    font-size: 4rem;
+    color: #fff;
+    margin: 0;
+    text-shadow: black 0.1em 0.1em 0.2em;
 }

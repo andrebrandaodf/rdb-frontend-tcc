@@ -1,0 +1,19 @@
+a{
+  text-decoration: none;
+}
+
+.title-unity {
+  font-size: 0.8rem;
+  font-family: "Montserrat";
+}
+
+.subtitle-unity {
+  font-size: 0.7rem;
+  font-family: "Montserrat";
+}
+
+.titleStrong {
+  font-size: 0.9rem;
+  font-family: "Montserrat-ExtraBold";
+  font-weight: bolder;
+}

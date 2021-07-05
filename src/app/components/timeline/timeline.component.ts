@@ -1,11 +1,11 @@
 import { Component, HostListener, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-news',
-  templateUrl: './news.component.html',
-  styleUrls: ['./news.component.css']
+  selector: 'app-timeline',
+  templateUrl: './timeline.component.html',
+  styleUrls: ['./timeline.component.css']
 })
-export class NewsComponent implements OnInit {
+export class TimelineComponent implements OnInit {
 
   innerWidth: number = 0;
 

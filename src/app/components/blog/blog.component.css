@@ -1,6 +1,4 @@
 .bg-blog {
-    padding-top: 10rem;
-    padding-bottom: calc(10rem - 4.5rem);
     background-image: url("/assets/img/blogHipolabor.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -8,24 +6,20 @@
     background-size: cover;
 }
 
-.page-blog{
-    height: 100vh;
-}
-
 .borderBlog {
     border-radius: 10px !important;
 }
 
-.titleBlog{
+.titleBlog {
     color: #25aa76;
-    font-size: 3.0rem; 
+    font-size: 3rem;
+    margin: 40px 0;
     border: #25aa76;
     font-weight: initial !important;
 }
 
-.blogTeste{
+.blogTeste {
     background-color: #25aa76;
-    
 }
 
 .title-card {

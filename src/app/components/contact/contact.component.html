@@ -7,10 +7,12 @@
             <div class="col-6">
                 <h1 class="titleContact">CONTATO</h1>
 
-                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                <form id="contactForm" [formGroup]="formContact">
+
+                    <!-- Option input -->
                     <div class="form-floating mb-3 ">
-                        <select class="form-select borderContact" [(ngModel)]="clients.talkTo" name="talkTo">
-                            <option selected disabled value="">Deseja falar com</option>
+                        <select class="form-select borderContact" formControlName="talkTo" name="talkTo">
+                            <option disabled value="null">Deseja falar com</option>
                             <option value="sac@hipolabor.com.br">Elogios</option>
                             <option value="sac@hipolabor.com.br">Sugestões e Críticas</option>
                             <option value="sac@hipolabor.com.br">Dúvidas produtos Hipolabor</option>
@@ -21,65 +23,54 @@
                             <option value="sac@hipolabor.com.br">Evento adverso</option>
                         </select>
                     </div>
-                    <!-- Name input-->
+
+                    <!-- Name input -->
                     <div class="form-floating mb-3">
-                        <input class="form-control borderContact" id="name" type="text" placeholder="Nome ..."
-                            [(ngModel)]="clients.name" data-sb-validations="required" />
+                        <input class="form-control borderContact" id="name" type="text" formControlName="name"
+                            data-sb-validations="required" />
                         <label for="name">Nome</label>
-                        <div class="invalid-feedback" data-sb-feedback="name:required">Nome</div>
+                        <div class="invalid-feedback" data-sb-feedback="name:required">Necessário inserir nome!</div>
                     </div>
-                    <!-- Email address input-->
+
+                    <!-- Email input -->
                     <div class="form-floating mb-3">
-                        <input class="form-control borderContact" id="email" type="email" placeholder="name@email.com"
-                            [(ngModel)]="clients.email" data-sb-validations="required,email" />
+                        <input class="form-control borderContact" id="email" type="email" formControlName="email"
+                            data-sb-validations="required,email" />
                         <label for="email">Email</label>
                         <div class="invalid-feedback" data-sb-feedback="email:required">Necessário inserir e-mail!</div>
                         <div class="invalid-feedback" data-sb-feedback="email:email">Email inválido!</div>
                     </div>
-                    <!-- Phone number input-->
+
+                    <!-- Phone input -->
                     <div class="form-floating mb-3">
-                        <input class="form-control borderContact" id="phone" type="tel" placeholder="(11)9 1234-5678"
-                            [(ngModel)]="clients.phone" data-sb-validations="required" />
+                        <input class="form-control borderContact" id="phone" type="tel"
+                            mask="(00) 0000-0000||(00) 0 0000-0000" formControlName="phone" />
                         <label for="phone">Telefone</label>
-                        <div class="invalid-feedback" data-sb-feedback="phone:required">Necessário inserir telefone!
-                        </div>
                     </div>
-                    <!-- Subject Matter input-->
+
+                    <!-- Matter input -->
                     <div class="form-floating mb-3">
                         <input class="form-control borderContact" id="subjectMatter" type="text"
-                            placeholder="Assunto ..." [(ngModel)]="clients.subjectMatter"
-                            data-sb-validations="required" />
+                            formControlName="subjectMatter" />
                         <label for="subjectMatter">Assunto</label>
-
                     </div>
-                    <!-- Message input-->
+
+                    <!-- Message input -->
                     <div class="form-floating mb-3">
-                        <textarea class="form-control borderContact" id="message" type="text"
-                            placeholder="Insira sua mensagem aqui ..." style="height: 10rem"
-                            [(ngModel)]="clients.message" data-sb-validations="required"></textarea>
+                        <textarea class="form-control borderContact" id="message" type="text" style="height: 10rem"
+                            formControlName="message" data-sb-validations="required"></textarea>
                         <label for="message">Mensagem</label>
-                        <!-- <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div> -->
-                    </div>
-                    <div class="d-none" id="submitSuccessMessage">
-                        <div class="text-center mb-3">
-                            <div class="fw-bolder">Form submission successful!</div>
-                            To activate this form, sign up at
-                            <br />
-                            <a
-                                href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                        </div>
+                        <div class="invalid-feedback" data-sb-feedback="message:required">Necessário inserir mensagem!</div>
                     </div>
 
-                    <div class="d-none" id="submitErrorMessage">
-                        <div class="text-center text-danger mb-3">Error sending message!</div>
-                    </div>
-                    <!-- Submit Button -->
+                    <!-- Submit Form -->
                     <div class="d-flex flex-row-reverse">
                         <button mat-raised-button (click)="createClient()" type="button"
                             class="btnContact borderContact btn btn-outline-success">Enviar
                         </button>
                     </div>
                 </form>
+
             </div>
 
             <!-- ========= INFO ========= -->

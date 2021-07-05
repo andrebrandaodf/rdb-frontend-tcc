@@ -1,9 +1,9 @@
-<div id="product" class="page-product bg-product">
+<div id="product" class="bg-product" [ngClass]="{'pages': innerWidth >= 992}">
   <div class="container h-100">
-    
+
     <div class="row d-flex align-items-center justify-content-center h-100">
 
-      <div class="col-5 d-flex flex-column align-items-center justify-content-start">
+      <div class="col-lg-5 col-12 d-flex flex-column align-items-center justify-content-start">
 
         <h1 class="titleProduct">BUSCA DE MEDICAMENTO</h1>
 
@@ -42,30 +42,35 @@
 
       </div>
 
-      <div class="col-7 d-flex align-items-center justify-content-end">
+      <div class="col-lg-7 col-12 d-flex align-items-center justify-content-end">
 
         <div class="col-8">
           <a style="text-decoration: none;" download href="/assets/pdf/Catalogo-Completo.pdf">
-            <div class="d-flex align-items-center justify-content-center m-3 text-end">
-              <h1 style="font-family: Montserrat-ExtraBold;font-size: medium; color: #24aa76;font-weight: 900;">Clique e
-                faça o download do catálogo completo.</h1>
-              <img class="m-2" src="/assets/img/photopea/download-icon.jpeg" alt="download">
+            <div class="d-flex align-items-center justify-content-center text-end">
+              <h1 style="font-family: Montserrat-ExtraBold;font-size: medium; color: #24aa76;font-weight: bolder;">
+                Clique e faça o download do catálogo completo.
+              </h1>
+              <img class="m-3" height="60px" src="/assets/img/photopea/download-icon.jpeg" alt="download">
             </div>
           </a>
 
 
           <div>
-            <div class="alert injectable borderMed text-center">
-              INJETÁVEIS <i class="bi bi-file-earmark-arrow-down"></i>
+            <div class="injectable d-flex align-items-center justify-content-between m-2">
+              <p class="m-0">INJETÁVEIS</p>
+              <i class="bi bi-file-earmark-arrow-down" style="transform: scale(1.5); opacity: 30%;"></i>
             </div>
-            <div class="alert liquidos borderMed text-center">
-              LÍQUIDOS <i class="bi bi-file-earmark-arrow-down"></i>
+            <div class="liquidos d-flex align-items-center justify-content-between m-2">
+              <p class="m-0">LÍQUIDOS</p>
+              <i class="bi bi-file-earmark-arrow-down" style="transform: scale(1.5); opacity: 30%;"></i>
             </div>
-            <div class="alert solidos borderMed text-center">
-              SÓLIDOS <i class="bi bi-file-earmark-arrow-down"></i>
+            <div class="solidos d-flex align-items-center justify-content-between m-2">
+              <p class="m-0">SÓLIDOS</p>
+              <i class="bi bi-file-earmark-arrow-down" style="transform: scale(1.5); opacity: 30%;"></i>
             </div>
-            <div class="alert semisolidos borderMed text-center">
-              SEMISÓLIDOS <i class="bi bi-file-earmark-arrow-down"></i>
+            <div class="semisolidos d-flex align-items-center justify-content-between m-2">
+              <p class="m-0">SEMISÓLIDOS</p>
+              <i class="bi bi-file-earmark-arrow-down" style="transform: scale(1.5); opacity: 30%;"></i>
             </div>
           </div>
 
@@ -73,5 +78,6 @@
       </div>
 
     </div>
+
   </div>
 </div>
