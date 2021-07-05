@@ -1,15 +1,23 @@
-a{
-    text-decoration: none;
+.page-about {
+  height: 100vh;
 }
 
-.page-about{
-    height: 80vh;
+.titleAbout {
+  font-family: "Montserrat";
+  color: #25aa76;
+  font-size: 3rem;
 }
 
-.titleAbout{
-    font-family: 'Montserrat-ExtraBold';
-    color: #25aa76;
-    font-size: 3.0rem;
-    font-weight: bolder; 
-    border: #25aa76;
+.titleAboutStrong {
+  color: #25aa76;
+  font-size: 3rem;
+  font-family: "Montserrat-ExtraBold";
+  font-weight: bolder;
+}
+
+.titleCard {
+  color: #25aa76;
+  font-size: 2rem;
+  font-family: "Montserrat-ExtraBold";
+  font-weight: bolder;
 }

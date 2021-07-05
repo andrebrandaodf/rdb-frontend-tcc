@@ -11050,13 +11050,6 @@ header.masthead .h1 {
     background-size: cover;
 }
 
-.titleCard{
-   font-size: 2.0rem;
-   font-weight: bolder;
-   letter-spacing: 1px;
-   text-shadow: -1px 0 #25aa76, 0 1px #25aa76, 1px 0 #25aa76, 0 -1px #25aa76;
-}
-
 .borderCard{
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;

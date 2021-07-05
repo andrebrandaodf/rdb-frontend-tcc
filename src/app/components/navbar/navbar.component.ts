@@ -27,21 +27,11 @@ export class NavbarComponent implements OnInit {
     this.innerWidth = window.innerWidth;
   }
 
-  ngOnInit(): void {
-    // this.scrollInit();
-  }
+  ngOnInit(): void { }
 
   scrollTo(id: string) {
     const element: HTMLElement = document.getElementById(id)!;
     element.scrollIntoView({ behavior:"smooth" });
-  }
-
-  scrollInit() {
-    const element: HTMLElement = document.getElementById('home')!;
-    setTimeout(() => {
-      element.scrollIntoView();
-
-    }, 2000);
   }
 
 }

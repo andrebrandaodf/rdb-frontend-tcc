@@ -33,6 +33,7 @@ import { HighlightDirective } from './directives/highlight.directive'; // ->  im
 import { FilterPipe } from './pipes/filter.pipe';
 import { BlogViewComponent } from './components/views/blog-view/blog-view.component';
 import { MatTableModule } from '@angular/material/table';
+import { TimelineComponent } from './components/timeline/timeline.component';
 
 @NgModule({
   declarations: [
@@ -54,6 +55,7 @@ import { MatTableModule } from '@angular/material/table';
     HighlightDirective,
     FilterPipe,
     BlogViewComponent,
+    TimelineComponent,
   ],
   imports: [
     BrowserModule,
