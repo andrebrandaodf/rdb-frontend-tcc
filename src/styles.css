@@ -11111,26 +11111,28 @@ h1.teste{
 }
 
 .borderBlog{
-
     border: 2px solid #25aa76 !important;
     /* border-top-right-radius: 40px;
     border-top-left-radius: 40px;
     border-end-end-radius: 40px;
     border-end-start-radius: 40px; */
-    }
+}
 
-    .btnContact{
-        background-color: #fff;
-    }
+.btnContact{
+    background-color: #fff;
+}
 
-    .borderMed{
-        color: #923b23;
-        background-color: #fde0d8;
-        border-color: #fcd0c4;
-        border-top-left-radius: 40px;
+.borderMed{
+    color: #923b23;
+    background-color: #fde0d8;
+    border-color: #fcd0c4;
+    border-top-left-radius: 40px;
+    border-end-start-radius: 40px;
+}
 
-        border-end-start-radius: 40px;
-    }
+.pages {
+    height: 100vh;
+}
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

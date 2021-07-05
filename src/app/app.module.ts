@@ -18,7 +18,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatExpansionModule } from '@angular/material/expansion';
@@ -34,6 +34,9 @@ import { FilterPipe } from './pipes/filter.pipe';
 import { BlogViewComponent } from './components/views/blog-view/blog-view.component';
 import { MatTableModule } from '@angular/material/table';
 import { TimelineComponent } from './components/timeline/timeline.component';
+import { MatSelectModule } from '@angular/material/select';
+import { MatButtonModule } from '@angular/material/button';
+import { NgxMaskModule } from 'ngx-mask';
 
 @NgModule({
   declarations: [
@@ -73,7 +76,10 @@ import { TimelineComponent } from './components/timeline/timeline.component';
     MatIconModule,
     MatSidenavModule,
     MatTableModule,
-
+    ReactiveFormsModule,
+    MatSelectModule,
+    MatButtonModule,
+    NgxMaskModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]

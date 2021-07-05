@@ -1,26 +1,25 @@
-<div id="about" class="page-about bg-fundoCinza">
+<div id="about" class="page-about bg-fundoCinza" [ngClass]="{'pages': innerWidth >= 992}">
     <div class="container-fluid p-0 h-100">
-        <div class="container d-flex flex-column align-items-center justify-content-start"
-        style="transform: translateY(20px);height: 45%">
-            <h1 class="titleAbout pb-3 mt-4">Esta é a
-              <span class="titleAboutStrong">HIPOLABOR</span>
+        <div class="content-about container">
+            <h1 class="titleAbout text-center pt-5 mb-5">Esta é a
+                <span class="titleAboutStrong">HIPOLABOR</span>
             </h1>
             <div class="row card-deck">
-                <div class="col-3 card">
+                <div class="col-lg-3 col-12 card mb-4">
                     <h2 class="titleCard text-center">LIDERANÇA</h2>
                     <div class="borderCard text-white bg-success card-body d-flex  align-items-center">
                         <p class="text-center">Maior fabricante de <strong style="font-size: larger;">genéricos
                                 injetáveis do Brasil</strong> </p>
                     </div>
                 </div>
-                <div class="col-md-3 card">
+                <div class="col-lg-3 col-12 card mb-4">
                     <h2 class="titleCard text-center">INOVAÇÃO</h2>
                     <div class="borderCard text-white bg-success card-body d-flex  align-items-center">
                         <p class="text-center">Um dos mais<strong style="font-size: larger;"> modernos parques
                                 fabris</strong> do país</p>
                     </div>
                 </div>
-                <div class="col-md-3 card">
+                <div class="col-lg-3 col-12 card mb-4">
                     <h2 class="titleCard text-center ">QUALIDADE</h2>
                     <div class="borderCard text-white bg-success card-body d-flex  align-items-center">
                         <p class="borderCard text-center">Toda cadeia produtiva das unidades fabris do Grupo Hipolabor
@@ -28,7 +27,7 @@
                                 internacionais</strong> </p>
                     </div>
                 </div>
-                <div class="col-md-3 card">
+                <div class="col-lg-3 col-12 card mb-4">
                     <h2 class="titleCard text-center ">PRESENÇA</h2>
                     <div class="borderCard text-white bg-success card-body d-flex  align-items-center">
                         <p class="text-center">Os produtos Hipolabor estão presentes nos <strong
@@ -38,6 +37,6 @@
                 </div>
             </div>
         </div>
-        <div class="bg-sobre w-100" style="height: 55%"></div>
+        <!-- <div class="bg-sobre w-100"></div> -->
     </div>
 </div>

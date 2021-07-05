@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 import { ProductService } from '../service/product.service';
 import { Product } from '../model/product.model';
 import { environment } from 'src/environments/environment';
@@ -13,7 +13,16 @@ export class ProductsComponent implements OnInit {
 
   product: Product[] = [];
 
-  constructor(private productService:ProductService, private http: HttpClient) { }
+  innerWidth: number = 0;
+
+  @HostListener('window:resize', ['$event'])
+  onResize() {
+    this.innerWidth = window.innerWidth;
+  }
+
+  constructor(private productService:ProductService, private http: HttpClient) { 
+    this.innerWidth = window.innerWidth;
+  }
 
   ngOnInit(
     

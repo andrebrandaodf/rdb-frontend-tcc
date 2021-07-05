@@ -1,9 +1,9 @@
-<div id="product" class="page-product bg-product">
+<div id="product" class="bg-product" [ngClass]="{'pages': innerWidth >= 992}">
   <div class="container h-100">
 
     <div class="row d-flex align-items-center justify-content-center h-100">
 
-      <div class="col-5 d-flex flex-column align-items-center justify-content-start">
+      <div class="col-lg-5 col-12 d-flex flex-column align-items-center justify-content-start">
 
         <h1 class="titleProduct">BUSCA DE MEDICAMENTO</h1>
 
@@ -42,7 +42,7 @@
 
       </div>
 
-      <div class="col-7 d-flex align-items-center justify-content-end">
+      <div class="col-lg-7 col-12 d-flex align-items-center justify-content-end">
 
         <div class="col-8">
           <a style="text-decoration: none;" download href="/assets/pdf/Catalogo-Completo.pdf">

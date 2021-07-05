@@ -1,11 +1,8 @@
-.page-about {
-  height: 100vh;
-}
-
 .titleAbout {
   font-family: "Montserrat";
   color: #25aa76;
   font-size: 3rem;
+  line-height: 3rem;
 }
 
 .titleAboutStrong {

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-timeline',
@@ -7,7 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TimelineComponent implements OnInit {
 
-  constructor() { }
+  innerWidth: number = 0;
+
+  @HostListener('window:resize', ['$event'])
+  onResize() {
+    this.innerWidth = window.innerWidth;
+  }
+
+  constructor() { 
+    this.innerWidth = window.innerWidth;
+  }
 
   ngOnInit(): void {
   }
