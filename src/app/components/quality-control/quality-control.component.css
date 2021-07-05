@@ -2,8 +2,6 @@ a{
     text-decoration: none;
 }
 .bg-controleQualidade {
-    /* padding-top: 10rem;
-    padding-bottom: calc(10rem - 4.5rem); */
     background: url("/assets/img/photopea/controleQualidade.png");
     background-position: center;
     background-repeat: no-repeat;
