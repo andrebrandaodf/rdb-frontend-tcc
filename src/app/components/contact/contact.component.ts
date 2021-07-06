@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, HostListener } from '@angular/core';
 import { Client } from '../model/client.model';
 import { ClientService } from '../service/client.service';
 import { Router } from '@angular/router';
@@ -10,6 +10,13 @@ import { FormBuilder, Validators } from '@angular/forms';
   styleUrls: ['./contact.component.css']
 })
 export class ContactComponent implements OnInit {
+
+  innerWidth: number = 0;
+
+  @HostListener('window:resize', ['$event'])
+  onResize() {
+    this.innerWidth = window.innerWidth;
+  }
 
   clients: Client = {
     talkTo: '',
@@ -45,18 +52,17 @@ export class ContactComponent implements OnInit {
     private fb: FormBuilder,
     private router: Router,
   ) {
-
+    this.innerWidth = window.innerWidth;
   }
 
   ngOnInit(): void {
   }
 
   createClient(): void {
-    this.clientService.create(this.formContact.value).subscribe(() => {
-      this.clientService.showMessage('Mensagem enviada!')
-      this.router.navigate(['/contact'])
-    })
-
+    // this.clientService.create(this.formContact.value).subscribe(() => {
+    //   this.clientService.showMessage('Mensagem enviada!')
+    //   this.router.navigate(['/contact'])
+    // })
   }
 
   cancel(): void {

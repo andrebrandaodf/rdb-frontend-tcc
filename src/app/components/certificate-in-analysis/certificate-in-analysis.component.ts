@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-certificate-in-analysis',
@@ -6,10 +6,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./certificate-in-analysis.component.css']
 })
 export class CertificateInAnalysisComponent implements OnInit {
+  innerWidth: number = 0;
 
-  constructor() { }
+  @HostListener('window:resize', ['$event'])
+  onResize() {
+    this.innerWidth = window.innerWidth;
+  }
+
+  constructor() {
+    this.innerWidth = window.innerWidth;
+   }
 
   ngOnInit(): void {
   }
-
 }
