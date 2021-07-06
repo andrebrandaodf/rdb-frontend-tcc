@@ -10800,7 +10800,7 @@ hr.divider-light {
     }
 }
 
-header.masthead {
+/* header.masthead {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 4.5rem);
     background: url("/assets/img/photopea/home.png");
@@ -10813,7 +10813,7 @@ header.masthead {
 header.masthead h1,
 header.masthead .h1 {
     font-size: 2.25rem;
-}
+} */
 
 @media (min-width: 992px) {
     header.masthead {
@@ -11134,5 +11134,5 @@ h1.teste{
     height: 100vh;
 }
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+/* html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */
