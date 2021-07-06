@@ -8,7 +8,6 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
 import { AboutUsComponent } from './components/about-us/about-us.component';
 import { ProductsComponent } from './components/products/products.component';
-import { WorkWithUsComponent } from './components/work-with-us/work-with-us.component';
 import { CertificateInAnalysisComponent } from './components/certificate-in-analysis/certificate-in-analysis.component';
 import { NewsComponent } from './components/news/news.component';
 import { SacComponent } from './components/sac/sac.component';
@@ -45,7 +44,6 @@ import { NgxMaskModule } from 'ngx-mask';
     HomeComponent,
     AboutUsComponent,
     ProductsComponent,
-    WorkWithUsComponent,
     CertificateInAnalysisComponent,
     NewsComponent,
     SacComponent,

@@ -14,7 +14,9 @@ export class AboutUsComponent implements OnInit {
     this.innerWidth = window.innerWidth;
   }
 
-  constructor() { }
+  constructor() {
+    this.innerWidth = window.innerWidth;
+   }
 
   ngOnInit(): void {
   }
