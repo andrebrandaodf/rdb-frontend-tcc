@@ -1,14 +1,12 @@
-<div id="blog" class="page bg-controleQualidade">
-    <div class="container-fluid h-100">
+<div id="blog" class="bg-controleQualidade" [ngClass]="{'pages': innerWidth >= 992}">
+    <div class="container h-100">
         <div class="row d-flex align-items-center justify-content-center h-100">
-            <div class="col-lg-4 col-xl-4 text-center">
-            </div>
-            <div class="col-lg-4 col-xl-4 text-center">
-                <h1 class="title">CONTROLE DE QUALIDADE</h1>
-                <h3 class="subtitle">Da concepção, à produção e distribuição: qualidade de ponta a
+            <div class="col-lg-4 col-12 d-flex flex-column align-items-center justify-content-center">
+                <div class="card-title">
+                    <h1 class="title">CONTROLE DE QUALIDADE</h1>
+                    <h3 class="subtitle">Da concepção, à produção e distribuição: qualidade de ponta a
                         ponta!</h3>
-            </div>
-            <div class="col-lg-4 col-xl-4 text-center">
+                </div>
             </div>
         </div>
     </div>

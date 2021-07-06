@@ -34,20 +34,59 @@ h3 {
 .description {
     position: absolute;
 }
-.title{
-    font-family: 'Montserrat-ExtraBold';
-    color: #25aa76;
-    font-size: 3.0rem;
-    font-weight: bolder; 
-    border: #25aa76;
-    line-height: 3rem;
+
+@media screen and (min-width: 992px) {
+    .title {
+        line-height: 3rem;
+        font-family: "Montserrat-ExtraBold";
+        color: #25aa76;
+        font-size: 3rem;
+        font-weight: bolder;
+        padding-bottom: 1rem;
+        text-align: center;
+    }
+
+    .subtitle {
+        line-height: 2rem;
+        font-family: "Montserrat";
+        color: #25aa76;
+        font-size: 2rem;
+        font-weight: bolder;
+        padding-top: 1rem;
+        font-style: italic;
+        text-align: center;
+    }
+    .card-title {
+        position: relative;
+        padding: 2rem 4rem;
+        border-radius: 40px 0 0 40px;
+    }
 }
 
-.subtitle{
-    font-family: 'Montserrat-ExtraBold';
-    color: #25aa76;
-    font-size: 2.0rem;
-    font-weight: bolder; 
-    border: #25aa76;
-    line-height: 2rem;
+@media screen and (max-width: 992px) {
+    .title {
+        line-height: 3rem;
+        font-family: "Montserrat-ExtraBold";
+        color: #25aa76;
+        font-size: 3rem;
+        font-weight: bolder;
+        padding-bottom: 1rem;
+        text-align: center;
+    }
+
+    .subtitle {
+        line-height: 2rem;
+        font-family: "Montserrat";
+        color: #25aa76;
+        font-size: 2rem;
+        font-weight: bolder;
+        padding-top: 1rem;
+        font-style: italic;
+        text-align: center;
+    }
+    .card-title {
+        position: relative;
+        padding: 2rem 4rem;
+        border-radius: 40px 0 0 40px;
+    }
 }
