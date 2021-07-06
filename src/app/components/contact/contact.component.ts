@@ -18,15 +18,6 @@ export class ContactComponent implements OnInit {
     this.innerWidth = window.innerWidth;
   }
 
-  clients: Client = {
-    talkTo: '',
-    name: '',
-    email: '',
-    phone: '',
-    subjectMatter: '',
-    message: ''
-  }
-
   formContact = this.fb.group({
     talkTo: [null, [Validators.required]],
     name: [null, [Validators.required]],
