@@ -1,14 +1,17 @@
-<div id="lgpd" class="page-lgpd bg-lgpd">
-    <div class="container-fluid h-100">
+<div id="lgpd" class="bg-lgpd" [ngClass]="{'pages': innerWidth >= 992}">
+    <div class="container h-100">
         <div class="row d-flex align-items-center justify-content-end h-100">
-            <div class="col-lg-0 col-xl-3">
+            <div class="col-lg-12 col-12 d-flex flex-column align-items-end justify-content-end">
                 <a href="https://www.hipolabor.com.br/blog/setor-da-saude-se-prepara-para-atender-a-lgpd/"
                     target="_blank">
-                    <h1 class="titleLgpd m-0">LGPD</h1>
-                    <h2 class="subtitle justify-content-end h-100 py-5">
+                    <div class="card-title">
+                    <h1 class="title">LGPD</h1>
+                    
+                    <h2 class="subtitle">
                         Seus dados em segurança. Saiba mais aqui.</h2>
+                    </div>
                 </a>
             </div>
         </div>
     </div>
-</div>
+</div> 

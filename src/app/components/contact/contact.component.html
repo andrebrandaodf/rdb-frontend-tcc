@@ -1,10 +1,10 @@
-<div id="contact" class="page-contact bg-contact">
+<div id="contact" class="bg-contact" [ngClass]="{'pages': innerWidth >= 992}">
     <div class="container h-100">
 
-        <div class="row  d-flex align-items-center justify-content-center h-100">
+        <div class="row d-flex align-items-center justify-content-center h-100">
 
             <!-- ========= FORM ========= -->
-            <div class="col-7">
+            <div class="col-lg-7">
                 <h1 class="titleContact">CONTATO</h1>
 
                 <form id="contactForm" [formGroup]="formContact">

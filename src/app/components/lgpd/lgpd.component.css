@@ -1,9 +1,6 @@
 a{
     text-decoration: none;
 }
-.page-lgpd {
-    height: 80vh;
-}
 
 .bg-lgpd{
     /* padding-top: 10rem;
@@ -14,19 +11,62 @@ a{
     background-attachment: scroll;
     background-size: cover;
 }
-.titleLgpd{
-    font-family: 'Montserrat-ExtraBold';
-    color: #fff;
-    font-size: 6.0rem;
-    font-weight: bolder; 
-    border: #fff;
+
+
+
+@media screen and (min-width: 992px) {
+    .title {
+        line-height: 3rem;
+        font-family: "Montserrat-ExtraBold";
+        color: #fff;
+        font-size: 6rem;
+        font-weight: bolder;
+        padding-bottom: 1rem;
+        text-align: end;
+    }
+
+    .subtitle {
+        line-height: 2rem;
+        font-family: "Montserrat";
+        color: #fff;
+        font-size: 2rem;
+        font-weight: bolder;
+        padding-top: 1rem;
+        font-style: italic;
+        text-align: end;
+    }
+    .card-title {
+        position: relative;
+        padding: 2rem 4rem;
+        border-radius: 40px 0 0 40px;
+    }
 }
 
-.subtitle{
-    font-family: 'Montserrat-ExtraBold';
-    color: #fff;
-    font-size: 2rem;
-    font-weight: bolder; 
-    border: #fff;
+@media screen and (max-width: 992px) {
+    .title {
+        line-height: 3rem;
+        font-family: "Montserrat-ExtraBold";
+        color: #fff;
+        font-size: 6rem;
+        font-weight: bolder;
+        padding-bottom: 1rem;
+        text-align: end;
+    }
+
+    .subtitle {
+        line-height: 2rem;
+        font-family: "Montserrat";
+        color: #fff;
+        font-size: 2rem;
+        font-weight: bolder;
+        padding-top: 1rem;
+        font-style: italic;
+        text-align: end;
+    }
+    .card-title {
+        position: relative;
+        padding: 2rem 4rem;
+        border-radius: 40px 0 0 40px;
+    }
 }
 
