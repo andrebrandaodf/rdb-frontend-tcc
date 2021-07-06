@@ -37,10 +37,10 @@ h3 {
 
 @media screen and (min-width: 992px) {
     .title {
-        line-height: 3rem;
+        line-height: 2.5rem;
         font-family: "Montserrat-ExtraBold";
         color: #25aa76;
-        font-size: 3rem;
+        font-size: 2.5rem;
         font-weight: bolder;
         padding-bottom: 1rem;
         text-align: center;
@@ -65,10 +65,10 @@ h3 {
 
 @media screen and (max-width: 992px) {
     .title {
-        line-height: 3rem;
+        line-height: 2.5rem;
         font-family: "Montserrat-ExtraBold";
         color: #25aa76;
-        font-size: 3rem;
+        font-size: 2.5rem;
         font-weight: bolder;
         padding-bottom: 1rem;
         text-align: center;
