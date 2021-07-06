@@ -4,13 +4,13 @@
         <div class="row d-flex align-items-center justify-content-center h-100">
 
             <!-- ========= FORM ========= -->
-            <div class="col-lg-7">
+            <div class="col-lg-7 col-12">
                 <h1 class="titleContact">CONTATO</h1>
 
                 <form id="contactForm" [formGroup]="formContact">
 
                     <!-- Option input -->
-                    <div class="form-floating mb-3 ">
+                    <div class="form-floating mb-3">
                         <select class="form-select borderContact" formControlName="talkTo" name="talkTo">
                             <option disabled value="null">Deseja falar com</option>
                             <option value="sac@hipolabor.com.br">Elogios</option>
@@ -60,13 +60,14 @@
                         <textarea class="form-control borderContact" id="message" type="text" style="height: 10rem"
                             formControlName="message" data-sb-validations="required"></textarea>
                         <label for="message">Mensagem</label>
-                        <div class="invalid-feedback" data-sb-feedback="message:required">Necessário inserir mensagem!</div>
+                        <div class="invalid-feedback" data-sb-feedback="message:required">Necessário inserir mensagem!
+                        </div>
                     </div>
 
                     <!-- Submit Form -->
                     <div class="d-flex flex-row-reverse">
                         <button mat-raised-button (click)="createClient()" type="button"
-                            class="btnContact borderContact btn btn-outline-success">Enviar
+                            class="btnSend btnContact borderContact btn btn-outline-success">Enviar
                         </button>
                     </div>
                 </form>
@@ -74,9 +75,9 @@
             </div>
 
             <!-- ========= INFO ========= -->
-            <div class="col-5 d-flex flex-column align-items-end justify-content-center h-100">
+            <div class="col-lg-5 col-12 info-footer">
 
-                <div class="d-flex flex-column align-items-center justify-content-center h-100">
+                <div class="d-flex flex-column align-items-center justify-content-center">
                     <a class="w-100" href="https://app.protegon.com.br/#/external_incident_complaint/234702d1"
                         target="_blank">
                         <div class="d-flex align-items-center justify-content-end">
