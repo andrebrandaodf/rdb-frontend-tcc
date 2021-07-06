@@ -1,75 +1,155 @@
-.injectable{
-    background-color: #25aa76;
-    color: #fff;
-    font-size: 2rem;
-    font-family: 'Montserrat-ExtraBold';
-    font-weight: bolder;
-    padding: 24px 48px;
-    border-radius: 50px 0 0 50px;
-}
-.liquidos{
-    background-color: #2d55a5;
-    color: #fff;
-    font-size: 2rem;
-    font-family: 'Montserrat-ExtraBold';
-    font-weight: bolder;
-    padding: 24px 48px;
-    border-radius: 50px 0 0 50px;
-}
-.solidos{
-    background-color: #8e3d97;
-    color: #fff;
-    font-size: 2rem;
-    font-family: 'Montserrat-ExtraBold';
-    font-weight: bolder;
-    padding: 24px 48px;
-    border-radius: 50px 0 0 50px;
-}
-.semisolidos{
-    background-color: #ce2027;
-    color: #fff;
-    font-size: 2rem;
-    font-family: 'Montserrat-ExtraBold';
-    font-weight: bolder;
-    padding: 24px 48px;
-    border-radius: 50px 0 0 50px;
+@media screen and (min-width: 992px) {
+    .titleProduct {
+        line-height: 3rem;
+        font-family: "Montserrat-ExtraBold";
+        color: #25aa76;
+        font-size: 3rem;
+        font-weight: bolder;
+        padding-bottom: 4rem;
+        text-align: start;
+    }
+
+    .subtitle {
+        line-height: 2rem;
+        font-family: "Montserrat";
+        color: #25aa76;
+        font-size: 2rem;
+        font-weight: bolder;
+        padding-top: 4rem;
+        font-style: italic;
+        text-align: start;
+    }
+
+    .catalog {
+        line-height: 1rem;
+        font-family: "Montserrat-ExtraBold";
+        color: #25aa76;
+        font-size: 1rem;
+        font-weight: bolder;
+    }
+
+    .manufacturer {
+        width: 100%;
+        font-weight: bolder;
+        text-align: center;
+        background: #25aa76;
+        border-radius: 40px;
+        color: #fff;
+        padding: 8px 0;
+    }
+
+    .injectable {
+        background-color: #25aa76;
+        color: #fff;
+        font-size: 2rem;
+        font-family: "Montserrat-ExtraBold";
+        font-weight: bolder;
+        padding: 24px 48px;
+        border-radius: 50px 0 0 50px;
+    }
+    .liquidos {
+        background-color: #2d55a5;
+        color: #fff;
+        font-size: 2rem;
+        font-family: "Montserrat-ExtraBold";
+        font-weight: bolder;
+        padding: 24px 48px;
+        border-radius: 50px 0 0 50px;
+    }
+    .solidos {
+        background-color: #8e3d97;
+        color: #fff;
+        font-size: 2rem;
+        font-family: "Montserrat-ExtraBold";
+        font-weight: bolder;
+        padding: 24px 48px;
+        border-radius: 50px 0 0 50px;
+    }
+    .semisolidos {
+        background-color: #ce2027;
+        color: #fff;
+        font-size: 2rem;
+        font-family: "Montserrat-ExtraBold";
+        font-weight: bolder;
+        padding: 24px 48px;
+        border-radius: 50px 0 0 50px;
+    }
 }
 
-.texto{
-    color: #25aa76;
-    font-size: 30px;
-    font-weight: bolder;
+@media screen and (max-width: 992px) {
+    .titleProduct {
+        line-height: 2rem;
+        font-family: "Montserrat-ExtraBold";
+        color: #25aa76;
+        font-size: 2rem;
+        font-weight: bolder;
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    .subtitle {
+        line-height: 1.5rem;
+        font-family: "Montserrat";
+        color: #25aa76;
+        font-size: 1.5rem;
+        font-weight: bolder;
+        font-style: italic;
+        text-align: center;
+    }
+
+    .catalog {
+        line-height: 1rem;
+        font-family: "Montserrat-ExtraBold";
+        color: #25aa76;
+        font-size: 1rem;
+        font-weight: bolder;
+    }
+
+    .manufacturer {
+        width: 100%;
+        font-weight: bolder;
+        text-align: center;
+        background: #25aa76;
+        border-radius: 40px;
+        color: #fff;
+        padding: 8px 0;
+        margin-bottom: 2rem;
+    }
+
+    .injectable {
+        background-color: #25aa76;
+        color: #fff;
+        font-size: 1.5rem;
+        font-family: "Montserrat-ExtraBold";
+        font-weight: bolder;
+        padding: 24px 48px;
+        border-radius: 50px 0 0 50px;
+    }
+    .liquidos {
+        background-color: #2d55a5;
+        color: #fff;
+        font-size: 1.5rem;
+        font-family: "Montserrat-ExtraBold";
+        font-weight: bolder;
+        padding: 24px 48px;
+        border-radius: 50px 0 0 50px;
+    }
+    .solidos {
+        background-color: #8e3d97;
+        color: #fff;
+        font-size: 1.5rem;
+        font-family: "Montserrat-ExtraBold";
+        font-weight: bolder;
+        padding: 24px 48px;
+        border-radius: 50px 0 0 50px;
+    }
+    .semisolidos {
+        background-color: #ce2027;
+        color: #fff;
+        font-size: 1.5rem;
+        font-family: "Montserrat-ExtraBold";
+        font-weight: bolder;
+        padding: 24px 48px;
+        border-radius: 50px 0 0 50px;
+    }
 }
-
-.titleProduct{
-    line-height: 3rem;
-    font-family: 'Montserrat-ExtraBold';
-    color: #25aa76;
-    font-size: 3.0rem;
-    font-weight: bolder;
-    border: #25aa76;
-}
-
-.manufacturer {
-    width: 150px;
-    font-weight: bolder;
-    text-align: center;
-    padding: 8px;
-    background: #25aa76;
-    border-radius: 40px;
-    color: #fff;
-}
-
-.bg-product{
-
-    /* padding-top: 10rem;
-    padding-bottom: calc(10rem - 4.5rem); */
-    background-image: url("/assets/img/photopea/fundoMedicamentos.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-
-}
-
-
