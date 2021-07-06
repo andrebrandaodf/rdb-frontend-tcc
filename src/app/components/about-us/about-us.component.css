@@ -1,20 +1,62 @@
-.titleAbout {
-  font-family: "Montserrat";
-  color: #25aa76;
-  font-size: 3rem;
-  line-height: 3rem;
+@media screen and (min-width: 992px) {
+  .titleAbout {
+    font-family: "Montserrat";
+    color: #25aa76;
+    font-size: 3rem;
+    line-height: 3rem;
+    padding: 4rem 0 3rem 0;
+    margin: 0;
+  }
+
+  .titleAboutStrong {
+    color: #25aa76;
+    font-size: 3rem;
+    font-family: "Montserrat-ExtraBold";
+    font-weight: bolder;
+  }
+
+  .titleCard {
+    color: #25aa76;
+    font-size: 2rem;
+    font-family: "Montserrat-ExtraBold";
+    font-weight: bolder;
+  }
+
+  .content-about {
+    height: 40vh;
+  }
+
+  .content-img {
+    height: 60vh;
+  }
 }
 
-.titleAboutStrong {
-  color: #25aa76;
-  font-size: 3rem;
-  font-family: "Montserrat-ExtraBold";
-  font-weight: bolder;
-}
+@media screen and (max-width: 992px) {
+  .titleAbout {
+    font-family: "Montserrat";
+    color: #25aa76;
+    font-size: 2rem;
+    line-height: 2rem;
+    padding: 2rem 0;
+    margin: 0;
+  }
 
-.titleCard {
-  color: #25aa76;
-  font-size: 2rem;
-  font-family: "Montserrat-ExtraBold";
-  font-weight: bolder;
+  .titleAboutStrong {
+    color: #25aa76;
+    font-size: 2rem;
+    font-family: "Montserrat-ExtraBold";
+    font-weight: bolder;
+  }
+
+  .titleCard {
+    color: #25aa76;
+    font-size: 1.5rem;
+    font-family: "Montserrat-ExtraBold";
+    font-weight: bolder;
+    margin: 0;
+  }
+
+  .content-about {
+    padding-bottom: 2rem;
+  }
 }
