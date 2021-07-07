@@ -8,6 +8,19 @@
     padding: 4rem 0 3rem 0;
     margin: 0;
   }
+
+  .view-more {
+    background-color: #fff;
+    color: #25aa76;
+    border: 2px solid transparent;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .view-more:hover {
+    background-color: #25aa76;
+    color: #fff;
+    border: 2px solid #fff;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -17,5 +30,19 @@
     margin-top: 2rem;
     border: #fff;
     line-height: 2rem;
+  }
+
+  .view-more {
+    width: 100%;
+    background-color: #fff;
+    color: #25aa76;
+    border: 2px solid transparent;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .view-more:hover {
+    background-color: #25aa76;
+    color: #fff;
+    border: 2px solid #fff;
   }
 }
