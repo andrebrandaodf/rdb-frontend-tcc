@@ -25,9 +25,14 @@ export class BlogComponent implements OnInit {
 
   constructor(private blogService: BlogService) {
     this.innerWidth = window.innerWidth;
-  }
+   }
 
   ngOnInit(): void {
+    this.getBlogPage();
+  }
+
+  getNewPage() {
+    this.pagination.pageNumber ++;
     this.getBlogPage();
   }
 

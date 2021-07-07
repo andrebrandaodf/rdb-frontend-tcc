@@ -1,6 +1,6 @@
 import { Component, HostListener, OnInit } from '@angular/core';
-import { ProductService } from '../service/product.service';
-import { Product } from '../model/product.model';
+import { ProductService } from '../../core/service/product.service';
+import { Product } from '../../core/model/product.model';
 import { environment } from 'src/environments/environment';
 import { HttpClient } from '@angular/common/http';
 
