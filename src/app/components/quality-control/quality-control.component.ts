@@ -16,7 +16,7 @@ export class QualityControlComponent implements OnInit {
 
   constructor() {
     this.innerWidth = window.innerWidth;
-   }
+  }
 
   ngOnInit(): void {
   }

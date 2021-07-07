@@ -20,18 +20,18 @@ export class ProductsComponent implements OnInit {
     this.innerWidth = window.innerWidth;
   }
 
-  constructor(private productService:ProductService, private http: HttpClient) { 
+  constructor(private productService: ProductService, private http: HttpClient) {
     this.innerWidth = window.innerWidth;
   }
 
   ngOnInit(
-    
+
   ): void {
-    
+
   }
 
   readById(id: number) {
     const url = `${environment.baseUrl}/product/${id}`;
     return this.http.get<Product>(url);
-  } 
+  }
 }

@@ -1,21 +1,21 @@
 @media screen and (min-width: 992px) {
-    .titleNews {
-        color: #fff;
-        font-size: 3rem;
-        margin: 40px 0;
-        border: #fff;
-        line-height: 3rem;
-        padding: 4rem 0 3rem 0;
-        margin: 0;
-    }
+  .titleNews {
+    color: #fff;
+    font-size: 3rem;
+    margin: 40px 0;
+    border: #fff;
+    line-height: 3rem;
+    padding: 4rem 0 3rem 0;
+    margin: 0;
+  }
 }
 
 @media screen and (max-width: 992px) {
-    .titleNews {
-        color: #fff;
-        font-size: 2rem;
-        margin-top: 2rem;
-        border: #fff;
-        line-height: 2rem;
-    }
+  .titleNews {
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 2rem;
+    border: #fff;
+    line-height: 2rem;
+  }
 }

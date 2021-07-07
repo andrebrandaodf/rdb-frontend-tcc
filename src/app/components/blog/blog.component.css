@@ -1,39 +1,51 @@
-.bg-blog {
-    background-image: url("/assets/img/blogHipolabor.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-}
-
-.borderBlog {
-    border-radius: 10px !important;
-}
-
-.titleBlog {
+@media screen and (min-width: 992px) {
+  .titleBlog {
+    font-family: "Montserrat";
     color: #25aa76;
     font-size: 3rem;
     line-height: 3rem;
-    margin: 40px 0;
-    border: #25aa76;
-    font-weight: initial !important;
-    padding: 4rem 0 3rem 0;
-    margin: 0;
-}
+    padding-bottom: 1rem;
+    text-align: center;
+    padding: 4rem 0 1rem 0;
+  }
 
-.blogTeste {
-    background-color: #25aa76;
-}
-
-.title-card {
+  .title-card {
+    font-family: "Montserrat-ExtraBold";
     color: #25aa76;
-    font-weight: bold;
-}
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: bolder;
+    margin: 1.5rem 0 1rem 0;
+    text-align: center;
+  }
 
-@media screen and (min-width: 992px) {
-
+  .card-blog {
+    padding-bottom: 4rem;
+  }
 }
 
 @media screen and (max-width: 992px) {
-    
+  .titleBlog {
+    font-family: "Montserrat";
+    color: #25aa76;
+    font-size: 2rem;
+    line-height: 2rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    padding-top: 2rem;
+  }
+
+  .title-card {
+    font-family: "Montserrat-ExtraBold";
+    color: #25aa76;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: bolder;
+    margin: 1.5rem 0 1rem 0;
+    text-align: center;
+  }
+
+  .card-blog {
+    padding-bottom: 4rem;
+  }
 }

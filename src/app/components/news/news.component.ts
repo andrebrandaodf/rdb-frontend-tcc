@@ -14,7 +14,7 @@ export class NewsComponent implements OnInit {
     this.innerWidth = window.innerWidth;
   }
 
-  constructor() { 
+  constructor() {
     this.innerWidth = window.innerWidth;
   }
 

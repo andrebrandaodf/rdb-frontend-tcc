@@ -8,12 +8,9 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
 import { AboutUsComponent } from './components/about-us/about-us.component';
 import { ProductsComponent } from './components/products/products.component';
-import { CertificateInAnalysisComponent } from './components/certificate-in-analysis/certificate-in-analysis.component';
 import { NewsComponent } from './components/news/news.component';
-import { SacComponent } from './components/sac/sac.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { BlogComponent } from './components/blog/blog.component';
-import { FooterComponent } from './components/footer/footer.component';
 import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
@@ -44,12 +41,9 @@ import { NgxMaskModule } from 'ngx-mask';
     HomeComponent,
     AboutUsComponent,
     ProductsComponent,
-    CertificateInAnalysisComponent,
     NewsComponent,
-    SacComponent,
     ContactComponent,
     BlogComponent,
-    FooterComponent,
     LgpdComponent,
     QualityControlComponent,
     InfoVigiComponent,
