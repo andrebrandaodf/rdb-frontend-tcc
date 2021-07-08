@@ -1,15 +1,15 @@
 
 import { Injectable } from "@angular/core";
-import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { Observable, EMPTY } from 'rxjs';
-import { Client } from '../model/client.model';
 import { environment } from 'src/environments/environment.prod';
+import { Contact } from '../model/contact.model';
 
 @Injectable({
     providedIn: 'root'
 })
-export class ClientService{
+export class ContactService{
     baseUrl= environment.baseUrl;
 
     constructor(private snackBar: MatSnackBar, private http: HttpClient){
@@ -25,8 +25,8 @@ export class ClientService{
         });
     }
 
-    create(clients: Client): Observable<any>{
-        return this.http.post(`${this.baseUrl}/contact`, clients,);
+    create(contact: Contact): Observable<any>{
+        return this.http.post(`${this.baseUrl}/contact`, contact,);
     }
 
     errorHandler(e: any): Observable<any>{

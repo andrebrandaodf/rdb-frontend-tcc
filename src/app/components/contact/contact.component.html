@@ -13,14 +13,8 @@
           <div class="form-floating mb-3">
             <select class="form-select borderContact" formControlName="talkTo" name="talkTo">
               <option disabled value="null">Deseja falar com</option>
-              <option value="sac@hipolabor.com.br">Elogios</option>
-              <option value="sac@hipolabor.com.br">Sugestões e Críticas</option>
-              <option value="sac@hipolabor.com.br">Dúvidas produtos Hipolabor</option>
-              <option value="sac@hipolabor.com.br">Reclamações técnicas produtos Hipolabor</option>
-              <option value="sac@hipolabor.com.br">Reclamações comerciais</option>
-              <option value="rh@hipolabor.com.br">Oportunidades de emprego Hipolabor</option>
-              <option value="marketing@hipolabor.com.br">Senha profissional de saúde</option>
-              <option value="sac@hipolabor.com.br">Evento adverso</option>
+              <option *ngFor="let talk of optionsContact " [value]="talk.value">{{talk.valueView}}</option>
+              
             </select>
           </div>
 
@@ -65,8 +59,7 @@
 
           <!-- Submit Form -->
           <div class="d-flex flex-row-reverse">
-            <button mat-raised-button (click)="createClient()" type="button"
-              [disabled]="formContact.invalid"
+            <button mat-raised-button (click)="createContact()" type="button" [disabled]="formContact.invalid"
               class="btnSend btnContact borderContact btn btn-outline-success">
               Enviar
             </button>
@@ -79,8 +72,7 @@
       <div class="col-lg-5 col-12 info-footer">
 
         <div class="d-flex flex-md-row flex-lg-column flex-md-row-reverse flex-column
-        align-items-start justify-content-center mb-md-5"
-          [ngClass]="{'w-100': innerWidth >= 768 && innerWidth < 992}">
+        align-items-start justify-content-center mb-md-5" [ngClass]="{'w-100': innerWidth >= 768 && innerWidth < 992}">
 
           <div class="w-100">
             <a class="w-100" href="https://app.protegon.com.br/#/external_incident_complaint/234702d1" target="_blank">
@@ -126,12 +118,8 @@
               </ul>
             </div>
           </div>
-
-
         </div>
-
       </div>
-
     </div>
   </div>
 </div>
