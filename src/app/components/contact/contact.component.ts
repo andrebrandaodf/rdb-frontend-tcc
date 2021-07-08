@@ -1,6 +1,6 @@
 import { Component, OnInit, HostListener } from '@angular/core';
-import { Client } from '../model/client.model';
-import { ClientService } from '../service/client.service';
+import { Client } from '../../core/model/client.model';
+import { ClientService } from '../../core/service/client.service';
 import { Router } from '@angular/router';
 import { FormBuilder, Validators } from '@angular/forms';
 
@@ -50,10 +50,10 @@ export class ContactComponent implements OnInit {
   }
 
   createClient(): void {
-    // this.clientService.create(this.formContact.value).subscribe(() => {
-    //   this.clientService.showMessage('Mensagem enviada!')
-    //   this.router.navigate(['/contact'])
-    // })
+    this.clientService.create(this.formContact.value).subscribe(() => {
+      this.clientService.showMessage('Mensagem enviada!')
+      this.router.navigate(['/contact'])
+    })
   }
 
   cancel(): void {

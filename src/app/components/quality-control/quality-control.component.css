@@ -1,92 +1,43 @@
-a{
-    text-decoration: none;
-}
-.bg-controleQualidade {
-    background: url("/assets/img/photopea/controleQualidade.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-}
-
-h1 {
-    color: #03b17d;
-    font-size: 40px;
-    font-weight: bold;
-}
-
-h3 {
-    text-align: center;
-    text-align: center;
-    color: #03b17d;
-    font-size: 22px;
-    font-weight: bold;
-}
-
-.page {
-    height: 80vh;
-}
-
-.img-bg {
-    width: 100%;
-}
-
-.description {
-    position: absolute;
-}
-
 @media screen and (min-width: 992px) {
-    .title {
-        line-height: 2.5rem;
-        font-family: "Montserrat-ExtraBold";
-        color: #25aa76;
-        font-size: 2.5rem;
-        font-weight: bolder;
-        padding-bottom: 1rem;
-        text-align: center;
-    }
+  .title {
+    font-family: "Montserrat-ExtraBold";
+    color: #25aa76;
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: bolder;
+    padding: 5rem 0 1rem 0;
+    text-align: center;
+  }
 
-    .subtitle {
-        line-height: 2rem;
-        font-family: "Montserrat";
-        color: #25aa76;
-        font-size: 2rem;
-        font-weight: bolder;
-        padding-top: 1rem;
-        font-style: italic;
-        text-align: center;
-    }
-    .card-title {
-        position: relative;
-        padding: 2rem 4rem;
-        border-radius: 40px 0 0 40px;
-    }
+  .subtitle {
+    font-family: "Montserrat-ExtraBold";
+    color: #25aa76;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 5rem;
+  }
 }
 
 @media screen and (max-width: 992px) {
-    .title {
-        line-height: 2.5rem;
-        font-family: "Montserrat-ExtraBold";
-        color: #25aa76;
-        font-size: 2.5rem;
-        font-weight: bolder;
-        padding-bottom: 1rem;
-        text-align: center;
-    }
+  .title {
+    font-family: "Montserrat-ExtraBold";
+    color: #25aa76;
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: bolder;
+    padding: 6rem 0 1rem 0;
+    text-align: center;
+  }
 
-    .subtitle {
-        line-height: 2rem;
-        font-family: "Montserrat";
-        color: #25aa76;
-        font-size: 2rem;
-        font-weight: bolder;
-        padding-top: 1rem;
-        font-style: italic;
-        text-align: center;
-    }
-    .card-title {
-        position: relative;
-        padding: 2rem 4rem;
-        border-radius: 40px 0 0 40px;
-    }
+  .subtitle {
+    font-family: "Montserrat-ExtraBold";
+    color: #25aa76;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 6rem;
+  }
 }

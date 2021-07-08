@@ -1,8 +1,9 @@
 import { Injectable } from '@angular/core';
 import { MatSnackBar } from '@angular/material/snack-bar';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpParams } from '@angular/common/http';
 import { environment } from 'src/environments/environment.prod';
 import { Blog } from '../model/blog.model';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -19,16 +20,19 @@ export class BlogService {
       panelClass: isError ? ['msg-error'] : ['msg-success'],
     });
   }
-  getAll() {
-    return this.http.get(`${environment.baseUrl}/blog`);
+  getAll(): Observable<any> {
+    return this.http.get(`${environment.baseUrl}/blog-view`);
   }
 
-  read() {
-    return this.http.get(`${environment.baseUrl}/blog`);
+  getWithPagination(pageNumber: any , pageSize: any) {
+    let params = new HttpParams();
+    params = params.append('pageNumber', pageNumber );
+    params = params.append('pageSize', pageSize );
+    return this.http.get(`${environment.baseUrl}/blog-view`, {params});
   }
 
-  readById(id: number) {
-    const url = `${environment.baseUrl}/blog/${id}`;
+  getById(id: number) {
+    const url = `${environment.baseUrl}/blog-view/${id}`;
     return this.http.get<Blog[]>(url);
   } 
 }

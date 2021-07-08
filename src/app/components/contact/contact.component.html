@@ -1,127 +1,137 @@
-<div id="contact" class="bg-contact" [ngClass]="{'pages': innerWidth >= 992}">
-    <div class="container h-100">
+<div id="contact" class="bg-contact" [ngClass]="{'pagesDynamics': innerWidth >= 992}">
+  <div class="container h-100">
 
-        <div class="row d-flex align-items-center justify-content-center h-100">
+    <div class="row d-flex align-items-center justify-content-center h-100">
 
-            <!-- ========= FORM ========= -->
-            <div class="col-lg-7 col-12">
-                <h1 class="titleContact">CONTATO</h1>
+      <!-- ========= FORM ========= -->
+      <div class="col-lg-7 col-12">
+        <h1 class="titleContact">CONTATO</h1>
 
-                <form id="contactForm" [formGroup]="formContact">
+        <form id="contactForm" [formGroup]="formContact">
 
-                    <!-- Option input -->
-                    <div class="form-floating mb-3">
-                        <select class="form-select borderContact" formControlName="talkTo" name="talkTo">
-                            <option disabled value="null">Deseja falar com</option>
-                            <option value="sac@hipolabor.com.br">Elogios</option>
-                            <option value="sac@hipolabor.com.br">Sugestões e Críticas</option>
-                            <option value="sac@hipolabor.com.br">Dúvidas produtos Hipolabor</option>
-                            <option value="sac@hipolabor.com.br">Reclamações técnicas produtos Hipolabor</option>
-                            <option value="sac@hipolabor.com.br">Reclamações comerciais</option>
-                            <option value="rh@hipolabor.com.br">Oportunidades de emprego Hipolabor</option>
-                            <option value="marketing@hipolabor.com.br">Senha profissional de saúde</option>
-                            <option value="sac@hipolabor.com.br">Evento adverso</option>
-                        </select>
-                    </div>
+          <!-- Option input -->
+          <div class="form-floating mb-3">
+            <select class="form-select borderContact" formControlName="talkTo" name="talkTo">
+              <option disabled value="null">Deseja falar com</option>
+              <option value="sac@hipolabor.com.br">Elogios</option>
+              <option value="sac@hipolabor.com.br">Sugestões e Críticas</option>
+              <option value="sac@hipolabor.com.br">Dúvidas produtos Hipolabor</option>
+              <option value="sac@hipolabor.com.br">Reclamações técnicas produtos Hipolabor</option>
+              <option value="sac@hipolabor.com.br">Reclamações comerciais</option>
+              <option value="rh@hipolabor.com.br">Oportunidades de emprego Hipolabor</option>
+              <option value="marketing@hipolabor.com.br">Senha profissional de saúde</option>
+              <option value="sac@hipolabor.com.br">Evento adverso</option>
+            </select>
+          </div>
 
-                    <!-- Name input -->
-                    <div class="form-floating mb-3">
-                        <input class="form-control borderContact" id="name" type="text" formControlName="name"
-                            data-sb-validations="required" />
-                        <label for="name">Nome</label>
-                        <div class="invalid-feedback" data-sb-feedback="name:required">Necessário inserir nome!</div>
-                    </div>
+          <!-- Name input -->
+          <div class="form-floating mb-3">
+            <input class="form-control borderContact" id="name" type="text" formControlName="name"
+              data-sb-validations="required" />
+            <label for="name">Nome</label>
+            <div class="invalid-feedback" data-sb-feedback="name:required">Necessário inserir nome!</div>
+          </div>
 
-                    <!-- Email input -->
-                    <div class="form-floating mb-3">
-                        <input class="form-control borderContact" id="email" type="email" formControlName="email"
-                            data-sb-validations="required,email" />
-                        <label for="email">Email</label>
-                        <div class="invalid-feedback" data-sb-feedback="email:required">Necessário inserir e-mail!</div>
-                        <div class="invalid-feedback" data-sb-feedback="email:email">Email inválido!</div>
-                    </div>
+          <!-- Email input -->
+          <div class="form-floating mb-3">
+            <input class="form-control borderContact" id="email" type="email" formControlName="email"
+              data-sb-validations="required,email" />
+            <label for="email">Email</label>
+            <div class="invalid-feedback" data-sb-feedback="email:required">Necessário inserir e-mail!</div>
+            <div class="invalid-feedback" data-sb-feedback="email:email">Email inválido!</div>
+          </div>
 
-                    <!-- Phone input -->
-                    <div class="form-floating mb-3">
-                        <input class="form-control borderContact" id="phone" type="tel"
-                            mask="(00) 0000-0000||(00) 0 0000-0000" formControlName="phone" />
-                        <label for="phone">Telefone</label>
-                    </div>
+          <!-- Phone input -->
+          <div class="form-floating mb-3">
+            <input class="form-control borderContact" id="phone" type="tel" mask="(00) 0000-0000||(00) 0 0000-0000"
+              formControlName="phone" />
+            <label for="phone">Telefone</label>
+          </div>
 
-                    <!-- Matter input -->
-                    <div class="form-floating mb-3">
-                        <input class="form-control borderContact" id="subjectMatter" type="text"
-                            formControlName="subjectMatter" />
-                        <label for="subjectMatter">Assunto</label>
-                    </div>
+          <!-- Matter input -->
+          <div class="form-floating mb-3">
+            <input class="form-control borderContact" id="subjectMatter" type="text" formControlName="subjectMatter" />
+            <label for="subjectMatter">Assunto</label>
+          </div>
 
-                    <!-- Message input -->
-                    <div class="form-floating mb-3">
-                        <textarea class="form-control borderContact" id="message" type="text" style="height: 10rem"
-                            formControlName="message" data-sb-validations="required"></textarea>
-                        <label for="message">Mensagem</label>
-                        <div class="invalid-feedback" data-sb-feedback="message:required">Necessário inserir mensagem!
-                        </div>
-                    </div>
-
-                    <!-- Submit Form -->
-                    <div class="d-flex flex-row-reverse">
-                        <button mat-raised-button (click)="createClient()" type="button"
-                            class="btnSend btnContact borderContact btn btn-outline-success">Enviar
-                        </button>
-                    </div>
-                </form>
-
+          <!-- Message input -->
+          <div class="form-floating mb-3">
+            <textarea class="form-control borderContact" id="message" type="text" style="height: 10rem"
+              formControlName="message" data-sb-validations="required"></textarea>
+            <label for="message">Mensagem</label>
+            <div class="invalid-feedback" data-sb-feedback="message:required">Necessário inserir mensagem!
             </div>
+          </div>
 
-            <!-- ========= INFO ========= -->
-            <div class="col-lg-5 col-12 info-footer">
+          <!-- Submit Form -->
+          <div class="d-flex flex-row-reverse">
+            <button mat-raised-button (click)="createClient()" type="button"
+              [disabled]="formContact.invalid"
+              class="btnSend btnContact borderContact btn btn-outline-success">
+              Enviar
+            </button>
+          </div>
+        </form>
 
-                <div class="d-flex flex-column align-items-center justify-content-center">
-                    <a class="w-100" href="https://app.protegon.com.br/#/external_incident_complaint/234702d1"
-                        target="_blank">
-                        <div class="d-flex align-items-center justify-content-end">
-                            <div class="border-icon d-flex align-items-center justify-content-center">
-                                <mat-icon style="transform: scale(1.5); color: #25aa76;">check_circle</mat-icon>
-                            </div>
-                            <div class="border-text py-2 w-100">CANAL DE DENÚNCIAS</div>
-                        </div>
-                    </a>
+      </div>
 
-                    <a class="d-flex align-items-center justify-content-end w-100 mt-3 mb-5"
-                        href="https://app.protegon.com.br/#/external_request/d3196ed8" target="_blank">
-                        <img width="250px" src="/assets/img/photopea/protegon.png">
-                    </a>
+      <!-- ========= INFO ========= -->
+      <div class="col-lg-5 col-12 info-footer">
 
-                    <a class="w-100 mb-5" href="https://app.protegon.com.br/#/external_request/d3196ed8"
-                        target="_blank">
-                        <div class="d-flex align-items-center justify-content-end">
-                            <div class="border-icon d-flex align-items-center justify-content-center">
-                                <mat-icon style="transform: scale(1.5); color: #25aa76;">check_circle</mat-icon>
-                            </div>
-                            <div class="border-text py-2 w-100">REQUISIÇÃO DE TITULAR</div>
-                        </div>
-                    </a>
+        <div class="d-flex flex-md-row flex-lg-column flex-md-row-reverse flex-column
+        align-items-start justify-content-center mb-md-5"
+          [ngClass]="{'w-100': innerWidth >= 768 && innerWidth < 992}">
 
-                    <div class="d-flex align-items-center justify-content-end mt-5 w-100">
-                        <i class="bi bi-telephone-fill fs-2 mb-3" style="color: #fff;"></i>
-                        <p class="subtitle-sac">SAC:</p>
-                        <p class="subtitle-number">0800 031 1133</p>
-                    </div>
-
-                    <div class="w-100">
-                        <ul class="social-icons p-0">
-                            <li><a href="#" target="_blank"><i class="bi bi-facebook"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="bi bi-whatsapp"></i></a></li>
-                            <li><a href="https://www.linkedin.com/company/hipolabor-farmaceutica-ltda/"
-                                    target="_blank"><i class="bi bi-linkedin"></i></a></li>
-                            <li><a href="https://www.instagram.com/explore/locations/613148707/hipolabor-farmaceutica/"
-                                    target="_blank"><i class="bi bi-instagram"></i></a></li>
-                        </ul>
-                    </div>
+          <div class="w-100">
+            <a class="w-100" href="https://app.protegon.com.br/#/external_incident_complaint/234702d1" target="_blank">
+              <div class="d-flex align-items-center justify-content-end">
+                <div class="border-icon d-flex align-items-center justify-content-center">
+                  <mat-icon style="transform: scale(1.5); color: #25aa76;">check_circle</mat-icon>
                 </div>
+                <div class="border-text py-2 w-100">CANAL DE DENÚNCIAS</div>
+              </div>
+            </a>
 
+            <a class="d-flex align-items-center justify-content-end w-100 mt-3 mb-5"
+              href="https://app.protegon.com.br/#/external_request/d3196ed8" target="_blank">
+              <img width="250px" src="/assets/img/photopea/protegon.png">
+            </a>
+
+            <a class="w-100 mb-5" href="https://app.protegon.com.br/#/external_request/d3196ed8" target="_blank">
+              <div class="d-flex align-items-center justify-content-end">
+                <div class="border-icon d-flex align-items-center justify-content-center">
+                  <mat-icon style="transform: scale(1.5); color: #25aa76;">check_circle</mat-icon>
+                </div>
+                <div class="border-text py-2 w-100">REQUISIÇÃO DE TITULAR</div>
+              </div>
+            </a>
+          </div>
+
+          <div class="w-100">
+            <div class="d-flex align-items-center mt-lg-5 mt-md-0 mt-5 w-100
+            justify-content-lg-end justify-content-md-start justify-content-end">
+              <i class="bi bi-telephone-fill fs-2 mb-3" style="color: #fff;"></i>
+              <p class="subtitle-sac">SAC:</p>
+              <p class="subtitle-number">0800 031 1133</p>
             </div>
+
+            <div class="w-100">
+              <ul class="social-icons p-0">
+                <li><a href="#" target="_blank"><i class="bi bi-facebook"></i></a></li>
+                <li><a href="#" target="_blank"><i class="bi bi-whatsapp"></i></a></li>
+                <li><a href="https://www.linkedin.com/company/hipolabor-farmaceutica-ltda/" target="_blank"><i
+                      class="bi bi-linkedin"></i></a></li>
+                <li><a href="https://www.instagram.com/explore/locations/613148707/hipolabor-farmaceutica/"
+                    target="_blank"><i class="bi bi-instagram"></i></a></li>
+              </ul>
+            </div>
+          </div>
+
+
         </div>
+
+      </div>
+
     </div>
+  </div>
 </div>

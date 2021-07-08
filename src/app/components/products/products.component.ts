@@ -1,6 +1,6 @@
 import { Component, HostListener, OnInit } from '@angular/core';
-import { ProductService } from '../service/product.service';
-import { Product } from '../model/product.model';
+import { ProductService } from '../../core/service/product.service';
+import { Product } from '../../core/model/product.model';
 import { environment } from 'src/environments/environment';
 import { HttpClient } from '@angular/common/http';
 
@@ -20,18 +20,18 @@ export class ProductsComponent implements OnInit {
     this.innerWidth = window.innerWidth;
   }
 
-  constructor(private productService:ProductService, private http: HttpClient) { 
+  constructor(private productService: ProductService, private http: HttpClient) {
     this.innerWidth = window.innerWidth;
   }
 
   ngOnInit(
-    
+
   ): void {
-    
+
   }
 
   readById(id: number) {
     const url = `${environment.baseUrl}/product/${id}`;
     return this.http.get<Product>(url);
-  } 
+  }
 }

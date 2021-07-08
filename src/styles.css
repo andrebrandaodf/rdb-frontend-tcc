@@ -10984,6 +10984,14 @@ header.masthead .h1 {
     background-size: cover;
 }
 
+.bg-blog {
+  background-image: url("/assets/img/blogHipolabor.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
 .bg-fundoCinza {
     background: url("src/assets/img/imgHipolabor/fundoCinza.png");
     background-position: center;
@@ -11105,8 +11113,6 @@ h1.teste{
     border-end-start-radius: 10px;
 }
 
-
-
 .sac{
     color: #fff !important;
     font-size: 1.5rem;
@@ -11115,7 +11121,6 @@ h1.teste{
 
 .blogTeste{
     background-color: #25aa76;
-
 }
 
 .borderBlog{
@@ -11139,8 +11144,10 @@ h1.teste{
 }
 
 .pages {
-    height: 100vh;
+  height: 100vh;
 }
 
-/* html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */
+.pagesDynamics {
+  height: 100vh;
+  min-height: 100vh;
+}

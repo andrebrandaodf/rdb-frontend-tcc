@@ -1,15 +1,13 @@
 import { Component, HostListener, OnInit } from '@angular/core';
-import { DomSanitizer } from '@angular/platform-browser';
-
 import { Midia } from 'src/app/core/model/midia.model';
 import { MidiaService } from 'src/app/core/service/midia.service';
 
 @Component({
-  selector: 'app-news',
-  templateUrl: './news.component.html',
-  styleUrls: ['./news.component.css'],
+  selector: 'app-midia',
+  templateUrl: './midia.component.html',
+  styleUrls: ['./midia.component.css']
 })
-export class NewsComponent implements OnInit {
+export class MidiaComponent implements OnInit {
 
   innerWidth: number = 0;
 
@@ -25,11 +23,16 @@ export class NewsComponent implements OnInit {
     this.innerWidth = window.innerWidth;
   }
 
-  constructor(private midiaService: MidiaService, private sanitizer: DomSanitizer) {
+  constructor(private midiaService: MidiaService) {
     this.innerWidth = window.innerWidth;
   }
 
   ngOnInit(): void {
+    this.getMidiaPage();
+  }
+
+  getNewPage() {
+    this.pagination.pageNumber++;
     this.getMidiaPage();
   }
 

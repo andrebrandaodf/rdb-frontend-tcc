@@ -1,72 +1,73 @@
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-
-.bg-lgpd{
-    /* padding-top: 10rem;
-    padding-bottom: calc(10rem - 4.5rem); */
-    background: url("/assets/img/photopea/lgpd.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-}
-
-
 
 @media screen and (min-width: 992px) {
-    .title {
-        line-height: 3rem;
-        font-family: "Montserrat-ExtraBold";
-        color: #fff;
-        font-size: 6rem;
-        font-weight: bolder;
-        padding-bottom: 1rem;
-        text-align: end;
-    }
+  .title {
+    font-family: "Montserrat-ExtraBold";
+    color: #fff;
+    font-size: 6rem;
+    line-height: 6rem;
+    font-weight: bolder;
+    padding-bottom: 1rem;
+    text-align: end;
+    text-shadow: black 0.1em 0.1em 1em;
+  }
 
-    .subtitle {
-        line-height: 2rem;
-        font-family: "Montserrat";
-        color: #fff;
-        font-size: 2rem;
-        font-weight: bolder;
-        padding-top: 1rem;
-        font-style: italic;
-        text-align: end;
-    }
-    .card-title {
-        position: relative;
-        padding: 2rem 4rem;
-        border-radius: 40px 0 0 40px;
-    }
+  .subtitle {
+    font-family: "Montserrat";
+    color: #fff;
+    font-size: 3rem;
+    line-height: 3rem;
+    padding-top: 1rem;
+    text-align: end;
+    text-shadow: black 0.1em 0.1em 1em;
+  }
+
+  .subtitleStrong {
+    font-size: 3rem;
+    font-family: "Montserrat-ExtraBold";
+    font-weight: bolder;
+  }
+
+  .content-lgpd {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
 }
 
 @media screen and (max-width: 992px) {
-    .title {
-        line-height: 3rem;
-        font-family: "Montserrat-ExtraBold";
-        color: #fff;
-        font-size: 6rem;
-        font-weight: bolder;
-        padding-bottom: 1rem;
-        text-align: end;
-    }
+  .title {
+    font-family: "Montserrat-ExtraBold";
+    color: #fff;
+    font-size: 6rem;
+    line-height: 6rem;
+    font-weight: bolder;
+    padding-bottom: 1rem;
+    text-align: center;
+    text-shadow: black 0.1em 0.1em 1em;
+  }
 
-    .subtitle {
-        line-height: 2rem;
-        font-family: "Montserrat";
-        color: #fff;
-        font-size: 2rem;
-        font-weight: bolder;
-        padding-top: 1rem;
-        font-style: italic;
-        text-align: end;
-    }
-    .card-title {
-        position: relative;
-        padding: 2rem 4rem;
-        border-radius: 40px 0 0 40px;
-    }
+  .subtitle {
+    font-family: "Montserrat";
+    color: #fff;
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: bolder;
+    padding-top: 1rem;
+    text-align: center;
+    text-shadow: black 0.1em 0.1em 1em;
+  }
+
+  .subtitleStrong {
+    font-size: 2rem;
+    line-height: 2rem;
+    font-family: "Montserrat-ExtraBold";
+    font-weight: bolder;
+  }
+
+  .content-lgpd {
+    padding: 3rem 0;
+  }
 }
-

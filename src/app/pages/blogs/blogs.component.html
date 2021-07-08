@@ -1,0 +1,35 @@
+<div style="background-color: #fafafa;" [ngClass]="{'pagesDynamics': innerWidth >= 992}">
+    <div class="container d-flex flex-column align-items-center justify-content-center h-100">
+  
+      <div class="row text-center">
+        <h1 class="titleBlog"><span style="font-weight: bold; font-family: 'Montserrat-ExtraBold';">Blog</span>
+          HIPOLABOR</h1>
+      </div>
+  
+      <div class="row card-deck">
+  
+        <div *ngFor="let blog of blogs"class="blog-card col-lg-4 col-12 card mb-3" [routerLink]="['/blog', blog.id]">
+          <h1 class="text-center title-card">{{blog.title}}</h1>
+          <div class="borderBlog">
+            <div class=" blogTeste w-100 d-flex justify-content-end px-2">
+              <i class="bi bi-circle-fill mx-1" style="color:salmon"></i>
+              <i class="bi bi-circle-fill mx-1" style="color: darksalmon;"></i>
+              <i class="bi bi-circle-fill mx-1" style="color: tomato;"></i>
+  
+            </div>
+            <img class="card-img" src="{{blog.photograph}}">
+            <div class="card-body">
+              <h2 class="text-blog"> <strong>{{blog.description}}</strong>
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="d-flex align-items-center justify-content-center w-100 pb-5 pt-3">
+        <button mat-raised-button class="view-more" (click)="getNewPage()">
+          Ver mais
+        </button>
+      </div>
+    </div>
+  </div>

@@ -4,10 +4,10 @@ import { BlogService } from 'src/app/core/service/blog.service';
 
 @Component({
   selector: 'app-blog',
-  templateUrl: './blog.component.html',
-  styleUrls: ['./blog.component.css']
+  templateUrl: './blogs.component.html',
+  styleUrls: ['./blogs.component.css']
 })
-export class BlogComponent implements OnInit {
+export class BlogsComponent implements OnInit {
 
   innerWidth: number = 0;
 
@@ -25,9 +25,14 @@ export class BlogComponent implements OnInit {
 
   constructor(private blogService: BlogService) {
     this.innerWidth = window.innerWidth;
-  }
+   }
 
   ngOnInit(): void {
+    this.getBlogPage();
+  }
+
+  getNewPage() {
+    this.pagination.pageNumber ++;
     this.getBlogPage();
   }
 
