@@ -50,10 +50,10 @@ export class ContactComponent implements OnInit {
   }
 
   createClient(): void {
-    // this.clientService.create(this.formContact.value).subscribe(() => {
-    //   this.clientService.showMessage('Mensagem enviada!')
-    //   this.router.navigate(['/contact'])
-    // })
+    this.clientService.create(this.formContact.value).subscribe(() => {
+      this.clientService.showMessage('Mensagem enviada!')
+      this.router.navigate(['/contact'])
+    })
   }
 
   cancel(): void {

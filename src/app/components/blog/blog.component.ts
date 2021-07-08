@@ -33,7 +33,6 @@ export class BlogComponent implements OnInit {
 
   getBlogPage() {
     this.blogService.getWithPagination(this.pagination.pageNumber, this.pagination.pageSize).subscribe((res: any) => {
-      console.log(res);
       this.blogs = this.blogs.concat(res.content);
     })
   }

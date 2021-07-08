@@ -1,0 +1,9 @@
+<div *ngIf="blogCurrent" style="height: 80vh" class="d-flex flex-column align-items-center justify-content-center container">
+    <p>{{blogCurrent.title}}</p>
+    <p>{{blogCurrent.description}}</p>
+    <img src="{{blogCurrent.photograph}}" alt="photograph" height="30%">
+</div>
+
+<div class="d-flex flex-column align-items-center justify-content-center container">
+    <div [innerHTML]="blogCurrent.content"></div>
+</div>

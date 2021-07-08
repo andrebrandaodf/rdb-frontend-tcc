@@ -1,6 +1,7 @@
 export interface Blog {
-  id?: number;
+  id: number;
   title: string;
   description: string;
-  urlImage: string;
+  photograph: string;
+  content: string;
 }

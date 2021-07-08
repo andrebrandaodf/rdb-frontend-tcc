@@ -13,7 +13,7 @@ const routes: Routes = [
 
   {
     path: 'blog',
-    loadChildren: () => import('./pages/blog/blog.module').then(m => m.BlogModule)
+    loadChildren: () => import('./pages/blogs/blogs.module').then(m => m.BlogModule)
   },
 
   {

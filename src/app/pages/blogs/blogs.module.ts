@@ -1,20 +1,22 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { BlogRoutingModule } from './blog-routing.module';
-import { BlogComponent } from './blog.component';
+import { BlogsRoutingModule } from './blogs-routing.module';
+import { BlogsComponent } from './blogs.component';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatSidenavModule } from '@angular/material/sidenav';
+import { BlogDetailComponent } from './blog-detail/blog-detail.component';
 
 
 @NgModule({
   declarations: [
-    BlogComponent
+    BlogsComponent,
+    BlogDetailComponent
   ],
   imports: [
     CommonModule,
-    BlogRoutingModule,
+    BlogsRoutingModule,
     MatIconModule,
     MatButtonModule,
     MatSidenavModule,

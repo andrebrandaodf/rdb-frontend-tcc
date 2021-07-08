@@ -66,7 +66,9 @@
           <!-- Submit Form -->
           <div class="d-flex flex-row-reverse">
             <button mat-raised-button (click)="createClient()" type="button"
-              class="btnSend btnContact borderContact btn btn-outline-success">Enviar
+              [disabled]="formContact.invalid"
+              class="btnSend btnContact borderContact btn btn-outline-success">
+              Enviar
             </button>
           </div>
         </form>

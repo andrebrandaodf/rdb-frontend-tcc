@@ -38,7 +38,6 @@ export class MidiaComponent implements OnInit {
 
   getMidiaPage() {
     this.midiaService.getWithPagination(this.pagination.pageNumber, this.pagination.pageSize).subscribe((res: any) => {
-      console.log(res);
       this.midias = this.midias.concat(res.content);
     })
   }

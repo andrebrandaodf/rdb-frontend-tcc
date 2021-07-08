@@ -1,18 +1,20 @@
 <div id="news" class="bg-news" [ngClass]="{'pagesDynamics': innerWidth >= 992}">
-  <div class="container h-100">
-    <div class="row gx-4 gx-lg-5 justify-content-center text-center">
-      <h1 class="titleNews">HIPOLABOR <span style="font-family: 'Montserrat-ExtraBold';">na mídia</span></h1>
+  <div class="container d-flex flex-column align-items-center justify-content-center h-100">
+
+    <div class="row text-center">
+      <h1 class="titleNews">HIPOLABOR <span style="font-family: 'Montserrat-ExtraBold';">na mídia</span>
+      </h1>
     </div>
-    <div class="col-sm-12">
-      <div class="row card-deck">
-        <div *ngFor="let midia of midias" class="col-lg-4 col-12 card mb-3">
-          <h2 class="titleCard text-white text-center">{{midia.title}}</h2>
-          <div class="embed mb-4 ">
-            <iframe class="shadow-lg" src="https://www.youtube.com/embed/_lFjvtchpAc"></iframe>
-            <!-- <iframe class="shadow-lg" src="{{midia.urlVideo}}"></iframe> -->
-          </div>
-          <p class="text-white mb-3">{{midia.description}}</p>
+
+    <div class="row card-deck">
+
+      <div *ngFor="let midia of midias" class="col-lg-4 col-12 card mb-3">
+        <h2 class="text-center titleCard text-white">{{midia.title}}</h2>
+        <div class="embed mb-4 ">
+          <iframe class="shadow-lg" src="https://www.youtube.com/embed/_lFjvtchpAc"></iframe>
+          <!-- <iframe class="shadow-lg" src="{{midia.urlVideo}}"></iframe> -->
         </div>
+        <p class="text-white mb-3">{{midia.description}}</p>
       </div>
     </div>
 
