@@ -7,9 +7,11 @@
     </div>
 
     <div class="row card-deck">
-
-      <div *ngFor="let midia of midias" class="col-lg-4 col-12 card mb-3">
-        <h2 class="text-center titleCard text-white">{{midia.title}}</h2>
+      <div *ngFor="let midia of midias" class="col-lg-4 col-12 mb-3">
+         <div class="card-body">
+           <h5 class="titleCard">{{midia.title}}</h5>
+        <!--  <h2 class="card-title">{{midia.title}}</h2> -->
+        </div> 
         <div class="embed mb-4 ">
           <iframe class="shadow-lg" src="https://www.youtube.com/embed/_lFjvtchpAc"></iframe>
           <!-- <iframe class="shadow-lg" src="{{midia.urlVideo}}"></iframe> -->

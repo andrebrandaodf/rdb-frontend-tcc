@@ -8,6 +8,16 @@
     padding: 4rem 0 3rem 0;
     margin: 0;
   }
+  .titleCard {
+    color: #fff;
+    font-size: 25px;
+    /* margin: 1px 0; */
+    border: #fff;
+    line-height:30px;
+    /* padding: 1rem 0 0 0; */
+    margin-top: -30px;
+    text-align: center;
+  }
 
   .view-more {
     background-color: #fff;
@@ -21,6 +31,10 @@
     color: #fff;
     border: 2px solid #fff;
   }
+
+  .card-body{
+    height: 50px;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -30,6 +44,24 @@
     margin-top: 2rem;
     border: #fff;
     line-height: 2rem;
+  }
+  .titleCard {
+    color: #fff;
+    font-size: 25px;
+    /* margin: 1px 0; */
+    border: #fff;
+    line-height:30px;
+    /* padding: 1rem 0 0 0; */
+    margin-top: -30px;
+    text-align: center;
+
+    font-family: "Montserrat-ExtraBold";
+    color: #25aa76;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: bolder;
+    margin: 1.5rem 0 1rem 0;
+    text-align: center;
   }
 
   .view-more {
@@ -45,4 +77,9 @@
     color: #fff;
     border: 2px solid #fff;
   }
+
+  .card-body{
+    height: 50px;
+  }
 }
+
