@@ -8,7 +8,6 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
-import { MatTableModule } from '@angular/material/table';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { NgxMaskModule } from 'ngx-mask';
 import { AboutUsComponent } from 'src/app/components/about-us/about-us.component';
@@ -18,7 +17,7 @@ import { HomeComponent } from 'src/app/components/home/home.component';
 import { InfoVigiComponent } from 'src/app/components/info-vigi/info-vigi.component';
 import { LgpdComponent } from 'src/app/components/lgpd/lgpd.component';
 import { NewsComponent } from 'src/app/components/news/news.component';
-import { ProductsComponent } from 'src/app/components/products/products.component';
+import { ProductsModule } from 'src/app/components/products/products.module';
 import { QualityControlComponent } from 'src/app/components/quality-control/quality-control.component';
 import { TimelineComponent } from 'src/app/components/timeline/timeline.component';
 import { HighlightDirective } from 'src/app/directives/highlight.directive';
@@ -30,7 +29,6 @@ import { FilterPipe } from 'src/app/pipes/filter.pipe';
     MainComponent,
     HomeComponent,
     AboutUsComponent,
-    ProductsComponent,
     NewsComponent,
     ContactComponent,
     BlogComponent,
@@ -52,6 +50,7 @@ import { FilterPipe } from 'src/app/pipes/filter.pipe';
     NgxMaskModule,
     MatSnackBarModule,
     MatSidenavModule,
+    ProductsModule,
   ]
 })
 export class MainModule { }

@@ -11151,3 +11151,11 @@ h1.teste{
   height: 100vh;
   min-height: 100vh;
 }
+
+.custom-dialog-container .mat-dialog-container {
+    padding: 0 !important;
+}
+
+.cdk-overlay-container {
+    z-index: 9999 !important;
+}
