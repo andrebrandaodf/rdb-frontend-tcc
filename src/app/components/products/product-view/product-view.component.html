@@ -1,0 +1,23 @@
+<h4 mat-dialog-title>
+    <mat-toolbar class="custom-toolbar">
+        <span>Busca de produtos</span>
+        <span class="spacer"></span>
+        <button mat-icon-button mat-dialog-close>
+            <mat-icon>close</mat-icon>
+        </button>
+    </mat-toolbar>
+</h4>
+
+<div mat-dialog-content class="m-2">
+
+    <mat-list>
+        <div mat-subheader>{{products.length > 0 ? 'Resultados' : 'Nenhum produto encontrado'}}</div>
+        <mat-list-item *ngFor="let product of products">
+          <mat-icon mat-list-icon style="transform: scale(1.5);color: #25aa76;">medication</mat-icon>
+          <div mat-line class="name">{{product.name}}</div>
+          <div mat-line class="manufacturer">{{product.manufacturer}}</div>
+          <div mat-line class="presentation">{{product.presentation}}</div> 
+        </mat-list-item>
+      </mat-list>
+
+</div>

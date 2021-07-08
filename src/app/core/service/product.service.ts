@@ -3,6 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { environment } from 'src/environments/environment';
 import { Product } from '../model/product.model';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -20,12 +21,12 @@ export class ProductService {
     });
   }
 
-  read() {
-    return this.http.get(`${environment.baseUrl}/product`);
+  getAll(): Observable<any> {
+    return this.http.get(`${environment.baseUrl}/product-view`);
   }
 
-  readById(id: number) {
-    const url = `${environment.baseUrl}/product/${id}`;
+  getSearch(name: any, manufacturer: any): Observable<any> {
+    const url = `${environment.baseUrl}/product-view/${name}/${manufacturer}`;
     return this.http.get<Product[]>(url);
   } 
 }

@@ -31,7 +31,7 @@ export class BlogService {
     return this.http.get(`${environment.baseUrl}/blog-view`, {params});
   }
 
-  getById(id: number) {
+  getById(id: number): Observable<any> {
     const url = `${environment.baseUrl}/blog-view/${id}`;
     return this.http.get<Blog[]>(url);
   } 
