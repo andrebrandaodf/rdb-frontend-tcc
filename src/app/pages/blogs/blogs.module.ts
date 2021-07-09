@@ -7,6 +7,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { BlogDetailComponent } from './blog-detail/blog-detail.component';
+import { TruncatePipeModule } from 'src/app/pipes/pipe-truncate/truncate.module';
 import { MatToolbarModule } from '@angular/material/toolbar';
 
 
@@ -21,7 +22,8 @@ import { MatToolbarModule } from '@angular/material/toolbar';
     MatIconModule,
     MatButtonModule,
     MatSidenavModule,
-    MatToolbarModule
+    TruncatePipeModule,
+    MatToolbarModule,
   ]
 })
 export class BlogModule { }

@@ -1,6 +1,4 @@
 import { Component, HostListener, OnInit } from '@angular/core';
-import { DomSanitizer } from '@angular/platform-browser';
-
 import { Midia } from 'src/app/core/model/midia.model';
 import { MidiaService } from 'src/app/core/service/midia.service';
 
@@ -9,6 +7,7 @@ import { MidiaService } from 'src/app/core/service/midia.service';
   templateUrl: './news.component.html',
   styleUrls: ['./news.component.css'],
 })
+
 export class NewsComponent implements OnInit {
 
   innerWidth: number = 0;
@@ -25,7 +24,7 @@ export class NewsComponent implements OnInit {
     this.innerWidth = window.innerWidth;
   }
 
-  constructor(private midiaService: MidiaService, private sanitizer: DomSanitizer) {
+  constructor(private midiaService: MidiaService) {
     this.innerWidth = window.innerWidth;
   }
 
