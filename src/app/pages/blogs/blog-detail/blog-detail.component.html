@@ -7,9 +7,13 @@
             </div>
             <h1 class="title">{{blogCurrent.title}}</h1>
             <h2 class="subtitle">{{blogCurrent.description}}</h2>
-            <!-- </div> -->
-            <!-- <div class="d-flex flex-column align-items-center justify-content-center container"> -->
             <div class="content" [innerHTML]="blogCurrent.content"></div>
         </div>
     </div>
 </div>
+<mat-toolbar class="footer">
+    <span>
+        Desenvolvido
+        por <strong>Find Soluções</strong>
+    </span>
+</mat-toolbar>
