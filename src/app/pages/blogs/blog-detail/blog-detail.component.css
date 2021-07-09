@@ -32,6 +32,22 @@
         color: #515050;
         margin: 1.5rem 0.8rem 1rem 0.8rem;
       }
+      
+      .footer {
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .footer>span {
+        font-size: 1.1rem;
+        font-weight: 300;
+    }
+    
+    strong {
+        color: black;
+    }
   }
   
   @media screen and (max-width: 992px) {
@@ -63,5 +79,21 @@
         color: #515050;
         margin: 1.5rem 0.8rem 1rem 0.8rem;
       }
+
+      .footer {
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .footer>span {
+        font-size: 1.1rem;
+        font-weight: 300;
+    }
+    
+    strong {
+        color: black;
+    }
   }
   
