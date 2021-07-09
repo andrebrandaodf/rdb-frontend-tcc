@@ -1,6 +1,6 @@
 @media screen and (min-width: 992px) {
-    .titleNews {
-      color: #000;
+    .titleMidia {
+      color: #25aa76;
       font-size: 3rem;
       margin: 40px 0;
       line-height: 3rem;
@@ -20,14 +20,25 @@
       color: #25aa76;
       border: 2px solid #25aa76;
     }
+
+    .titleCard {
+      font-family: "Montserrat-ExtraBold";
+      font-weight: bolder;
+      color: #25aa76;
+      font-size: 25px;
+      line-height: 25px;
+      text-align: center;
+    }
+
+    .description {
+      color: #fff;
+    }
   }
   
   @media screen and (max-width: 992px) {
-    .titleNews {
-      color: #000;
+    .titleMidia {
+      color: #25aa76;
       font-size: 2rem;
-      margin-top: 2rem;
-      border: #fff;
       line-height: 2rem;
     }
   
@@ -43,6 +54,19 @@
       background-color: #fff;
       color: #25aa76;
       border: 2px solid #25aa76;
+    }
+
+    .titleCard {
+      font-family: "Montserrat-ExtraBold";
+      font-weight: bolder;
+      color: #25aa76;
+      font-size: 25px;
+      line-height: 25px;
+      text-align: center;
+    }
+
+    .description {
+      color: #000;
     }
   }
   

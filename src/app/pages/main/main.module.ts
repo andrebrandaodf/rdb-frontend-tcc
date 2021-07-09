@@ -22,7 +22,9 @@ import { QualityControlComponent } from 'src/app/components/quality-control/qual
 import { TimelineComponent } from 'src/app/components/timeline/timeline.component';
 import { HighlightDirective } from 'src/app/directives/highlight.directive';
 import { FilterPipe } from 'src/app/pipes/filter.pipe';
-
+import { SafePipeModule } from 'src/app/pipes/safe-url/safe-url.module';
+import { TruncatePipeModule } from 'src/app/pipes/pipe-truncate/truncate.module';
+import { MatDialogModule } from '@angular/material/dialog';
 
 @NgModule({
   declarations: [
@@ -51,6 +53,9 @@ import { FilterPipe } from 'src/app/pipes/filter.pipe';
     MatSnackBarModule,
     MatSidenavModule,
     ProductsModule,
-  ]
+    SafePipeModule,
+    TruncatePipeModule,
+    MatDialogModule
+  ],
 })
 export class MainModule { }

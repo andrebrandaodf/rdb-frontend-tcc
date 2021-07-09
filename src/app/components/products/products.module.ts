@@ -22,7 +22,11 @@ import { MatListModule } from '@angular/material/list';
     MatListModule,
   ],
   exports: [
-    ProductsComponent
+    ProductsComponent,
+    ProductViewComponent
+  ],
+  entryComponents: [
+    ProductViewComponent
   ]
 })
 export class ProductsModule { }

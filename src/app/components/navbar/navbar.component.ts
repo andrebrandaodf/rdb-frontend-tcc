@@ -1,4 +1,5 @@
 import { Component, HostListener, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-navbar',
@@ -23,15 +24,24 @@ export class NavbarComponent implements OnInit {
     this.show = this.scrollY - this.aux <= 0 ? true : false;
   }
 
-  constructor() {
+  constructor(private router: Router) {
     this.innerWidth = window.innerWidth;
   }
 
   ngOnInit(): void { }
 
   scrollTo(id: string) {
-    const element: HTMLElement = document.getElementById(id)!;
-    element.scrollIntoView({ behavior: "smooth" });
+
+    if (this.router.url.includes('/blog') || this.router.url.includes('/midia')) {
+      this.router.navigate(['']);
+      setTimeout(() => {
+        const element: HTMLElement = document.getElementById(id)!;
+        element.scrollIntoView({ behavior: "smooth" });
+      }, 500);
+    } else {
+      const element: HTMLElement = document.getElementById(id)!;
+      element.scrollIntoView({ behavior: "smooth" });
+    }
   }
 
 }
