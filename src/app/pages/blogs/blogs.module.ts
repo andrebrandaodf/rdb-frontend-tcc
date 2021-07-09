@@ -8,6 +8,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { BlogDetailComponent } from './blog-detail/blog-detail.component';
 import { TruncatePipeModule } from 'src/app/pipes/pipe-truncate/truncate.module';
+import { MatToolbarModule } from '@angular/material/toolbar';
 
 
 @NgModule({
@@ -22,6 +23,7 @@ import { TruncatePipeModule } from 'src/app/pipes/pipe-truncate/truncate.module'
     MatButtonModule,
     MatSidenavModule,
     TruncatePipeModule,
+    MatToolbarModule,
   ]
 })
 export class BlogModule { }
