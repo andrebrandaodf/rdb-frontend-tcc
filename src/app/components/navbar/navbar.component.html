@@ -1,5 +1,4 @@
 <!-- Navigation-->
-box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 <nav class="navbar navbar-expand-lg navbar-light fixed-top d-lg-flex flex-lg-column p-0"
   style="background-color: #fff;box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);">
 
@@ -34,26 +33,33 @@ box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 
   <!-- ============ NAV LINK ============ -->
   <div class="collapse navbar-collapse pb-2 pt-4" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item"><a class="nav-link" routerLink="/home" (click)="scrollTo('home')">HOME</a></li>
+    <ul class="navbar-nav" [ngClass]="{'px-4': innerWidth <= 992}">
+      <li class="nav-item item"><a data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" class="nav-link"
+          (click)="scrollTo('home')">HOME</a></li>
       <li *ngIf="innerWidth >= 992" class="nav-item"><a class="nav-link">|</a></li>
-      <li class="nav-item"><a class="nav-link" routerLink="about-us" (click)="scrollTo('about')">SOBRE NÓS</a></li>
+      <li class="nav-item item"><a data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" class="nav-link"
+          (click)="scrollTo('about')">SOBRE NÓS</a></li>
       <li *ngIf="innerWidth >= 992" class="nav-item"><a class="nav-link">|</a></li>
-      <li class="nav-item"><a class="nav-link" routerLink="products" (click)="scrollTo('product')">PRODUTOS</a></li>
+      <li class="nav-item item"><a data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" class="nav-link"
+          (click)="scrollTo('product')">PRODUTOS</a></li>
       <li *ngIf="innerWidth >= 992" class="nav-item"><a class="nav-link">|</a></li>
-      <li class="nav-item"><a class="nav-link" routerLink="work-with-us" (click)="scrollTo('contact')">TRABALHE
+      <li class="nav-item item"><a data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" class="nav-link"
+          (click)="scrollTo('contact')">TRABALHE
           CONOSCO</a></li>
       <li *ngIf="innerWidth >= 992" class="nav-item"><a class="nav-link">|</a></li>
-      <li class="nav-item"><a class="nav-link"
+      <li class="nav-item item"><a data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" class="nav-link"
           href="http://www2.hipolabor.com.br/cgi-bin/wspd_cgi.sh/WService=laudo/_src/index.wspx"
           target="_blank">CERTIFICADO DE ANÁLISE</a>
       </li>
       <li *ngIf="innerWidth >= 992" class="nav-item"><a class="nav-link">|</a></li>
-      <li class="nav-item"><a class="nav-link" routerLink="news" (click)="scrollTo('news')">NOTÍCIAS</a></li>
+      <li class="nav-item item"><a data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" class="nav-link"
+          (click)="scrollTo('news')">NOTÍCIAS</a></li>
       <li *ngIf="innerWidth >= 992" class="nav-item"><a class="nav-link">|</a></li>
-      <li class="nav-item"><a class="nav-link" routerLink="sac" (click)="scrollTo('contact')">SAC</a></li>
+      <li class="nav-item item"><a data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" class="nav-link"
+          (click)="scrollTo('contact')">SAC</a></li>
       <li *ngIf="innerWidth >= 992" class="nav-item"><a class="nav-link">|</a></li>
-      <li class="nav-item"><a class="nav-link" routerLink="contact" (click)="scrollTo('contact')">CONTATO</a></li>
+      <li class="nav-item item"><a data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" class="nav-link"
+          (click)="scrollTo('contact')">CONTATO</a></li>
     </ul>
   </div>
 

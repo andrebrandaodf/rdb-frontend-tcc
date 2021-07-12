@@ -1,8 +1,6 @@
-import { ContactEnum } from '../enums/contact-enum.enum';
-
 export interface Contact {
   id?: number;
-  talkTo: ContactEnum;
+  talkTo: string;
   name: string;
   email: string;
   phone: string;

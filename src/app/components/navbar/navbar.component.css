@@ -29,3 +29,7 @@ a {
 .clipboard {
   cursor: pointer;
 }
+
+.item {
+  cursor: pointer;
+}

@@ -7,7 +7,7 @@
         HIPOLABOR</h1>
     </div>
 
-    <div class="row row-cols-1 row-cols-md-3">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
       <div *ngFor="let blog of blogs" class="col mb-4">
         <div class="borderBlog card h-100" [routerLink]="['/blog', blog.id]"
           style="background-color: transparent;border: none">
@@ -29,13 +29,13 @@
     <!-- <div class="row" [ngClass]="{'card-deck': innerWidth >= 992}">
       <div *ngFor="let blog of blogs" class="blog-card col-lg-4 col-12" [routerLink]="['/blog', blog.id]"
         style="background-color: transparent;border: none;" [ngClass]="{'card': innerWidth >= 992}">
-        
+
         <div class="text-center" style="max-height: 30%;min-height: 30%; height: 30%;" [ngClass]="{'card-body': innerWidth >= 992}">
           <h5 class="title-card p-0 m-0" [ngClass]="{'card-title': innerWidth >= 992}">
             {{blog.title | truncate: ['85', '...']}}
           </h5>
         </div>
-        
+
         <div class="borderBlog p-0" [ngClass]="{'card-body': innerWidth >= 992}">
           <div class="blogBar w-100 d-flex justify-content-end p-0">
             <i class="bi bi-circle-fill mx-1" style="color:salmon"></i>
