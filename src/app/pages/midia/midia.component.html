@@ -1,7 +1,5 @@
 <div style="background-color: #fafafa;" [ngClass]="{'pagesDynamics': innerWidth >= 992}">
 
-  <div style="height: 15vh"></div>
-
   <div class="container h-100">
 
     <div class="row text-center">
@@ -9,20 +7,20 @@
     </div>
 
     <div class="row" [ngClass]="{'card-deck': innerWidth >= 992}">
-      <div *ngFor="let midia of midias" class="col-lg-4 col-12 mb-5" style="background-color: transparent; border: none"
+      <div *ngFor="let midia of midias" class="col-lg-4 col-12 pb-5 mb-5" style="background-color: transparent; border: none"
         [ngClass]="{'card': innerWidth >= 992}">
-        <div style="max-height: 30%;min-height: 30%; height: 30%;" [ngClass]="{'card-body': innerWidth >= 992}">
-          <h5 class="titleCard title-card" [ngClass]="{'card-title': innerWidth >= 992}">
-            {{midia.title | truncate: ['60', '...']}}
+        <div style="max-height: 30%;min-height: 30%; height: 30;" [ngClass]="{'card-body': innerWidth >= 992}">
+          <h5 class="titleCard title-card m-0" [ngClass]="{'card-title': innerWidth >= 992}">
+            {{midia.title}}
           </h5>
         </div>
-        <div class="embed-responsive embed-responsive-16by9 d-flex align-items-center justify-content-center">
-          <iframe class="embed-responsive-item" [src]="midia.urlVideo | safe" allowfullscreen></iframe>
+        <div class="embed-responsive embed-responsive-16by9 d-flex align-items-center justify-content-center px-3">
+          <iframe class="embed-responsive-item w-100" [src]="midia.urlVideo | safe" allowfullscreen></iframe>
         </div>
         <div class="mt-2 h-auto" style="max-height: 70%;min-height: 70%; height: 70%;"
           [ngClass]="{'card-body': innerWidth >= 992}">
           <p class="description" [ngClass]="{'card-text': innerWidth >= 992}">
-            {{midia.description | truncate: ['100', '...']}}
+            {{midia.description}}
           </p>
         </div>
       </div>

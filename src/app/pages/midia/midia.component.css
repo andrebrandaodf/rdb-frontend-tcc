@@ -2,10 +2,7 @@
     .titleMidia {
       color: #25aa76;
       font-size: 3rem;
-      margin: 40px 0;
       line-height: 3rem;
-      padding: 4rem 0 3rem 0;
-      margin: 0;
     }
   
     .view-more {
@@ -25,13 +22,22 @@
       font-family: "Montserrat-ExtraBold";
       font-weight: bolder;
       color: #25aa76;
-      font-size: 25px;
-      line-height: 25px;
+      font-size: 1.5rem;
+      line-height: 1.5rem;
       text-align: center;
     }
 
     .description {
-      color: #fff;
+      color: #25aa76;
+      font-family: "Montserrat";
+      font-size: 1rem;
+      line-height: 1rem;
+      font-weight: bolder;
+      text-align: justify;
+    }
+
+    .container {
+      padding-top: 10rem;
     }
   }
   
@@ -49,24 +55,27 @@
       border: 2px solid transparent;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
-  
-    .view-more:hover {
-      background-color: #fff;
-      color: #25aa76;
-      border: 2px solid #25aa76;
-    }
 
     .titleCard {
       font-family: "Montserrat-ExtraBold";
       font-weight: bolder;
       color: #25aa76;
-      font-size: 25px;
-      line-height: 25px;
+      font-size: 1.5rem;
+      line-height: 1.5rem;
       text-align: center;
     }
 
     .description {
-      color: #000;
+      color: #25aa76;
+      font-family: "Montserrat";
+      font-size: 1rem;
+      line-height: 1rem;
+      font-weight: bolder;
+      text-align: justify;
+    }
+
+    .container {
+      padding-top: 4rem;
     }
   }
   

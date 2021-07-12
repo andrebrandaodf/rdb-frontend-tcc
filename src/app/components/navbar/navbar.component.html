@@ -1,5 +1,7 @@
 <!-- Navigation-->
-<nav class="navbar navbar-expand-lg fixed-top d-lg-flex flex-lg-column p-0" style="background-color: #fff;">
+box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+<nav class="navbar navbar-expand-lg navbar-light fixed-top d-lg-flex flex-lg-column p-0"
+  style="background-color: #fff;box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);">
 
   <!-- ============ NAV MOBILE ============ -->
   <div *ngIf="show && innerWidth < 992" class="d-flex align-items-center justify-content-between w-100">
@@ -23,7 +25,7 @@
       <img class="logo col-5" [routerLink]="['']" src="/assets/img/logo-full.png">
     </div>
 
-    <div class="col-4 d-flex align-items-center justify-content-end">
+    <div (click)="clipboard('0800 031 1133')" class="clipboard col-4 d-flex align-items-center justify-content-end">
       <i style="color: #f8f9fa" class="bi bi-telephone-fill"></i>
       <p class="subtitle-sac">SAC:</p>
       <p class="subtitle-number">0800 031 1133</p>
@@ -58,4 +60,3 @@
 </nav>
 
 <router-outlet></router-outlet>
-

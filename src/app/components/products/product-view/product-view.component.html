@@ -13,11 +13,14 @@
     <mat-list>
         <div mat-subheader>{{products.length > 0 ? 'Resultados' : 'Nenhum produto encontrado'}}</div>
         <mat-list-item *ngFor="let product of products">
-          <mat-icon mat-list-icon style="transform: scale(1.5);color: #25aa76;">medication</mat-icon>
-          <div mat-line class="name">{{product.name}}</div>
-          <div mat-line class="manufacturer">{{product.manufacturer}}</div>
-          <div mat-line class="presentation">{{product.presentation}}</div> 
+            <mat-icon mat-list-icon style="transform: scale(1.5);color: #25aa76;">medication</mat-icon>
+            <div mat-line class="name">{{product.name}}</div>
+            <div mat-line class="manufacturer">{{product.manufacturer}}</div>
+            <div mat-line class="presentation">{{product.presentation}}</div>
+            <a download href="{{product.tokenTechniqueProduct}}" class="medicine-package">
+                <mat-icon>file_download</mat-icon>
+            </a>
         </mat-list-item>
-      </mat-list>
+    </mat-list>
 
 </div>

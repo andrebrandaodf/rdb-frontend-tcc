@@ -42,6 +42,7 @@ export class ProductsComponent implements OnInit {
         this.formProduct.controls.name.value,
         this.formProduct.controls.manufacturer.value
       ).subscribe((res: any) => {
+        console.log(res)
         this.dialog.open(ProductViewComponent, {
           disableClose: true,
           minWidth: '25vw',

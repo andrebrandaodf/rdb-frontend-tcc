@@ -2,7 +2,8 @@ import { Component, OnInit, HostListener } from '@angular/core';
 import { ContactService } from '../../core/service/contact.service';
 import { Router } from '@angular/router';
 import { FormBuilder, Validators } from '@angular/forms';
-import {ContactEnum } from 'src/app/core/enums/contact-enum.enum'
+import { MatSnackBar } from '@angular/material/snack-bar';
+import { ClipboardComponent } from '../clipboard/clipboard.component';
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html',
@@ -43,9 +44,9 @@ export class ContactComponent implements OnInit {
     private contactService: ContactService,
     private fb: FormBuilder,
     private router: Router,
+    private _snackBar: MatSnackBar,
   ) {
     this.innerWidth = window.innerWidth;
-
   }
 
   ngOnInit(): void {
@@ -56,11 +57,18 @@ export class ContactComponent implements OnInit {
       this.contactService.showMessage('Mensagem enviada!')
       this.router.navigate(['/contact'])
     })
-    // console.log(this.formContact.value)
   }
 
   cancel(): void {
     this.router.navigate(['/contact'])
   }
+
+  clipboard(text: any) {
+    navigator.clipboard.writeText(text);
+    this._snackBar.openFromComponent(ClipboardComponent, {
+      duration: 3000,
+    });
+  }
+
 
 }

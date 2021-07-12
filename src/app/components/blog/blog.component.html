@@ -7,7 +7,26 @@
         HIPOLABOR</h1>
     </div>
 
-    <div class="row card-deck">
+    <div class="row row-cols-1 row-cols-md-3">
+
+      <div *ngFor="let blog of blogs" class="col mb-4">
+        <div class="borderBlog card h-100" [routerLink]="['/blog', blog.id]"
+          style="background-color: transparent;border: none">
+          <div class="blogBar w-100 d-flex justify-content-end p-2">
+            <i class="bi bi-circle-fill mx-1" style="color:salmon"></i>
+            <i class="bi bi-circle-fill mx-1" style="color: darksalmon;"></i>
+            <i class="bi bi-circle-fill" style="color: tomato;margin: 0 8px 0 4px"></i>
+          </div>
+          <img class="card-img-top" src="{{blog.photograph}}" height="200px">
+          <div class="card-body">
+            <h5 class="card-title title-card">{{blog.title}}</h5>
+            <p class="card-text text-description">{{blog.description}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="row card-deck">
       <div *ngFor="let blog of blogs"class="blog-card col-lg-4 col-12 card mb-3" [routerLink]="['/blog', blog.id]"
       style="background-color: transparent;border: none;">
         <h1 style="max-height: 20%;min-height: 20%; height: 20%;" class="text-center title-card">{{blog.title | truncate: ['120', '...']}}</h1>
@@ -17,14 +36,14 @@
             <i class="bi bi-circle-fill mx-1" style="color: darksalmon;"></i>
             <i class="bi bi-circle-fill" style="color: tomato;margin: 0 8px 0 4px"></i>
           </div>
-          <img class="card-img-top" src="{{blog.photograph}}">
+          <img class="card-img-top" src="{{blog.photograph}}" height="200px">
           <div class="px-2">
             <h2 class="text-blog"> <strong>{{blog.description | truncate: ['120', '...']}}</strong>
             </h2>
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="d-flex align-items-center justify-content-center w-100 pb-5 pt-3">
       <button mat-raised-button class="view-more" [routerLink]="['/blog']">
