@@ -25,3 +25,7 @@ a {
   color: #f8f9fa;
   font-size: 1.2rem;
 }
+
+.clipboard {
+  cursor: pointer;
+}

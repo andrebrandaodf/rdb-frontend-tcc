@@ -55,7 +55,7 @@ import { MatDialogModule } from '@angular/material/dialog';
     ProductsModule,
     SafePipeModule,
     TruncatePipeModule,
-    MatDialogModule
+    MatDialogModule,
   ],
 })
 export class MainModule { }

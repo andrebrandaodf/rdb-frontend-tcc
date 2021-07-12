@@ -7,26 +7,26 @@
     </div>
 
     <div class="row" [ngClass]="{'card-deck': innerWidth >= 992}">
-      <div *ngFor="let midia of midias" class="col-lg-4 col-12 mb-5" style="background-color: transparent; border: none"
+      <div *ngFor="let midia of midias" class="col-lg-4 col-12 pb-5 mb-5" style="background-color: transparent; border: none"
         [ngClass]="{'card': innerWidth >= 992}">
         <div style="max-height: 30%;min-height: 30%; height: 30%;" [ngClass]="{'card-body': innerWidth >= 992}">
           <h5 class="titleCard title-card" [ngClass]="{'card-title': innerWidth >= 992}">
-            {{midia.title | truncate: ['60', '...']}}
+            {{midia.title}}
           </h5>
         </div>
-        <div class="embed-responsive embed-responsive-16by9 d-flex align-items-center justify-content-center">
-          <iframe class="embed-responsive-item" [src]="midia.urlVideo | safe" allowfullscreen></iframe>
+        <div class="embed-responsive embed-responsive-1by1 d-flex align-items-center justify-content-center px-3">
+          <iframe class="embed-responsive-item w-100" [src]="midia.urlVideo | safe" allowfullscreen></iframe>
         </div>
         <div class="mt-2 h-auto" style="max-height: 70%;min-height: 70%; height: 70%;"
           [ngClass]="{'card-body': innerWidth >= 992}">
-          <p class="text-white" [ngClass]="{'card-text': innerWidth >= 992}">
-            {{midia.description | truncate: ['100', '...']}}
+          <p class="text-description" [ngClass]="{'card-text': innerWidth >= 992}">
+            {{midia.description}}
           </p>
         </div>
       </div>
     </div>
 
-    <div class="d-flex align-items-center justify-content-center w-100 py-5">
+    <div class="d-flex align-items-center justify-content-center w-100 pb-5 pt-3">
       <button mat-raised-button class="view-more" [routerLink]="['/midia']">
         Ver mais
       </button>

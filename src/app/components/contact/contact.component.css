@@ -2,6 +2,10 @@ a {
   text-decoration: none;
 }
 
+.clipboard {
+  cursor: pointer;
+}
+
 .border-icon {
   border: 14px solid #fff;
   border-radius: 50%;

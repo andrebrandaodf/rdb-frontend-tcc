@@ -1,5 +1,7 @@
 import { Component, HostListener, OnInit } from '@angular/core';
+import { MatSnackBar } from '@angular/material/snack-bar';
 import { Router } from '@angular/router';
+import { ClipboardComponent } from '../clipboard/clipboard.component';
 
 @Component({
   selector: 'app-navbar',
@@ -24,7 +26,10 @@ export class NavbarComponent implements OnInit {
     this.show = this.scrollY - this.aux <= 0 ? true : false;
   }
 
-  constructor(private router: Router) {
+  constructor(
+    private router: Router,
+    private _snackBar: MatSnackBar,
+    ) {
     this.innerWidth = window.innerWidth;
   }
 
@@ -42,6 +47,13 @@ export class NavbarComponent implements OnInit {
       const element: HTMLElement = document.getElementById(id)!;
       element.scrollIntoView({ behavior: "smooth" });
     }
+  }
+
+  clipboard(text: any) {
+    navigator.clipboard.writeText(text);
+    this._snackBar.openFromComponent(ClipboardComponent, {
+      duration: 3000,
+    });
   }
 
 }
