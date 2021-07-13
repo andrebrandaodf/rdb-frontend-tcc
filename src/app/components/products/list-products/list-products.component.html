@@ -1,6 +1,6 @@
 <h4 mat-dialog-title>
     <mat-toolbar class="custom-toolbar">
-        <span style="margin-right: 16px;">Detalhes do produto</span>
+        <span style="margin-right: 16px;">Busca de produtos</span>
         <span class="spacer"></span>
         <button mat-icon-button mat-dialog-close>
             <mat-icon>close</mat-icon>
@@ -10,18 +10,14 @@
 
 <div mat-dialog-content style="margin: 0 8px 16px 8px">
 
-    <mat-list>
-        <div mat-subheader>Informações</div>
-        <mat-list-item>
+    <mat-selection-list #listProducts [multiple]="false">
+        <div mat-subheader>{{products.length > 0 ? 'Resultados' : 'Nenhum produto encontrado'}}</div>
+        <mat-list-option *ngFor="let product of products" [value]="product" (click)="viewDetail(product)">
             <mat-icon mat-list-icon style="transform: scale(1.5);color: #25aa76;">medication</mat-icon>
             <div mat-line class="name">{{product.name}}</div>
             <div mat-line class="manufacturer">{{product.manufacturer}}</div>
-            <a download href="{{product.tokenTechniqueProduct}}" class="medicine-package">
-                <mat-icon>file_download</mat-icon>
-            </a>
-        </mat-list-item>
-    </mat-list>
-    <div mat-line class="presentation">{{product.presentation}}</div>
-
+            <div mat-line class="presentation">{{product.presentation}}</div>
+        </mat-list-option>
+    </mat-selection-list>
 
 </div>

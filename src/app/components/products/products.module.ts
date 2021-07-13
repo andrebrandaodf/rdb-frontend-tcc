@@ -8,9 +8,10 @@ import { ProductViewComponent } from './product-view/product-view.component';
 import { MatDialogModule } from '@angular/material/dialog';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatListModule } from '@angular/material/list';
+import { ListProductsComponent } from './list-products/list-products.component';
 
 @NgModule({
-  declarations: [ProductsComponent, ProductViewComponent],
+  declarations: [ProductsComponent, ProductViewComponent, ListProductsComponent],
   imports: [
     CommonModule,
     MatToolbarModule,
@@ -23,10 +24,12 @@ import { MatListModule } from '@angular/material/list';
   ],
   exports: [
     ProductsComponent,
-    ProductViewComponent
+    ProductViewComponent,
+    ListProductsComponent,
   ],
   entryComponents: [
-    ProductViewComponent
+    ProductViewComponent,
+    ListProductsComponent
   ]
 })
 export class ProductsModule { }

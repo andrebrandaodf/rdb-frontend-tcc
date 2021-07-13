@@ -17,7 +17,6 @@ a {
     color: #25aa76;
     font-size: 1rem;
     line-height: 1rem;
-    margin-bottom: 4px;
 }
 
 .manufacturer {
@@ -32,13 +31,9 @@ a {
     color: #353535;
     font-size: 1rem;
     line-height: 1rem;
-    padding: 8px;
-    text-align: justify;
 }
 
 .medicine-package {
     transform: scale(1.2); 
     color: #25aa76;
 }
-
-

@@ -2,8 +2,8 @@ import { Component, HostListener, OnInit } from '@angular/core';
 import { ProductService } from 'src/app/core/service/product.service';
 import { Product } from 'src/app/core/model/product.model';
 import { MatDialog } from '@angular/material/dialog';
-import { ProductViewComponent } from './product-view/product-view.component';
 import { FormBuilder, Validators } from '@angular/forms';
+import { ListProductsComponent } from './list-products/list-products.component';
 
 @Component({
   selector: 'app-products',
@@ -36,14 +36,13 @@ export class ProductsComponent implements OnInit {
 
   ngOnInit(): void { }
 
-  searchProduct() {
+  searchListProduct() {
     if (this.formProduct.valid) {
       this.productService.getSearch(
         this.formProduct.controls.name.value,
         this.formProduct.controls.manufacturer.value
-      ).subscribe((res: any) => {
-        console.log(res)
-        this.dialog.open(ProductViewComponent, {
+      ).subscribe((res: Product) => {
+        this.dialog.open(ListProductsComponent, {
           disableClose: true,
           minWidth: '25vw',
           maxWidth: '90vw',
@@ -54,6 +53,5 @@ export class ProductsComponent implements OnInit {
         });
       })
     }
-
   }
 }
