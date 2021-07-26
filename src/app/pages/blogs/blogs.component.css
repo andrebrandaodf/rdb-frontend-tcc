@@ -1,7 +1,7 @@
 @media screen and (min-width: 992px) {
   .titleBlog {
     font-family: "Montserrat";
-    color: #25aa76;
+    color: #7c7d7c;
     font-size: 3rem;
     line-height: 3rem;
     text-align: center;
@@ -10,7 +10,7 @@
 
   .title-card {
     font-family: "Montserrat-ExtraBold";
-    color: #25aa76;
+    color: #323232;
     font-size: 1.5rem;
     line-height: 1.5rem;
     font-weight: bolder;
@@ -32,7 +32,7 @@
 
   .text-description {
     font-family: "Montserrat";
-    color: #25aa76;
+    color: #7c7d7c;
     font-weight: bolder;
     font-size: 1rem;
     line-height: 1rem;
@@ -51,7 +51,7 @@
 @media screen and (max-width: 992px) {
   .titleBlog {
     font-family: "Montserrat";
-    color: #25aa76;
+    color: #7c7d7c;
     font-size: 2rem;
     line-height: 2rem;
     text-align: center;
@@ -60,7 +60,7 @@
 
   .title-card {
     font-family: "Montserrat-ExtraBold";
-    color: #25aa76;
+    color: #323232;
     font-size: 1.5rem;
     line-height: 1.5rem;
     font-weight: bolder;
@@ -78,7 +78,7 @@
 
   .text-description {
     font-family: "Montserrat";
-    color: #25aa76;
+    color: #7c7d7c;
     font-weight: bolder;
     font-size: 1rem;
     line-height: 1rem;
