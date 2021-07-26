@@ -127,6 +127,14 @@ body {
     background-size: cover;
 }
 
+.bg-who-we-are {
+    background: url("/assets/img/photopea/home.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
 .bg-sobre {
     background: url("src/assets/img/imgHipolabor/sobre.png");
     background-position: center;

@@ -1,0 +1,66 @@
+.media {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .media-body {
+    flex: 1;
+  }
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+user agent stylesheet
+div {
+    display: block;
+}
+
+/* DESKTOP */
+@media screen and (min-width: 992px) {
+    .title {
+        font-family: "Montserrat-ExtraBold";
+        font-weight: bolder;
+        font-size: 4rem;
+        line-height: 4rem;
+        color: #fff;
+        margin: 0;
+        text-shadow: black 0.1em 0.1em 0.2em;
+    }
+  
+    .subtitle {
+        font-family: "Montserrat";
+        font-size: 4rem;
+        line-height: 4rem;
+        color: #fff;
+        margin: 0;
+        padding-top: 8rem;
+        text-shadow: black 0.1em 0.1em 0.2em;
+    }
+  }
+  
+  /* MOBILE */
+  @media screen and (max-width: 992px) {
+      .title {
+          font-family: "Montserrat-ExtraBold";
+          font-weight: bolder;
+          font-size: 2rem;
+          line-height: 2rem;
+          color: #fff;
+          margin: 0;
+          text-shadow: black 0.1em 0.1em 0.2em;
+          margin-bottom: 3rem;
+      }
+  
+      .subtitle {
+          font-family: "Montserrat";
+          font-size: 2rem;
+          line-height: 2rem;
+          color: #fff;
+          margin: 0;
+          text-shadow: black 0.1em 0.1em 0.2em;
+          margin-top: 8rem;
+      }
+  }
+  
+  
+  
