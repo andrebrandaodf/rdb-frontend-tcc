@@ -9,7 +9,6 @@ import { NgxMaskModule } from 'ngx-mask';
 import { HttpClientModule } from '@angular/common/http';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatDialogModule } from '@angular/material/dialog';
-import { ControlQualityComponent } from './pages/control-quality/control-quality.component';
 
 @NgModule({
   declarations: [

@@ -26,6 +26,11 @@ const routes: Routes = [
     loadChildren: () => import('./pages/control-quality/control-quality.module').then(m => m.ControlQualityModule)
   },
 
+  {
+    path: 'who-we-are',
+    loadChildren: () => import('./pages/who-we-are/who-we-are.module').then(m => m.WhoWeAreModule)
+  },
+
   // {
   //   path: '**',
   //   loadChildren: () => import('./pages/not-found/not-found.module').then(m => m.NotFoundModule)
