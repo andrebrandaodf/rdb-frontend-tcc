@@ -1,7 +1,143 @@
-<div style="background-color: #fafafa;">
+<!-- <div style="background-color: #fafafa;">
   <div class="container h-100">
     <div class="row text-center">
       <h1 class="titleMidia"><span style="font-family: 'Montserrat-ExtraBold';">Csdasfpdshfsdfkjh</span></h1>
     </div>
   </div>
+</div>   -->
+
+<div id="infoVigi" class="" [ngClass]="{'pages': innerWidth >= 992}">
+  <div class="container-fluid p-0 h-100">
+    <div class="d-flex flex-column align-items-end justify-content-center py-5 h-100">
+
+      <div class="card-title-info">
+        <h1 class="title-info">Controle de Qualidade</h1>
+      </div>
+
+      <h1 class="subtitle-info">
+        Conheça
+        <br>nossos canais de
+        <br>farmacovigilância.
+      </h1>
+
+    </div>
+  </div>
 </div>
+
+<div id="product" class="bg-product" [ngClass]="{'pages': innerWidth >= 992}">
+  <div class="container h-100">
+
+    <div class="row d-flex align-items-center justify-content-center h-100">
+
+      <div class="col-lg-5 col-12 d-flex flex-column align-items-center justify-content-start">
+
+        <h1 class="titleProduct">BUSCA DE MEDICAMENTO</h1>
+
+        <form id="contactForm" data-sb-form-api-token="API_TOKEN" class="w-100" [formGroup]="formProduct">
+
+          <!-- Title input-->
+          <div class="form-floating input-group mb-3">
+            <input id="title" type="text" formControlName="name" class="form-control borderContact"
+              style="border-radius: 10px 0 0 10px;" required />
+            <label for="name">Título/Nome Produto</label>
+            <div class="invalid-feedback" data-sb-feedback="name:required">Nome</div>
+
+            <div class="input-group-append">
+              <span id="basic-addon2" class="search input-group-text h-100" (click)="searchListProduct()"
+                style="background-color: #25aa76;border-radius: 0 10px 10px 0;border: 1px solid #25aa76">
+                <i style="color: #fff" class="bis bi-search"></i>
+              </span>
+            </div>
+          </div>
+
+          <!-- Fabricante input-->
+          <div class="row d-flex align-items-center justify-content-center">
+            <div class="form-check form-check-inline col-6 m-0">
+              <input class="form-check-input" type="radio" id="inlineRadio1" value="hipolabor"
+                formControlName="manufacturer">
+              <label class="form-check-label manufacturer font-weight-bold" for="inlineRadio1">HIPOLABOR</label>
+            </div>
+            <div class="form-check form-check-inline col-6 m-0">
+              <input class="form-check-input" type="radio" id="inlineRadio2" value="sanval"
+                formControlName="manufacturer">
+              <label class="form-check-label manufacturer font-weight-bold" for="inlineRadio2">SANVAL</label>
+            </div>
+          </div>
+
+        </form>
+
+        <h1 class="subtitle">MELHORES PRODUTOS, MAIS QUALIDADE DE VIDA</h1>
+
+      </div>
+
+      <div class="col-lg-7 col-12 d-flex align-items-center justify-content-end mb-4">
+
+        <div class="col-lg-8 col-12">
+          <a style="text-decoration: none;" download href="/assets/pdf/Catalogo-Completo.pdf">
+            <div class="d-flex align-items-center justify-content-end text-end">
+              <h1 class="catalog">
+                Clique e faça o download
+                <br>do catálogo completo.
+              </h1>
+              <img class="m-3" height="60px" src="/assets/img/photopea/download-icon.jpeg" alt="download">
+            </div>
+          </a>
+          <div>
+
+            <a style="text-decoration: none;" download href="/assets/pdf/Catalogo-Completo.pdf">
+              <div class="injectable d-flex align-items-center justify-content-between m-2">
+                <p class="m-0">INJETÁVEIS</p>
+                <i class="bi bi-file-earmark-arrow-down" style="transform: scale(1.5); opacity: 30%;"></i>
+              </div>
+            </a>
+
+            <a style="text-decoration: none;" download href="/assets/pdf/Catalogo-Completo.pdf">
+              <div class="liquidos d-flex align-items-center justify-content-between m-2">
+                <p class="m-0">LÍQUIDOS</p>
+                <i class="bi bi-file-earmark-arrow-down" style="transform: scale(1.5); opacity: 30%;"></i>
+              </div>
+            </a>
+
+            <a style="text-decoration: none;" download href="/assets/pdf/Catalogo-Completo.pdf">
+              <div class="solidos d-flex align-items-center justify-content-between m-2">
+                <p class="m-0">SÓLIDOS</p>
+                <i class="bi bi-file-earmark-arrow-down" style="transform: scale(1.5); opacity: 30%;"></i>
+              </div>
+            </a>
+
+            <a style="text-decoration: none;" download href="/assets/pdf/Catalogo-Completo.pdf">
+              <div class="semisolidos d-flex align-items-center justify-content-between m-2">
+                <p class="m-0">SEMISSÓLIDOS</p>
+                <i class="bi bi-file-earmark-arrow-down" style="transform: scale(1.5); opacity: 30%;"></i>
+              </div>
+            </a>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<div id="infoVigi" class="bg-infoVigi" [ngClass]="{'pages': innerWidth >= 992}">
+  <div class="container-fluid p-0 h-100">
+    <div class="d-flex flex-column align-items-end justify-content-center py-5 h-100">
+
+      <div class="card-title-info">
+        <h1 class="title-info">INFO-VIGI</h1>
+      </div>
+
+      <h1 class="subtitle-info">
+        Conheça
+        <br>nossos canais de
+        <br>farmacovigilância.
+      </h1>
+
+    </div>
+  </div>
+</div>
+
+
