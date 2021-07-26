@@ -21,6 +21,11 @@ const routes: Routes = [
     loadChildren: () => import('./pages/midia/midia.module').then(m => m.MidiaModule)
   },
 
+  {
+    path: 'control-quality',
+    loadChildren: () => import('./pages/control-quality/control-quality.module').then(m => m.ControlQualityModule)
+  },
+
   // {
   //   path: '**',
   //   loadChildren: () => import('./pages/not-found/not-found.module').then(m => m.NotFoundModule)

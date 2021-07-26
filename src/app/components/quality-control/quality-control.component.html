@@ -1,17 +1,19 @@
 <div id="blog" class="bg-controleQualidade" [ngClass]="{'pages': innerWidth >= 992}">
   <div class="container-fluid p-0 h-100">
-    <div class="container d-flex flex-column align-items-center justify-content-center h-100">
-      <h1 class="title">
-        CONTROLE DE
-        <br>QUALIDADE
-      </h1>
-      <h3 class="subtitle">
-        Da concepção,
-        <br>à produção
-        <br>e distribuição:
-        <br>qualidade
-        <br>de ponta a ponta!
-      </h3>
-    </div>
+    <a [routerLink]="['/control-quality']" target="_blank">
+      <div class="container d-flex flex-column align-items-center justify-content-center h-100">
+        <h1 class="title">
+          CONTROLE DE
+          <br>QUALIDADE
+        </h1>
+        <h3 class="subtitle">
+          Da concepção,
+          <br>à produção
+          <br>e distribuição:
+          <br>qualidade
+          <br>de ponta a ponta!
+        </h3>
+      </div>
+    </a>
   </div>
 </div>

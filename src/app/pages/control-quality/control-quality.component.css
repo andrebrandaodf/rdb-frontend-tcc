@@ -1,0 +1,81 @@
+@media screen and (min-width: 992px) {
+    .titleMidia {
+      color: #25aa76;
+      font-size: 3rem;
+      line-height: 3rem;
+    }
+  
+    .view-more {
+      background-color: #25aa76;
+      color: #fff;
+      border: 2px solid transparent;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+  
+    .view-more:hover {
+      background-color: #fff;
+      color: #25aa76;
+      border: 2px solid #25aa76;
+    }
+
+    .titleCard {
+      font-family: "Montserrat-ExtraBold";
+      font-weight: bolder;
+      color: #25aa76;
+      font-size: 1.5rem;
+      line-height: 1.5rem;
+      text-align: center;
+    }
+
+    .description {
+      color: #25aa76;
+      font-family: "Montserrat";
+      font-size: 1rem;
+      line-height: 1rem;
+      font-weight: bolder;
+      text-align: justify;
+    }
+
+    .container {
+      padding-top: 10rem;
+    }
+  }
+  
+  @media screen and (max-width: 992px) {
+    .titleMidia {
+      color: #25aa76;
+      font-size: 2rem;
+      line-height: 2rem;
+    }
+  
+    .view-more {
+      width: 100%;
+      background-color: #25aa76;
+      color: #fff;
+      border: 2px solid transparent;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .titleCard {
+      font-family: "Montserrat-ExtraBold";
+      font-weight: bolder;
+      color: #25aa76;
+      font-size: 1.5rem;
+      line-height: 1.5rem;
+      text-align: center;
+    }
+
+    .description {
+      color: #25aa76;
+      font-family: "Montserrat";
+      font-size: 1rem;
+      line-height: 1rem;
+      font-weight: bolder;
+      text-align: justify;
+    }
+
+    .container {
+      padding-top: 4rem;
+    }
+  }
+  
