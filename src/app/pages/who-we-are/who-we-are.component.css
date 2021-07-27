@@ -15,8 +15,52 @@ div {
     display: block;
 }
 
+.text-card{
+    font-family: "Montserrat";
+    font-size: 14px;
+    color: #000;
+}
+
+.objetivos{
+    font-family: "Montserrat";
+    font-size: 14px;
+    color: #fff;
+}
+
+.about{
+    background-color: #25aa76;
+    font-family: "Montserrat";
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+}
+
+.voltar{
+    font-family: "Montserrat";
+    font-size: 16px;
+    text-align: end;
+    text-decoration: underline;
+}
 /* DESKTOP */
 @media screen and (min-width: 992px) {
+    .title-objetivos {
+        font-family: "Montserrat-ExtraBold";
+        color: #fff;
+        font-size: 2rem;
+        line-height: 2rem;
+        padding: 1.5rem 0 1rem 0;
+        
+      }
+
+    .title-card {
+        font-family: "Montserrat-ExtraBold";
+        color: #25aa76;
+        font-size: 2rem;
+        line-height: 2rem;
+        padding: 1.5rem 0 1rem 0;
+        
+      }
+
     .title {
         font-family: "Montserrat-ExtraBold";
         font-weight: bolder;
@@ -37,9 +81,47 @@ div {
         text-shadow: black 0.1em 0.1em 0.2em;
     }
   }
+
+  .teste {
+    font-family: "Montserrat-ExtraBold";
+    color: #5D27A1;
+    font-size: 2rem;
+    line-height: 2rem;
+    padding: 1.5rem 0 1rem 0;
+    text-align: center;
+  }
   
   /* MOBILE */
   @media screen and (max-width: 992px) {
+
+    .teste {
+        font-family: "Montserrat-ExtraBold";
+        color: #5D27A1;
+        font-size: 2rem;
+        line-height: 2rem;
+        padding: 1.5rem 0 1rem 0;
+        text-align: center;
+        
+      }
+
+    .title-objetivos {
+        font-family: "Montserrat-ExtraBold";
+        color: #fff;
+        font-size: 2rem;
+        line-height: 2rem;
+        padding: 1.5rem 0 1rem 0;
+        
+      }
+
+    .title-card {
+        font-family: "Montserrat-ExtraBold";
+        color: #25aa76;
+        font-size: 2rem;
+        line-height: 2rem;
+        padding: 1.5rem 0 1rem 0;
+   
+      }
+
       .title {
           font-family: "Montserrat-ExtraBold";
           font-weight: bolder;

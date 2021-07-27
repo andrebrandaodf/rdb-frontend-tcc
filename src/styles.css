@@ -98,6 +98,8 @@ body {
 
 /* Criando css */
 
+
+
 .denuncias {
     color: #000;
     background-color: #fff;
@@ -129,6 +131,14 @@ body {
 
 .bg-who-we-are {
     background: url("/assets/img/photopea/home.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.bg-leadership{
+    background-color: #25aa76;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
