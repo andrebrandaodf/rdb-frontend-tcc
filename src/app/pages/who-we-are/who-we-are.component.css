@@ -1,3 +1,4 @@
+
 .media {
     display: flex;
     align-items: flex-start;
@@ -6,9 +7,13 @@
   .media-body {
     flex: 1;
   }
-*, :after, :before {
-    box-sizing: border-box;
-}
+
+  .texto{
+    font-family: "Montserrat";
+    font-size: 14px;
+    color: #000;
+    text-align: center;
+  }
 
 user agent stylesheet
 div {
@@ -41,6 +46,8 @@ div {
     text-align: end;
     text-decoration: underline;
 }
+
+
 /* DESKTOP */
 @media screen and (min-width: 992px) {
     .title-objetivos {
@@ -80,29 +87,30 @@ div {
         padding-top: 8rem;
         text-shadow: black 0.1em 0.1em 0.2em;
     }
+
+    .titleObjetivos {
+      font-family: "Montserrat-ExtraBold";
+      color: #5D27A1;
+      font-size: 2rem;
+      line-height: 2rem;
+      padding: 1.5rem 0 1rem 0;
+      text-align: center;
+    }
+    
+    .title-principios {
+      font-family: "Montserrat-ExtraBold";
+      color: #fff;
+      font-size: 2rem;
+      line-height: 2rem;
+      padding: 1.5rem 0 1rem 0;
+      text-align: center;
+    }
+    
   }
 
-  .teste {
-    font-family: "Montserrat-ExtraBold";
-    color: #5D27A1;
-    font-size: 2rem;
-    line-height: 2rem;
-    padding: 1.5rem 0 1rem 0;
-    text-align: center;
-  }
-  
+
   /* MOBILE */
   @media screen and (max-width: 992px) {
-
-    .teste {
-        font-family: "Montserrat-ExtraBold";
-        color: #5D27A1;
-        font-size: 2rem;
-        line-height: 2rem;
-        padding: 1.5rem 0 1rem 0;
-        text-align: center;
-        
-      }
 
     .title-objetivos {
         font-family: "Montserrat-ExtraBold";
@@ -142,7 +150,28 @@ div {
           text-shadow: black 0.1em 0.1em 0.2em;
           margin-top: 8rem;
       }
+
+      .titleObjetivos {
+        font-family: "Montserrat-ExtraBold";
+        color: #5D27A1;
+        font-size: 2rem;
+        line-height: 2rem;
+        padding: 1.5rem 0 1rem 0;
+        text-align: center;
+      }
+  
+      .title-principios {
+        font-family: "Montserrat-ExtraBold";
+        color: #fff;
+        font-size: 2rem;
+        line-height: 2rem;
+        padding: 1.5rem 0 1rem 0;
+        text-align: center;
+      }
+      
   }
+  
+
   
   
   

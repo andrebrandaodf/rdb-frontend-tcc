@@ -1,6 +1,11 @@
 
-.text{
-  color: aliceblue;
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #25aa76;
 }
 
 @media screen and (min-width: 992px) {
