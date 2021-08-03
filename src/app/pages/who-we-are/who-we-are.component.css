@@ -1,6 +1,6 @@
 .media {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
   }
   
   .media-body {
@@ -55,7 +55,6 @@ div {
         font-size: 2rem;
         line-height: 2rem;
         padding: 1.5rem 0 1rem 0;
-        
       }
 
     .title-card {
@@ -104,7 +103,15 @@ div {
       padding: 1.5rem 0 1rem 0;
       text-align: center;
     }
-    
+    /* .bg-teste {
+      padding-top: 0.5rem;
+      padding-bottom: calc(0.5rem - 0.5rem);
+      background: url("/assets/img/imagem-maes.jpeg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-size: cover;
+  }  */
   }
 
 
@@ -168,6 +175,15 @@ div {
         text-align: center;
       }
       
+      /* .bg-teste {
+        padding-top: 0.5rem;
+        padding-bottom: calc(0.5rem - 0.5rem);
+        background: url("/assets/img/imagem-maes.jpeg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: cover;
+    }  */
   }
   
   .overlay-fade,
@@ -179,7 +195,8 @@ div {
       overflow: hidden;
       float: left;
       margin: 10px;
-  }
+    
+    }
   .overlay-fade:hover div {
     opacity: 1;
       transition: all 0.2s ease-in;
@@ -194,46 +211,8 @@ div {
       opacity: 0;
       transition: all 0.2s ease-in;
   }
-  .overlay-fade a {
-    box-sizing: border-box;
-    text-decoration: none;
-      display: block;
-      color: #eeeeee;
-      background-color: #1c5bb1;
-      text-align: center;
-      margin: auto;
-      left: 0;
-      right: 0;
-      top: 0;
-      bottom: 0;
-      width: 130px;
-      height: 50px;
-      line-height: 50px;
-      position: absolute;
-      font-size: 12px;
-      font-weight: bold;
-  }
   .overlay-slide:hover div {
       transform: translate(0, 0);
     transition: all 0.2s ease-in;
-  }
-  .overlay-slide div {
-    position: absolute;
-      box-sizing: border-box;
-      bottom: 0;
-      transform: translate(0, 100%);
-      padding: 15px;
-      background-color: rgba(0,0,0,0.5);
-      text-align:center;
-      transition: all 0.2s ease-in;
-  }
-  .overlay-slide h2 {
-    margin: 0;
-      font-size: 18px;
-      color: #eeeeee;
-  }
-  .overlay-slide p {
-      font-size: 14px;
-      color: #dddddd;
   }
   
