@@ -75,6 +75,7 @@ div {
     font-size: 16px;
     text-align: end;
     text-decoration: underline;
+    margin-right: 1rem;
 }
 
 .card {
@@ -136,6 +137,7 @@ div {
       padding: 1.5rem 0 1rem 0;
       text-align: center;
     }
+    
   }
 
 
