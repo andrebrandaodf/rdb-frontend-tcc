@@ -7,10 +7,14 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { SafePipeModule } from 'src/app/pipes/safe-url/safe-url.module';
 import { WhoWeAreComponent } from './who-we-are.component';
 import { WhoWeAreRoutingModule } from './who-we-are-routing.module';
+import { PrinciplesComponent } from '../principles/principles.component';
+import { GoalsComponent } from '../goals/goals.component';
 
 @NgModule({
   declarations: [
-    WhoWeAreComponent
+    WhoWeAreComponent,
+    PrinciplesComponent,
+    GoalsComponent,
   ],
   imports: [
     CommonModule,

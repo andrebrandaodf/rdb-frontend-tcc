@@ -1,13 +1,84 @@
-/* DESKTOP */
-@media screen and (min-width: 992px) {
-    .title-objetivos {
-        font-family: "Montserrat-ExtraBold";
-        color: #fff;
-        font-size: 2rem;
-        line-height: 2rem;
-        padding: 1.5rem 0 1rem 0;
-      }
+.overlay-fade,
+.overlay-slide {
+  position: relative;
+    box-sizing: border-box;
+    height: 280px;
+    width: 220px;
+    overflow: hidden;
+    float: left;
+    margin: 10px;
+  
+  }
+.overlay-fade:hover div {
+  opacity: 1;
+    transition: all 0.2s ease-in;
+}
+.overlay-fade div {
+  position: absolute;
+    box-sizing: border-box;
+    top: 0;
+    background-color: rgba(255,255,255,0.3);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.2s ease-in;
+}
+.overlay-slide:hover div {
+    transform: translate(0, 0);
+  transition: all 0.2s ease-in;
+}
 
+.media {
+    display: flex;
+    align-items: center;
+  }
+  
+  .media-body {
+    flex: 1;
+  }
+
+  .texto{
+    font-family: "Montserrat";
+    font-size: 14px;
+    color: #000;
+    text-align: center;
+  }
+
+user agent stylesheet
+div {
+    display: block;
+}
+
+.text-card{
+    font-family: "Montserrat";
+    font-size: 14px;
+    color: #000;
+}
+
+.objetivos{
+    font-family: "Montserrat";
+    font-size: 14px;
+    color: #fff;
+}
+
+.about{
+    background-color: #25aa76;
+    font-family: "Montserrat";
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+}
+
+.voltar{
+    font-family: "Montserrat";
+    font-size: 16px;
+    text-align: end;
+    text-decoration: underline;
+}
+
+
+@media screen and (min-width: 992px) {
+    
     .title-card {
         font-family: "Montserrat-ExtraBold";
         color: #25aa76;
@@ -36,16 +107,6 @@
         padding-top: 8rem;
         text-shadow: black 0.1em 0.1em 0.2em;
     }
-
-    .titleObjetivos {
-      font-family: "Montserrat-ExtraBold";
-      color: #5D27A1;
-      font-size: 2rem;
-      line-height: 2rem;
-      padding: 1.5rem 0 1rem 0;
-      text-align: center;
-    }
-    
     .title-principios {
       font-family: "Montserrat-ExtraBold";
       color: #fff;
@@ -59,15 +120,6 @@
 
   /* MOBILE */
   @media screen and (max-width: 992px) {
-
-    .title-objetivos {
-        font-family: "Montserrat-ExtraBold";
-        color: #fff;
-        font-size: 2rem;
-        line-height: 2rem;
-        padding: 1.5rem 0 1rem 0;
-        
-      }
 
     .title-card {
         font-family: "Montserrat-ExtraBold";
@@ -97,17 +149,7 @@
           margin: 0;
           text-shadow: black 0.1em 0.1em 0.2em;
           margin-top: 8rem;
-      }
-
-      .titleObjetivos {
-        font-family: "Montserrat-ExtraBold";
-        color: #5D27A1;
-        font-size: 2rem;
-        line-height: 2rem;
-        padding: 1.5rem 0 1rem 0;
-        text-align: center;
-      }
-  
+      }  
       .title-principios {
         font-family: "Montserrat-ExtraBold";
         color: #fff;
@@ -116,7 +158,6 @@
         padding: 1.5rem 0 1rem 0;
         text-align: center;
       }
-      
   }
   
 
