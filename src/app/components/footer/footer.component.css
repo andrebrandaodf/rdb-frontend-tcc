@@ -1,0 +1,76 @@
+a:hover {
+    color: #fff !important;
+}
+
+/* Main Footer */
+footer .main-footer{	padding: 20px 0;	background: #25aa76;}
+footer ul{	padding-left: 0;	list-style: none;}
+
+/* Copy Right Footer */
+.footer-copyright {	background: #25aa76;	padding: 5px 0;}
+.footer-copyright .logo {    display: inherit;}
+.footer-copyright nav {    float: right;    margin-top: 5px;}
+.footer-copyright nav ul {	list-style: none;	margin: 0;	padding: 0;}
+.footer-copyright nav ul li {	border-left: 1px solid #fff;	display: inline-block;	line-height: 12px;	margin: 0;	padding: 0 8px;}
+.footer-copyright nav ul li a{	color: #fff;}
+.footer-copyright nav ul li:first-child {	border: medium none;	padding-left: 0;}
+.footer-copyright p {	color: #fff;	margin: 2px 0 0;}
+
+/* Footer Top */
+.footer-top{	background: #25aa76;	padding-bottom: 30px;	margin-bottom: 30px;	border-bottom: 3px solid #222;}
+
+/* Footer transparent */
+footer.transparent .footer-top, footer.transparent .main-footer{	background: transparent;}
+footer.transparent .footer-copyright{	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3) ;}
+
+/* Footer light */
+footer.light .footer-top{	background: #f9f9f9;}
+footer.light .main-footer{	background: #f9f9f9;}
+footer.light .footer-copyright{	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.3) ;}
+
+/* Footer 4 */
+.footer- .logo {    display: inline-block;}
+
+
+.social-icons li {
+    display: inline-block;
+    margin: 3px;
+    margin-top: 1rem;
+  }
+  
+  .social-icons li a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    line-height: 40px;
+    background-color: #eee;
+    color: #03bb85;
+    font-size: 25px;
+    text-align: center;
+    transition: all 0.3s;
+    border-radius: 10rem;
+    align-items: center;
+  }
+  
+  .social-icons li a:hover {
+    background-color: transparent;
+    color: #fff;
+  }
+  
+  .title-unity {
+    font-size: 0.8rem;
+    font-family: "Montserrat";
+  }
+  
+  .subtitle-unity {
+    font-size: 0.7rem;
+    font-family: "Montserrat";
+  }
+  
+  .titleStrong {
+    font-size: 0.9rem;
+    font-family: "Montserrat-ExtraBold";
+    font-weight: bolder;
+  }
+
+
