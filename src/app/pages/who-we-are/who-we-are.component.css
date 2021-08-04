@@ -1,21 +1,22 @@
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.card-text{
+    font-family: "Montserrat";
+  }
+  
+
 /* DESKTOP */
 @media screen and (min-width: 992px) {
-    .title-objetivos {
-        font-family: "Montserrat-ExtraBold";
-        color: #fff;
-        font-size: 2rem;
-        line-height: 2rem;
-        padding: 1.5rem 0 1rem 0;
-      }
-
-    .title-card {
-        font-family: "Montserrat-ExtraBold";
-        color: #25aa76;
-        font-size: 2rem;
-        line-height: 2rem;
-        padding: 1.5rem 0 1rem 0;
-        
-      }
 
     .title {
         font-family: "Montserrat-ExtraBold";
@@ -37,46 +38,11 @@
         text-shadow: black 0.1em 0.1em 0.2em;
     }
 
-    .titleObjetivos {
-      font-family: "Montserrat-ExtraBold";
-      color: #5D27A1;
-      font-size: 2rem;
-      line-height: 2rem;
-      padding: 1.5rem 0 1rem 0;
-      text-align: center;
-    }
-    
-    .title-principios {
-      font-family: "Montserrat-ExtraBold";
-      color: #fff;
-      font-size: 2rem;
-      line-height: 2rem;
-      padding: 1.5rem 0 1rem 0;
-      text-align: center;
-    }
   }
 
 
   /* MOBILE */
   @media screen and (max-width: 992px) {
-
-    .title-objetivos {
-        font-family: "Montserrat-ExtraBold";
-        color: #fff;
-        font-size: 2rem;
-        line-height: 2rem;
-        padding: 1.5rem 0 1rem 0;
-        
-      }
-
-    .title-card {
-        font-family: "Montserrat-ExtraBold";
-        color: #25aa76;
-        font-size: 2rem;
-        line-height: 2rem;
-        padding: 1.5rem 0 1rem 0;
-   
-      }
 
       .title {
           font-family: "Montserrat-ExtraBold";
@@ -98,25 +64,6 @@
           text-shadow: black 0.1em 0.1em 0.2em;
           margin-top: 8rem;
       }
-
-      .titleObjetivos {
-        font-family: "Montserrat-ExtraBold";
-        color: #5D27A1;
-        font-size: 2rem;
-        line-height: 2rem;
-        padding: 1.5rem 0 1rem 0;
-        text-align: center;
-      }
-  
-      .title-principios {
-        font-family: "Montserrat-ExtraBold";
-        color: #fff;
-        font-size: 2rem;
-        line-height: 2rem;
-        padding: 1.5rem 0 1rem 0;
-        text-align: center;
-      }
-      
   }
   
 

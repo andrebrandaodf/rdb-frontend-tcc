@@ -2,11 +2,11 @@
 .overlay-slide {
   position: relative;
     box-sizing: border-box;
-    height: 280px;
-    width: 220px;
+    height: 200px;
+    width: 160px;
     overflow: hidden;
     float: left;
-    margin: 10px;
+    margin: 0px;
   
   }
 .overlay-fade:hover div {
@@ -70,11 +70,32 @@ div {
 }
 
 .voltar{
-    font-family: "Montserrat";
+    font-family: "Montserrat-ExtraBold";
+    color:#25aa76;
     font-size: 16px;
     text-align: end;
     text-decoration: underline;
 }
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  margin-top: 1.5rem;
+}
+
+.text{
+  font-family: "Montserrat";
+  color: #fff;
+  font-size: 14px;
+}
+
 
 
 @media screen and (min-width: 992px) {

@@ -1,3 +1,31 @@
+.media {
+  display: flex;
+  align-items: center;
+}
+
+.media-body {
+  flex: 1;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.text{
+  font-family: "Montserrat";
+  color: #fff;
+  font-size: 14px;
+  margin-left: 5rem;
+}
+
 /* DESKTOP */
 @media screen and (min-width: 992px) {
     .title-objetivos {
@@ -6,26 +34,8 @@
         font-size: 2rem;
         line-height: 2rem;
         padding: 1.5rem 0 1rem 0;
+        margin-left: 2rem;
       }
-
-    .title-card {
-        font-family: "Montserrat-ExtraBold";
-        color: #25aa76;
-        font-size: 2rem;
-        line-height: 2rem;
-        padding: 1.5rem 0 1rem 0;
-        
-      }
-
-    .title {
-        font-family: "Montserrat-ExtraBold";
-        font-weight: bolder;
-        font-size: 4rem;
-        line-height: 4rem;
-        color: #fff;
-        margin: 0;
-        text-shadow: black 0.1em 0.1em 0.2em;
-    }
   
     .subtitle {
         font-family: "Montserrat";
@@ -58,29 +68,10 @@
         font-size: 2rem;
         line-height: 2rem;
         padding: 1.5rem 0 1rem 0;
+        margin-left: 2rem;
         
       }
-
-    .title-card {
-        font-family: "Montserrat-ExtraBold";
-        color: #25aa76;
-        font-size: 2rem;
-        line-height: 2rem;
-        padding: 1.5rem 0 1rem 0;
-   
-      }
-
-      .title {
-          font-family: "Montserrat-ExtraBold";
-          font-weight: bolder;
-          font-size: 2rem;
-          line-height: 2rem;
-          color: #fff;
-          margin: 0;
-          text-shadow: black 0.1em 0.1em 0.2em;
-          margin-bottom: 3rem;
-      }
-  
+ 
       .subtitle {
           font-family: "Montserrat";
           font-size: 2rem;
