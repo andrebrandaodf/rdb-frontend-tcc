@@ -16,7 +16,7 @@
     --bs-gray-dark: #343a40;
     --bs-primary: #f4623a;
     --bs-secondary: #6c757d;
-    --bs-success: #198754;
+    --bs-success: #191919;
     --bs-info: #0dcaf0;
     --bs-warning: #ffc107;
     --bs-danger: #dc3545;
@@ -162,7 +162,7 @@ body {
 }
 
 .bg-fundo1 {
-    background: url("assets/img/bg-fundo1.jpg");
+    background: url("/assets/img/bg-fundo1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;

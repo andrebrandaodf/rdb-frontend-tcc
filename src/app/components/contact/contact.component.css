@@ -53,7 +53,7 @@ a {
   display: inline-block;
   line-height: 40px;
   background-color: #eee;
-  color: #03bb85;
+  color: #191919;
   font-size: 25px;
   text-align: center;
   transition: all 0.3s;
@@ -68,7 +68,7 @@ a {
 @media screen and (min-width: 992px) {
   .titleContact {
     font-family: "Montserrat-ExtraBold";
-    color: #fff;
+    color: #191919;
     font-size: 2.5rem;
     font-weight: bolder;
     margin: 3rem 0 2rem 0;
@@ -95,7 +95,7 @@ a {
 @media screen and (max-width: 992px) {
   .titleContact {
     font-family: "Montserrat-ExtraBold";
-    color: #fff;
+    color: #191919;
     font-size: 2.5rem;
     font-weight: bolder;
     margin: 3rem 0 2rem 0;
