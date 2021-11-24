@@ -13,7 +13,7 @@
     <mat-selection-list #listProducts [multiple]="false">
         <div mat-subheader>{{products.length > 0 ? 'Resultados' : 'Nenhum produto encontrado'}}</div>
         <mat-list-option *ngFor="let product of products" [value]="product" (click)="viewDetail(product)">
-            <mat-icon mat-list-icon style="transform: scale(1.5);color: #25aa76;">medication</mat-icon>
+            <mat-icon mat-list-icon style="transform: scale(1.5);color: #191919;">medication</mat-icon>
             <div mat-line class="name">{{product.name}}</div>
             <div mat-line class="manufacturer">{{product.manufacturer}}</div>
             <div mat-line class="presentation">{{product.presentation}}</div>

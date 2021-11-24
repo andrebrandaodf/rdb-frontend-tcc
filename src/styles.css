@@ -21,7 +21,7 @@
     --bs-warning: #ffc107;
     --bs-danger: #dc3545;
     --bs-light: #f8f9fa;
-    --bs-dark: #212529;
+    --bs-dark: #FFE16B;
     --bs-font-sans-serif: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
         "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
@@ -60,7 +60,7 @@ body {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #212529;
+    color: #191919;
     background-color: #fff;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -138,7 +138,7 @@ body {
 }
 
 .bg-leadership{
-    background-color: #25aa76;
+    background-color: #191919;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -146,7 +146,7 @@ body {
 }
 
 .bg-sobre {
-    background: url("src/assets/img/imgHipolabor/sobre.png");
+    background: url("/assets/img/rueiros.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -161,8 +161,8 @@ body {
     background-size: cover;
 }
 
-.bg-fundoCinza {
-    background: url("src/assets/img/imgHipolabor/fundoCinza.png");
+.bg-fundo1 {
+    background: url("assets/img/bg-fundo1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -227,11 +227,22 @@ body {
 
 .bg-contact {
     background-image: url("/assets/img/photopea/fundoContato.png");
+    /* background-color: #191919; */
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
 }
+
+.bg-footer {
+    /* background-image: url("/assets/img/photopea/fundoContato.png"); */
+    background-color: #191919;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
 
 .borderCard {
     border-top-right-radius: 15px;
@@ -243,7 +254,7 @@ body {
 }
 
 .titleBlog {
-    color: #25aa76;
+    color: #191919;
     font-size: 2rem;
     font-weight: bolder;
 }
@@ -264,7 +275,7 @@ body {
     margin-bottom: 1rem;
     border: 1px solid transparent;
     border-radius: 0.25rem;
-    color: #25aa76;
+    color: #191919;
 }
 
 h1.teste {
@@ -287,12 +298,12 @@ h1.teste {
 }
 
 .blogBar {
-    background-color: #25aa76;
+    background-color: #191919;
     border-radius: 15px 15px 0 0;
 }
 
 .borderBlog {
-    border: 2px solid #25aa76 !important;
+    border: 2px solid #191919 !important;
     border-radius: 20px;
     /* border-top-right-radius: 40px;
     border-top-left-radius: 40px;
@@ -329,16 +340,16 @@ h1.teste {
 }
 
 a {
-    color: #212529;
+    color: #FFE16B;
     text-decoration: none;
 }
 
 a:hover {
-    color: #25aa76;
+    color: #191919;
 }
 
 .form-control:focus {
-    color: #212529;
+    color: #FFE16B;
     background-color: #fff;
     border-color: #03bb85;
     outline: 0;

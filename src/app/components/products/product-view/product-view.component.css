@@ -7,14 +7,14 @@ a {
 }
 
 .custom-toolbar {
-    background: #25aa76;
+    background: #191919;
     color: #fff;
 }
 
 .name {
     font-family: "Montserrat-ExtraBold";
     font-weight: bolder;
-    color: #25aa76;
+    color: #191919;
     font-size: 1rem;
     line-height: 1rem;
     margin-bottom: 4px;
@@ -22,7 +22,7 @@ a {
 
 .manufacturer {
     font-family: "Montserrat";
-    color: #25aa76;
+    color: #191919;
     font-size: 1rem;
     line-height: 1rem;
 }
@@ -38,7 +38,7 @@ a {
 
 .medicine-package {
     transform: scale(1.2); 
-    color: #25aa76;
+    color: #191919;
 }
 
 

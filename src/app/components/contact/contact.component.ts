@@ -29,14 +29,14 @@ export class ContactComponent implements OnInit {
   })
 
   optionsContact = [
-    {value: 'CHEERS', valueView: 'Elogios'},
+    {value: 'CHEERS', valueView: 'Quero Doar'},
     {value: 'SUGGESTIONS', valueView: 'Sugestões e Críticas'},
-    {value: 'DOUBT', valueView: 'Dúvidas produtos Hipolabor'},
-    {value: 'TECHNICALCOMPLAINTS', valueView: 'Reclamações técnicas produtos Hipolabor'},
-    {value: 'COMMERCIALCOMPLAINTS', valueView: 'Reclamações comerciais'},
-    {value: 'OPPORTUNITIES', valueView: 'Oportunidades de emprego Hipolabor'},
-    {value: 'PASSWORD', valueView: 'Senha profissional de saúde'},
-    {value: 'EVENT', valueView: 'Evento adverso'},
+    {value: 'DOUBT', valueView: 'Seja um Voluntário'},
+    // {value: 'TECHNICALCOMPLAINTS', valueView: 'Reclamações técnicas produtos Hipolabor'},
+    // {value: 'COMMERCIALCOMPLAINTS', valueView: 'Reclamações comerciais'},
+    // {value: 'OPPORTUNITIES', valueView: 'Oportunidades de emprego Hipolabor'},
+    // {value: 'PASSWORD', valueView: 'Senha profissional de saúde'},
+    // {value: 'EVENT', valueView: 'Evento adverso'},
   ]
 
 

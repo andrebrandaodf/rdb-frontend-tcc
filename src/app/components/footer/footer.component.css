@@ -15,7 +15,7 @@ footer .main-footer{	padding: 20px 0;}
 footer ul{	padding-left: 0;	list-style: none;}
 
 /* Copy Right Footer */
-/* background: #25aa76; */
+/* background: #191919; */
 .footer-copyright {	padding: 5px 0;}
 .footer-copyright .logo {    display: inherit;}
 .footer-copyright nav {    float: right;    margin-top: 5px;}
@@ -26,7 +26,7 @@ footer ul{	padding-left: 0;	list-style: none;}
 .footer-copyright p {	color: #fff;	margin: 2px 0 0;}
 
 /* Footer Top */
-/* background: #25aa76; */
+/* background: #191919; */
 .footer-top{		padding-bottom: 30px;	margin-bottom: 30px;	border-bottom: 3px solid #222;}
 
 /* Footer transparent */
@@ -53,8 +53,8 @@ footer.light .footer-copyright{	background: none repeat scroll 0 0 rgba(255, 255
     height: 40px;
     display: inline-block;
     line-height: 40px;
-    background-color: #eee;
-    color: #03bb85;
+    background-color: #191919;
+    color: #FFE16B;
     font-size: 25px;
     text-align: center;
     transition: all 0.3s;

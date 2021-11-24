@@ -62,7 +62,7 @@ div {
 }
 
 .about{
-    background-color: #25aa76;
+    background-color: #191919;
     font-family: "Montserrat";
     font-size: 14px;
     text-align: center;
@@ -71,7 +71,7 @@ div {
 
 .voltar{
     font-family: "Montserrat-ExtraBold";
-    color:#25aa76;
+    color:#191919;
     font-size: 16px;
     text-align: end;
     text-decoration: underline;
@@ -103,7 +103,7 @@ div {
     
     .title-card {
         font-family: "Montserrat-ExtraBold";
-        color: #25aa76;
+        color: #191919;
         font-size: 2rem;
         line-height: 2rem;
         padding: 1.5rem 0 1rem 0;
@@ -146,7 +146,7 @@ div {
 
     .title-card {
         font-family: "Montserrat-ExtraBold";
-        color: #25aa76;
+        color: #191919;
         font-size: 2rem;
         line-height: 2rem;
         padding: 1.5rem 0 1rem 0;

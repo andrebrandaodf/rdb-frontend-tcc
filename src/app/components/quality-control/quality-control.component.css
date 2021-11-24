@@ -1,7 +1,7 @@
 @media screen and (min-width: 992px) {
   .title {
     font-family: "Montserrat-ExtraBold";
-    color: #25aa76;
+    color: #191919;
     font-size: 3rem;
     line-height: 3rem;
     font-weight: bolder;
@@ -11,7 +11,7 @@
 
   .subtitle {
     font-family: "Montserrat-ExtraBold";
-    color: #25aa76;
+    color: #191919;
     font-size: 2rem;
     line-height: 2.5rem;
     font-weight: bolder;
@@ -23,7 +23,7 @@
 @media screen and (max-width: 992px) {
   .title {
     font-family: "Montserrat-ExtraBold";
-    color: #25aa76;
+    color: #191919;
     font-size: 2rem;
     line-height: 2rem;
     font-weight: bolder;
@@ -33,7 +33,7 @@
 
   .subtitle {
     font-family: "Montserrat-ExtraBold";
-    color: #25aa76;
+    color: #191919;
     font-size: 1.5rem;
     line-height: 1.5rem;
     font-weight: bolder;
