@@ -32,7 +32,6 @@ export class ContactComponent implements OnInit {
     {value: 'ONLY', valueView: 'Quero Doar'},
     {value: 'SUGGESTIONS', valueView: 'Sugestões e Críticas'},
     {value: 'VOLUNTARY', valueView: 'Seja um Voluntário'},
-
   ]
 
 

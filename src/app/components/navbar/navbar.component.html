@@ -40,19 +40,23 @@
       <li class="nav-item item"><a data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" class="nav-link"
           (click)="scrollTo('about')">RUEIROS DO BEM</a></li>
       <li *ngIf="innerWidth >= 992" class="nav-item"><a class="nav-link">|</a></li>
-      <li class="nav-item item"><a data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" class="nav-link"
+      <!-- <li class="nav-item item"><a data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" class="nav-link"
           (click)="scrollTo('product')">PRODUTOS</a></li>
-      <li *ngIf="innerWidth >= 992" class="nav-item"><a class="nav-link">|</a></li>
+      <li *ngIf="innerWidth >= 992" class="nav-item"><a class="nav-link">|</a></li> -->
       <li class="nav-item item"><a data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" class="nav-link"
           (click)="scrollTo('contact')">SEJA UM VOLUNTÁRIO</a></li>
-      <li *ngIf="innerWidth >= 992" class="nav-item"><a class="nav-link">|</a></li>
+          <li *ngIf="innerWidth >= 992" class="nav-item"><a class="nav-link">|</a></li>
+          <li class="nav-item item"><a data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" class="nav-link"
+              href="http://rueirosdobem.org/"
+              target="_blank">NOTÍCIAS</a>
+          </li>
+      <!-- <li *ngIf="innerWidth >= 992" class="nav-item"><a class="nav-link">|</a></li> -->
       <!-- <li class="nav-item item"><a data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" class="nav-link"
+          (click)="scrollTo('news')">NOTÍCIAS</a></li>
+           <li class="nav-item item"><a data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" class="nav-link"
           href="http://www2.hipolabor.com.br/cgi-bin/wspd_cgi.sh/WService=laudo/_src/index.wspx"
           target="_blank">CERTIFICADO DE ANÁLISE</a>
       </li> -->
-      <!-- <li *ngIf="innerWidth >= 992" class="nav-item"><a class="nav-link">|</a></li> -->
-      <li class="nav-item item"><a data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" class="nav-link"
-          (click)="scrollTo('news')">NOTÍCIAS</a></li>
       <!-- <li *ngIf="innerWidth >= 992" class="nav-item"><a class="nav-link">|</a></li>
       <li class="nav-item item"><a data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" class="nav-link"
           (click)="scrollTo('contact')">SAC</a></li>-->
